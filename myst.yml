@@ -11,8 +11,17 @@ project:
   toc:
     - file: 01-paper.md
     - file: supporting_documents/theory/figure.ipynb
+  
+  downloads:
+    - id: output-pdf
+  exports:
+    - format: pdf # typst 
+      output: exports/document.pdf
+      id: output-pdf
+
 site:
   template: article-theme
+  
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png

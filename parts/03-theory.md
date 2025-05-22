@@ -8,7 +8,7 @@
 
 :::{figure} #phantomAndSinogram
 :label: fig-my-cell
-On the left a phantom, on the right the corresponding sinogram with 64 projection angles and a detector size in the y-direction of 64 pixels
+*left:* a 2D slice of the phantom the colour gradient representing bone density. *right* corresponding sinogram with 64 projection angles and a detector size in the y-direction of 64 pixels
 :::
 
 ### Filtered back projection
