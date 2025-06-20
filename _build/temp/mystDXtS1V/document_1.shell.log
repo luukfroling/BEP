@@ -51,3 +51,128 @@ Run number 1 of rule 'biber document_1'
 ------------
 Running 'biber  "document_1.bcf"'
 ------------
+INFO - This is Biber 2.19
+INFO - Logfile is 'document_1.blg'
+INFO - Reading 'document_1.bcf'
+INFO - Found 14 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex file 'main.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'main.bib'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Writing 'document_1.bbl' with encoding 'UTF-8'
+INFO - Output to document_1.bbl
+WARN - legacy month field 'aug 30' in entry 'marth2023photon' is not an integer - this will probably not sort properly.
+INFO - WARNINGS: 1
+Biber warning: [1915] Biber.pm:131> WARN - legacy month field 'aug 30' in entry 'marth2023photon' is not an integer - this will probably not sort properly.
+Latexmk: Found biber source file(s) [document_1.bcf, main.bib]
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  document_1.aux
+  document_1.bbl
+  document_1.out
+  document_1.suppinfo
+
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "document_1.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+SyncTeX written on document_1.synctex.gz.
+Latexmk: Getting log file 'document_1.log'
+Latexmk: Examining 'document_1.fls'
+Latexmk: Examining 'document_1.log'
+Latexmk: Found input bbl file 'document_1.bbl'
+Latexmk: Log file says output to 'document_1.xdv'
+Latexmk: Bibliography file(s) from .bcf file:
+  main.bib
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  document_1.aux
+  document_1.run.xml
+
+------------
+Run number 3 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "document_1.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+SyncTeX written on document_1.synctex.gz.
+Latexmk: Getting log file 'document_1.log'
+Latexmk: Examining 'document_1.fls'
+Latexmk: Examining 'document_1.log'
+Latexmk: Found input bbl file 'document_1.bbl'
+Latexmk: Log file says output to 'document_1.xdv'
+Latexmk: Bibliography file(s) from .bcf file:
+  main.bib
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  document_1.run.xml
+
+------------
+Run number 4 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "document_1.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+SyncTeX written on document_1.synctex.gz.
+Latexmk: Getting log file 'document_1.log'
+Latexmk: Examining 'document_1.fls'
+Latexmk: Examining 'document_1.log'
+Latexmk: Found input bbl file 'document_1.bbl'
+Latexmk: Log file says output to 'document_1.xdv'
+Latexmk: Bibliography file(s) from .bcf file:
+  main.bib
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  document_1.xdv
+Category 'changed_source_rules':
+  xelatex
+Category 'no_dest':
+  xdvipdfmx
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "document_1.pdf"  "document_1.xdv"'
+------------
+document_1.xdv -> document_1.pdf
+[1][2][3][4][5][6][7][8][9][10][11][12][13]
+574310 bytes written
+Latexmk: Summary of warnings from last run of *latex:
+  Latex failed to resolve 3 reference(s)
+  Latex found 1 multiply defined reference(s)
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Label `rmsTime' multiply defined
+  Reference `first' on page 3 undefined on input line 179
+  Reference `first' on page 4 undefined on input line 191
+  Reference `denselayer' on page 5 undefined on input line 245
+  Missing character: There is no ? in font [OpenSans-Regular.ttf]/OT:script=latn;
+  Missing character: There is no ? in font [OpenSans-Regular.ttf]/OT:script=latn;language=dflt;+liga;+tnum;+lnum;mapping=tex-text;!
+  Missing character: There is no ? in font [OpenSans-Regular.ttf]/OT:script=latn;
+ And 5 more --- see log file 'document_1.log'
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to 'document_1.log' and/or above output for details
+

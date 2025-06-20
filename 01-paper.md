@@ -13,7 +13,7 @@ keywords:
   - DC equations
 export:
   - format: pdf
-    template: lapreprint
+    template: curvenote
     output: exports/document.pdf
 
 ---

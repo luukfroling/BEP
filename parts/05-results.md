@@ -1,6 +1,6 @@
-## results
+# results
 
-### speedup reconstruction
+## speedup reconstruction
 
 During evaluation the model has been run on 20 validation sets constructed with the same rules as the training data. By calculating the root mean square (RMS) error at each iteration for both the iterative algorithm and the model with the ground truth (GT) image, we can compare reconstruction error as a function of time. 
 
@@ -18,7 +18,7 @@ The RMS-error plotted against time for 3 phantoms reconstructed using both the i
 
 Looking at a dataset of 20 phantoms, the average time taken for the first iteration of the model is 9.3 seconds with a standard deviation of 1.5 seconds. The average speedup for bone for this step (how long it takes the iterative algorithm to get to the same RMS error) is 1.44 times, or 44% while the average speedup for water is 1.17 times, or 17%. As the average time per iteration has a standard deviation of 1.5 seconds, the average speedup can be plotted against iteration of the proposed model as illustrated in [](#speedup_interpolation). 
 
-### Visualise reconstruction
+## Visualise reconstruction
 
 To further understand the results we can look at a specific reconstruction. 
 
@@ -30,7 +30,7 @@ To further understand the results we can look at a specific reconstruction.
 
 [](#reconPhantom) shows the GT for water and bone and the corresponding reconstructions. Aside from the final reconstruction it is important to look at the reconstruction with the lowest error of the iterative approach. The ground truth (GT) consists of a bone feature in the lower left part of the image and a water feature in the top right part of the image. Starting with water, the most accurate reconstruction shows signs of both features. The last iteration however shows a larger bone density for the water feature but the algortithm seems to have overcompensated by fully removing the water density for the feature in the bottom left.
 
-### wrong reconstructions
+## wrong reconstructions
 
 potentially display another set of reconstructions which are not good to highlight the inconsistency in the training data
 

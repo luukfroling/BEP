@@ -40,9 +40,9 @@
           "slug": "figure-attenuation-coefficients"
         },
         {
-          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\method\\callibrationData.ipynb",
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\method\\reconstruction.ipynb",
           "level": 1,
-          "slug": "callibrationdata"
+          "slug": "reconstruction"
         },
         {
           "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\method\\trainingData.ipynb",
@@ -53,6 +53,21 @@
           "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\theory\\figure_attention_map.ipynb",
           "level": 1,
           "slug": "figure-attention-map"
+        },
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\results\\figure_rms.ipynb",
+          "level": 1,
+          "slug": "figure-rms"
+        },
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\results\\figure_reconstruction.ipynb",
+          "level": 1,
+          "slug": "figure-reconstruction"
+        },
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\results\\calculate_rms.ipynb",
+          "level": 1,
+          "slug": "calculate-rms"
         }
       ],
       "$file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\myst.yml",
@@ -60,7 +75,7 @@
     },
     {
       "format": "pdf",
-      "template": "lapreprint",
+      "template": "curvenote",
       "output": "C:\\Users\\luukf\\Documents\\bep\\BEP\\exports\\document_1.pdf",
       "articles": [
         {
