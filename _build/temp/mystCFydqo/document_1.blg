@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[1] Config.pm:310> INFO - Logfile is 'document_1.blg'
+[410] biber-MSWIN64:340> INFO - === 
+[504] Biber.pm:419> INFO - Reading 'document_1.bcf'
+[803] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
+[869] Biber.pm:4419> INFO - Processing section 0
+[901] Biber.pm:4610> INFO - Looking for bibtex file 'main.bib' for section 0
+[1049] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1120] bibtex.pm:1519> INFO - Found BibTeX data source 'main.bib'
+[1455] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1456] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1456] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1456] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1502] bbl.pm:660> INFO - Writing 'document_1.bbl' with encoding 'UTF-8'
+[1528] bbl.pm:763> INFO - Output to document_1.bbl
+[1529] Biber.pm:131> WARN - legacy month field 'aug 30' in entry 'marth2023photon' is not an integer - this will probably not sort properly.
+[1529] Biber.pm:133> INFO - WARNINGS: 1

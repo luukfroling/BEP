@@ -1,0 +1,43 @@
+% Created with jtex v.1.0.20
+\documentclass{article}
+\PassOptionsToPackage{short, nodayofweek}{datetime}
+
+\input{curvenote.def}
+
+
+
+% colors for hyperlinks
+\hypersetup{colorlinks=true, allcolors=blue}
+\hypersetup{
+pdftitle={\@title},
+pdfsubject={},
+pdfauthor={\@author},
+pdfkeywords={},
+addtopdfcreator={Written in Curvenote}
+}
+
+\usepackage{curvenote}
+
+\title{}
+
+\newdate{articleDate}{6}{6}{2025}
+\date{\displaydate{articleDate}}
+
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\include{document_0-figure-sinogram}
+
+\include{document_0-figure-attenuation-coefficients}
+
+\include{document_0-callibrationdata}
+
+\include{document_0-trainingdata}
+
+\include{document_0-figure-attention-map}
+
+
+\end{document}

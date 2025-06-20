@@ -1,0 +1,660 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{ge2023mb}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=ad99be47e056553f5f89e2d6706edfe4}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfa7312a5a07c53ea5ec5f1b59b1aa3e}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37bced4d7aa18c08a12c216d0e113e51}{%
+           family={Medrano},
+           familyi={M\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc8e851200b85fd9965c2de99da69199}{%
+           family={Politte},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46a96514c1acf6aece1fcebdad929bc8}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Jeffrey\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70614455e845da15bcfac0811c90c7bb}{%
+           family={O'Sullivan},
+           familyi={O\bibinitperiod},
+           given={Joseph\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{973a3c8f182bdcf8b5440223ea48f810}
+      \strng{fullhash}{f1e4bd6d66ca00357f0b6fc318c9e5ac}
+      \strng{bibnamehash}{973a3c8f182bdcf8b5440223ea48f810}
+      \strng{authorbibnamehash}{973a3c8f182bdcf8b5440223ea48f810}
+      \strng{authornamehash}{973a3c8f182bdcf8b5440223ea48f810}
+      \strng{authorfullhash}{f1e4bd6d66ca00357f0b6fc318c9e5ac}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics in Medicine & Biology}
+      \field{number}{24}
+      \field{title}{MB-{DECTNet}: a model-based unrolling network for accurate 3D dual-energy {CT} reconstruction from clinically acquired helical scans}
+      \field{volume}{68}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1088/1361-6560/ad00fb
+      \endverb
+    \endentry
+    \entry{kamalian2016ct_principles}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=70d312312691ddffc9f7d643cd608ea1}{%
+           family={Kamalian},
+           familyi={K\bibinitperiod},
+           given={Shervin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e3a387fbec80112208a2998be3cbc92}{%
+           family={Lev},
+           familyi={L\bibinitperiod},
+           given={Michael\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e16c962a29b66c8848af32c60477552f}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Rajiv},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=dd18cd78381c8fee3bfe81493d9d09f7}{%
+           family={Aminoff},
+           familyi={A\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=27aa4ccbbe88cafc5133579e949de34e}{%
+           family={Daroff},
+           familyi={D\bibinitperiod},
+           given={Robert\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ed33e53322cad01675088857732df770}
+      \strng{fullhash}{ed33e53322cad01675088857732df770}
+      \strng{bibnamehash}{ed33e53322cad01675088857732df770}
+      \strng{authorbibnamehash}{ed33e53322cad01675088857732df770}
+      \strng{authornamehash}{ed33e53322cad01675088857732df770}
+      \strng{authorfullhash}{ed33e53322cad01675088857732df770}
+      \strng{editorbibnamehash}{70203008000e1ae5f9bcac003e2e13fa}
+      \strng{editornamehash}{70203008000e1ae5f9bcac003e2e13fa}
+      \strng{editorfullhash}{70203008000e1ae5f9bcac003e2e13fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of {Clinical} {Neurology}}
+      \field{title}{Computed {Tomography} {Imaging} and {Angiography} -- {Principles}}
+      \field{volume}{135}
+      \field{year}{2016}
+      \field{pages}{3\bibrangedash 20}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-802973-2.00001-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/B978-0-12-802973-2.00001-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/B978-0-12-802973-2.00001-7
+      \endverb
+    \endentry
+    \entry{marth2023photon}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=95decd6ed940cfdfd6daf68180be010d}{%
+           family={Marth},
+           familyi={M\bibinitperiod},
+           given={Adrian\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c79250de95e2087bb0a5c21699449f25}{%
+           family={Marcus},
+           familyi={M\bibinitperiod},
+           given={Roy\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6bc5d3fbb3820acf138aabf0de2949c}{%
+           family={Feuerriegel},
+           familyi={F\bibinitperiod},
+           given={Georg\bibnamedelima C.},
+           giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=048ef52863e4b3573588470cb36ff859}{%
+           family={Nanz},
+           familyi={N\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ade631c737d106748d1dcddba52a678f}{%
+           family={Sutter},
+           familyi={S\bibinitperiod},
+           given={Reto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{be900dc0f1538ab18748978bc117e5e9}
+      \strng{fullhash}{87b7545ea030cad9715fde4307aab387}
+      \strng{bibnamehash}{be900dc0f1538ab18748978bc117e5e9}
+      \strng{authorbibnamehash}{be900dc0f1538ab18748978bc117e5e9}
+      \strng{authornamehash}{be900dc0f1538ab18748978bc117e5e9}
+      \strng{authorfullhash}{87b7545ea030cad9715fde4307aab387}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://doi.org/10.2214/AJR.23.29950}
+      \field{journaltitle}{AJR. American Journal of Roentgenology}
+      \field{month}{8}
+      \field{number}{1}
+      \field{title}{Photon-{Counting} {Detector} {CT} {Versus} {Energy}-{Integrating} {Detector} {CT} of the {Lumbar} {Spine}: Comparison of {Radiation} {Dose} and {Image} {Quality}}
+      \field{volume}{222}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.2214/AJR.23.29950
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2214/AJR.23.29950
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2214/AJR.23.29950
+      \endverb
+    \endentry
+    \entry{mechlem2018joint}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ae6ba419596592e17b801ce12c27ca7e}{%
+           family={Mechlem},
+           familyi={M\bibinitperiod},
+           given={Korbinian},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=670e73a20450d82966eb26c4e06c3f18}{%
+           family={Ehn},
+           familyi={E\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51724a8683427b2a62a477a28d7e6402}{%
+           family={Sellerer},
+           familyi={S\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56b7346e8290fc63102657897fc14335}{%
+           family={Braig},
+           familyi={B\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=790c79333340d20e1e5ffb29234e162d}{%
+           family={Münzel},
+           familyi={M\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9cbadeb955168e9c147fb161838b773}{%
+           family={Pfeiffer},
+           familyi={P\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d262ee66ee1e7e59c68f4e13bb90d5f}{%
+           family={Noël},
+           familyi={N\bibinitperiod},
+           given={Peter\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ab30737fe610b592182bceb801ef74f7}
+      \strng{fullhash}{cb8211eece526a902a384fc1fb77e4f7}
+      \strng{bibnamehash}{ab30737fe610b592182bceb801ef74f7}
+      \strng{authorbibnamehash}{ab30737fe610b592182bceb801ef74f7}
+      \strng{authornamehash}{ab30737fe610b592182bceb801ef74f7}
+      \strng{authorfullhash}{cb8211eece526a902a384fc1fb77e4f7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Medical Imaging}
+      \field{number}{1}
+      \field{title}{Joint {Statistical} {Iterative} {Material} {Image} {Reconstruction} for {Spectral} {Computed} {Tomography} {Using} a {Semi}-{Empirical} {Forward} {Model}}
+      \field{volume}{37}
+      \field{year}{2018}
+      \field{pages}{68\bibrangedash 80}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TMI.2017.2726687
+      \endverb
+    \endentry
+    \entry{mory2018comparison}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=723ffe3628ee39607fc847fba30dc070}{%
+           family={Mory},
+           familyi={M\bibinitperiod},
+           given={Cyril},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73f1b4a0879f8a2484e82d2e69f58bb9}{%
+           family={Sixou},
+           familyi={S\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f18c3e8533e858e2dde629e518f7cc98}{%
+           family={Si-Mohamed},
+           familyi={S\bibinithyphendelim M\bibinitperiod},
+           given={Salim},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c2e75bd6396545140a1e43ae5970744}{%
+           family={Boussel},
+           familyi={B\bibinitperiod},
+           given={Loïc},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0e6875c7a17dcb224cff4774e854aa2}{%
+           family={Rit},
+           familyi={R\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{82befdbe6b20889c8d4a79fab858d76f}
+      \strng{fullhash}{09b12ffdab62857e3004467f0aa49ace}
+      \strng{bibnamehash}{82befdbe6b20889c8d4a79fab858d76f}
+      \strng{authorbibnamehash}{82befdbe6b20889c8d4a79fab858d76f}
+      \strng{authornamehash}{82befdbe6b20889c8d4a79fab858d76f}
+      \strng{authorfullhash}{09b12ffdab62857e3004467f0aa49ace}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics in Medicine & Biology}
+      \field{number}{23}
+      \field{title}{Comparison of five one-step reconstruction algorithms for spectral {CT}}
+      \field{volume}{63}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1088/1361-6560/aaeaf2
+      \endverb
+    \endentry
+    \entry{ronneberger2015u}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8e46da9de9e53ea5d37089897d69cdd9}{%
+           family={Ronneberger},
+           familyi={R\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=168e84ce3582cbc6bac5e2ebc3ef8442}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b452a32296958371572717940f900884}{%
+           family={Brox},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{fullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{bibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorbibnamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authornamehash}{f23ccc5160c62c7866172335b2c76e11}
+      \strng{authorfullhash}{f23ccc5160c62c7866172335b2c76e11}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://arxiv.org/abs/1505.04597}
+      \field{journaltitle}{arXiv preprint arXiv:1505.04597}
+      \field{note}{Conditionally accepted at MICCAI 2015}
+      \field{title}{U-{Net}: Convolutional {Networks} for {Biomedical} {Image} {Segmentation}}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.48550/arXiv.1505.04597
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1505.04597
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1505.04597
+      \endverb
+    \endentry
+    \entry{pcd2022}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=596aad555850a27a543fb450968fb102}{%
+           family={Taguchi},
+           familyi={T\bibinitperiod},
+           given={Katsuyuki},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37df9ac0ef38d9631060087e6f338443}{%
+           family={Ballabriga},
+           familyi={B\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3e50a0635486d2e44e9fe886878c589}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84208d425d02ba315c31e50f40247c56}{%
+           family={Darambara},
+           familyi={D\bibinitperiod},
+           given={Dimitra\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aa7d4f842875ac0b743a39f7989ee051}
+      \strng{fullhash}{ea1c9f2afc66ace009afe0dffae22919}
+      \strng{bibnamehash}{aa7d4f842875ac0b743a39f7989ee051}
+      \strng{authorbibnamehash}{aa7d4f842875ac0b743a39f7989ee051}
+      \strng{authornamehash}{aa7d4f842875ac0b743a39f7989ee051}
+      \strng{authorfullhash}{ea1c9f2afc66ace009afe0dffae22919}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Radiation and Plasma Medical Sciences}
+      \field{number}{1}
+      \field{title}{Photon {Counting} {Detector} {Computed} {Tomography}}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/TRPMS.2021.3133808
+      \endverb
+    \endentry
+    \entry{taguchi2013photon}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=596aad555850a27a543fb450968fb102}{%
+           family={Taguchi},
+           familyi={T\bibinitperiod},
+           given={Katsuyuki},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9cc514a53088489a7a318dcfa6a876d}{%
+           family={Iwanczyk},
+           familyi={I\bibinitperiod},
+           given={Jan\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association of Physicists in Medicine}%
+      }
+      \strng{namehash}{ac706dcf85c78489ca20a6fadfc63b60}
+      \strng{fullhash}{ac706dcf85c78489ca20a6fadfc63b60}
+      \strng{bibnamehash}{ac706dcf85c78489ca20a6fadfc63b60}
+      \strng{authorbibnamehash}{ac706dcf85c78489ca20a6fadfc63b60}
+      \strng{authornamehash}{ac706dcf85c78489ca20a6fadfc63b60}
+      \strng{authorfullhash}{ac706dcf85c78489ca20a6fadfc63b60}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medical Physics}
+      \field{number}{10}
+      \field{title}{Vision 20/20: Single photon counting x-ray detectors in medical imaging}
+      \field{volume}{40}
+      \field{year}{2013}
+      \field{pages}{100901}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1118/1.4816547
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1118/1.4816547
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1118/1.4816547
+      \endverb
+    \endentry
+    \entry{vaswani2017attention}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://arxiv.org/abs/1706.03762}
+      \field{journaltitle}{arXiv preprint arXiv:1706.03762}
+      \field{note}{Version 7, last revised 2 Aug 2023}
+      \field{title}{Attention {Is} {All} {You} {Need}}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.48550/arXiv.1706.03762
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1706.03762
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1706.03762
+      \endverb
+    \endentry
+    \entry{yamashita2018convolutional}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=907b0bce77f53d31184d1c2f4ad6053f}{%
+           family={Yamashita},
+           familyi={Y\bibinitperiod},
+           given={Rikuya},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69b1608e4180a28cdf2dfd2a52d13615}{%
+           family={Nishio},
+           familyi={N\bibinitperiod},
+           given={Masahiro},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a26ff4aa9099695d6ead0f98ee77b828}{%
+           family={Do},
+           familyi={D\bibinitperiod},
+           given={Richard\bibnamedelima KG},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea5c007ecf4bb5aeeb687bf69af54f6a}{%
+           family={Togashi},
+           familyi={T\bibinitperiod},
+           given={Kaori},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2e655debc75e09950a84596d4ff5a078}
+      \strng{fullhash}{7c2c7d7775c424cc6042c1fd072df933}
+      \strng{bibnamehash}{2e655debc75e09950a84596d4ff5a078}
+      \strng{authorbibnamehash}{2e655debc75e09950a84596d4ff5a078}
+      \strng{authornamehash}{2e655debc75e09950a84596d4ff5a078}
+      \strng{authorfullhash}{7c2c7d7775c424cc6042c1fd072df933}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Insights into Imaging}
+      \field{note}{Received 03 March 2018; Revised 24 April 2018; Accepted 28 May 2018; Published 22 June 2018}
+      \field{number}{4}
+      \field{title}{Convolutional neural networks: an overview and application in radiology}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{pages}{611\bibrangedash 629}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/s13244-018-0639-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s13244-018-0639-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s13244-018-0639-9
+      \endverb
+    \endentry
+    \entry{zeng2001image}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9130a5f6914c9b255931e1635e385501}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={G.L.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9130a5f6914c9b255931e1635e385501}
+      \strng{fullhash}{9130a5f6914c9b255931e1635e385501}
+      \strng{bibnamehash}{9130a5f6914c9b255931e1635e385501}
+      \strng{authorbibnamehash}{9130a5f6914c9b255931e1635e385501}
+      \strng{authornamehash}{9130a5f6914c9b255931e1635e385501}
+      \strng{authorfullhash}{9130a5f6914c9b255931e1635e385501}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computerized Medical Imaging and Graphics}
+      \field{number}{2}
+      \field{title}{Image reconstruction---a tutorial}
+      \field{volume}{25}
+      \field{year}{2001}
+      \field{pages}{97\bibrangedash 103}
+      \range{pages}{7}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

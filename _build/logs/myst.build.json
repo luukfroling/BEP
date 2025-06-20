@@ -1,0 +1,75 @@
+{
+  "input": {
+    "files": [],
+    "opts": {
+      "execute": false,
+      "pdf": true,
+      "tex": false,
+      "typst": false,
+      "docx": false,
+      "md": false,
+      "xml": false,
+      "meca": false,
+      "cff": false,
+      "site": false,
+      "html": false,
+      "all": false,
+      "doiBib": false,
+      "watch": false,
+      "force": false,
+      "checkLinks": false,
+      "strict": false,
+      "ci": false,
+      "maxSizeWebp": 1572864
+    }
+  },
+  "exports": [
+    {
+      "format": "pdf",
+      "output": "C:\\Users\\luukf\\Documents\\bep\\BEP\\exports\\document_0.pdf",
+      "id": "output-pdf",
+      "articles": [
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\theory\\figure_sinogram.ipynb",
+          "level": 1,
+          "slug": "figure-sinogram"
+        },
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\theory\\figure_attenuation_coefficients.ipynb",
+          "level": 1,
+          "slug": "figure-attenuation-coefficients"
+        },
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\method\\callibrationData.ipynb",
+          "level": 1,
+          "slug": "callibrationdata"
+        },
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\method\\trainingData.ipynb",
+          "level": 1,
+          "slug": "trainingdata"
+        },
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\supporting_documents\\theory\\figure_attention_map.ipynb",
+          "level": 1,
+          "slug": "figure-attention-map"
+        }
+      ],
+      "$file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\myst.yml",
+      "$project": "C:\\Users\\luukf\\Documents\\bep\\BEP"
+    },
+    {
+      "format": "pdf",
+      "template": "lapreprint",
+      "output": "C:\\Users\\luukf\\Documents\\bep\\BEP\\exports\\document_1.pdf",
+      "articles": [
+        {
+          "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\01-paper.md",
+          "level": 0
+        }
+      ],
+      "$file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\01-paper.md",
+      "$project": "C:\\Users\\luukf\\Documents\\bep\\BEP"
+    }
+  ]
+}
