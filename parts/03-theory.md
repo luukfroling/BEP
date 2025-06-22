@@ -25,7 +25,7 @@ A phantom and a corresponding sinogram can be seen in [](#phantomSinogram). The 
 
 The sinogram in [](#phantomSinogram) is true for a 1D detector, where we construct a single slice. A cone beam CT scan uses a source emitting x-rays in a cone-beam shape, which can be detected on a 2D flat-panel detector [@venkatesh2017cbct]. 
 
-:::{figure} parts\Figures\cone_beam_ct.png
+:::{figure} Figures\cone_beam_ct.png
 :label: cone_beam
 :width: 50%
 :figclass: H
