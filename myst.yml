@@ -36,8 +36,6 @@ site:
   url: https://luukfroling.github.io/BEP/
   static:
     - parts/Figures
+    - Figures
   template: article-theme
-  
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+
