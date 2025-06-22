@@ -35,7 +35,7 @@ site:
   title: "BEP Thesis"
   url: https://luukfroling.github.io/BEP/
   static:
-    -parts/Figures
+    - parts/Figures
   template: article-theme
   
   # options:
