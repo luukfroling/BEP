@@ -9,7 +9,7 @@ A computed tomography (CT) scanner is an imaging device that uses x-rays to crea
 \hat{y}_i  = N_0 \cdot \exp\left(-\int \mu(x, E) \, dx\right)
 ```
 
-where $N_0$ is the number of the x-rays entering emitted by the source, $\mu(x, E)$ is the linear attenuation coefficient and the integral in the exponent represents the cumulative attenuation along the x-ray path. $\mu(x, E)$ describes how many of the incoming x-rays are absorbed per unit of length, which depends on both the material of the object and the energy of the x-ray [@kamalian2016ct_principles]. 
+where $N_0$ is the number of the x-rays emitted by the source, $\mu(x, E)$ is the linear attenuation coefficient and the integral in the exponent represents the cumulative attenuation along the x-ray path. $\mu(x, E)$ describes how many of the incoming x-rays are absorbed per unit of length, which depends on both the material of the object and the energy of the x-ray [@kamalian2016ct_principles]. 
 
 By rotating the source and detector around the object and recording measurements at multiple angles, a sinogram can be created. A sinogram is a 2D plot where each row corresponds to a detector reading at a specific projection angle.
 
@@ -102,18 +102,18 @@ simultaneously. Unfortunately, one-step methods are typically slower than their 
 counterparts, and in most CT applications, reconstruction time is critical. This paper therefore
 proposes to compare the convergence speeds of five one-step algorithms." [@mory2018comparison]
 
-itterative unet [@ge2023mb]
+itterative U-Net [@ge2023mb]
 
 ## Machine learning - Neural networks
 
-Neural networks are a subset of machine learning and play a crucial role in deep learning algorithms. Every neural network consists of nodes stacked in layers: an input layer, one or more hidden layers and an output layer.
+Neural networks are a subset of machine learning and play a crucial role in deep learning algorithms. A simple, fully connected neural network consists of nodes stacked in layers: an input layer, one or more hidden layers and an output layer.
 
 :::{figure} parts\Figures\neuralnetwork.png
 :label: neural_network
 A neural network consisting of 3 input nodes, 2 hidden layers with 4 nodes each and an output layer with 3 nodes. The input values are represented by an array x, the hidden layers by array h' and h'' and the output layer by y.
 :::
 
-All nodes in a layer a neural network are connected to an adjacent layer by weigths. [](#neural_network) shows a simple neural network, where input layer x and first hidden layer h' are connected by a matrix of weights W_1, where the states of the first hidden layer can be calculated as 
+All nodes in a layer are connected to an adjacent layer by weigths. [](#neural_network) shows a simple neural network, where input layer x and first hidden layer h' are connected by a matrix of weights $W_1$, the states of the first hidden layer can be calculated as 
 
 ```{math}
 :label: denseLayer
@@ -121,7 +121,7 @@ All nodes in a layer a neural network are connected to an adjacent layer by weig
 ```
 with $\mathbf{W}_{1,nm}$ representing the weight connecting the m-th input neuron to the n-th neuron in the first hidden layer, and σ is an activation function (e.g., sigmoid or softmax) that scales the output between 0 and 1 to stabilise the network. Equation [](#denselayer) can be repeated for every following layer where the output of a layer is used as an input to calculate the following layer. 
 
-Neural networks learn by backpropagation. Backpropagation looks at the error between the output of the network and the desired output. This error is generally backpropogated through the network by looking at how each weight needs to change to minimise the error. 
+Neural networks learn by backpropagation. Backpropagation looks at the error between the output of the network and the desired output. This error is generally propogated backwards through the network by looking at how each weight needs to change to minimise this error. 
 
 ## Machine learning - Convolutional neural network
 
@@ -148,22 +148,22 @@ A CNN typically consists of multiple layers stacked on top of each other, allowi
 
 Multiple convolution layers can be combined to form an encoder. An encoder reduces the size of the image between each layer using a max pool layer.A max pool layer devides the input into rectangular regions and taks the maximum value from each region, reducing the image size and allowing the network to capture more abstract and higher-level data.
 
-Similarly a decoder can be used to upsample all features back to an output image. A decoder uses deconvolution layers which increases the size of the feature map as more and more features are added back in. 
+Similarly a decoder can be used to an abstract representation and generate an output image. A decoder uses deconvolution layers which increases the size of the image as more features are added back in. 
 
 :::{figure} parts\Figures\Unet.png
 :label: unet
 :width: 75%
-A Unet architecture for an image with a 32x32 lowest possible resolution. Each blue square represents a multi-channel feature map with the amount of channels denoted on top of the box. Gray arrows represent cross over layers with the white boxes representing copied layers from the encoder *Figure reproduced from* [@oktay2018attention]
+A U-Net architecture for an image with a 32x32 lowest possible resolution. Each blue square represents a multi-channel feature map with the amount of channels denoted on top of the box. Gray arrows represent cross over layers with the white boxes representing copied layers from the encoder *Figure reproduced from* [@oktay2018attention]
 :::
 
-[](#unet) shows a Unet architecture, which combines an encoder and a decoder with an equal amount of layers. Between each layer of the encoder and decoder part of the network, there is a skip-connection layer as well which copies the feature map from the encoder layer to the decoder layer. This allows the decoder to use features which might have been lost while encoding the image. 
+[](#unet) shows a U-Net architecture, which combines an encoder and a decoder with an equal amount of layers. Between each layer of the encoder and decoder part of the network, there is a skip-connection layer as well which copies the feature map from the encoder layer to the decoder layer. This allows the decoder to use features which might have been lost while encoding the image. 
 
 
 ## Machine learning - Attention gate
 
 For feature extraction from images where both local and non-local features are of importance, convolution layers can be combined with attention mechanisms. An attention mechanism is a technique used in machine learning used to allow machine learning models to attend to the most relevant parts of the input data [@vaswani2017attention]. 
 
-An attention mechanism takes the input vector $x_{i}^{l}$ and multiplies it by an attention score $\alpha_{i}^{l}$. To get there an intermediate attention score $q_{\text{att}}^{l}$ (the attention score $q_{\text{att}}$ for layer l) can be defined as 
+An attention mechanism takes the input vector $x_{i}^{l}$ and multiplies it by an attention score $\alpha_{i}^{l}$ to perserve only the activations relevant to the task. To calculate $\alpha_{i}^{l}$,  an intermediate attention score $q_{\text{att}}^{l}$ (the attention score $q_{\text{att}}$ for layer l) can be defined as 
 ```{math}
 q_{\text{att}}^{l} = \psi^{T} \, \sigma \left( W_{x}^{T} x_{i}^{l} + W_{g}^{T} g_{i} + b_{g} \right) + b_{\psi}
 ```
@@ -183,14 +183,16 @@ where regions get $\alpha = 1$ where less important regions get $\alpha \approx 
 
 ## Machine learning - Attention U-Net
 
-Attention mechanisms can be added to the skip-connections of the U-Net model in [](#unet), which allows the network to focus on non-local features during the reconstruction of the image. The combination of attention mechanism and convolutional layers can be used to recognise certain features like edges and to easily recognise the link between edges in different parts of the image [@oktay2018attentionunet].
+Attention mechanisms can be added to the skip-connections of the U-Net model in [](#unet), allowing the network to focus on non-local features during the reconstruction of the image. The combination of attention mechanism and convolutional layers can be used to recognise certain features like edges and to make connection between features in different parts of the image [@oktay2018attentionunet].
 
 :::{figure} parts\Figures\AttU-Net.png
 :label: attunet
 Schematic overview of a U-Net model with attention gates added to the skip-connections. The inset (top) shows a zoomed-in view of an attention gate, the gating signal $g$ is taken from the previous decoding layer and the input $x^l$ is the skip-connection layer. *Figure reproduced from* [@oktay2018attentionunet]
 :::
 
-The gate vector $g$, also called the gating signal, for each skip-connection layer connects the output of the previous decoder layer to the skip-connection input vector. This is illustrated in [](#attunet). 
+The gate vector $g$, also called the gating signal, for each skip-connection layer connects the output of the previous decoder layer to the skip-connection input vector. This is illustrated in [](#attunet). //Work in progress
+
+For each skip connection the output of the previous decoder layer is used as a gating signal $g$. //Work in progress 
 
 :::{figure} #show_attention_overlay
 :label: attention_network
@@ -198,7 +200,7 @@ The gate vector $g$, also called the gating signal, for each skip-connection lay
 An attention map showing how an attention mechanism can be used to have the model focus more on important features, which in this case is the sinogram.
 :::
 
-[](#attention_network) shows an attention map from a trained AttU-Net model. For this specific application it is as expected the attention gate focuses on the lower-intensity parts of the sinogram as these areas provide the most information about the imaged object.  
+[](#attention_network) shows an attention map from a AttU-Net model trained on CT scan reconstruction. An attention map has been drawn to illustrate $\alpha_{i}^{l}$ for the first skip-connection. For this specific application it is as expected the attention gate focuses on the lower-intensity parts of the sinogram as these areas provide the most information about the imaged object.  
 
 
 
