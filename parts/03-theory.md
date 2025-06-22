@@ -49,7 +49,7 @@ where $ x $ is the vectorised representation of the voxel values and $ y $ conta
 
 Current CT scanners use an energy integrating detector (EID) [@marth2023photon]. An EID measures the intensity of the incoming x-rays by a two-step process: scintillation followed by photodetection. The scintillator will absorb the x-rays which have passed through the body and emit light in the visible spectrum. These re-emitted photons can be detected by photodetectors located underneath the scintillator. Due to the difference in energy of the incoming x-ray and the emitted visible light, multiple photons can be re-emitted. To measure a signal, EIDs integrate over time which loses all energy dependent information [@taguchi2013photon].    
 
-:::{figure} \parts\Figures\detectorTypes.png
+:::{figure} /parts/Figures/detectorTypes.png
 :label: detectors
 :width: 50%
 
@@ -91,7 +91,7 @@ To view the cross-sectional image of an object from these measurements, either f
 
 The two-step, image based method has several drawbacks. First, beam hardening artifacts often occur as the attenuation coefficient is still averaged over a line. Secondly, the first step leads to a loss of information as there is no one-to-one mapping between the projections and the images. The second step is unable to compensate for this loss as it has no access to the photon counts. Recently one-step methods have been proposed which reconstruct material-specific images directly from photon counts [@mechlem2018joint]. These are all iterative methods as no analytical inversion formula exists. 
 
-Import parameters of the interative algorithm introduced are the data attachment term and the cost regularisation. The data attachment term ensures the reconstructed material images explain the measured photon counts, and the regularisation term enforces smoothness or prior knowledge on the material images [@Zhang2018Regularization].
+Import parameters of the interative algorithm introduced are the data attachment term and the cost regularisation. The data attachment term ensures the reconstructed material images explain the measured photon counts and the regularisation term enforces smoothness or prior knowledge on the material images [@Zhang2018Regularization], a cost function can be defined which includes both terms. The iterative algorithm reconstructs an image for each material and compares the image to the measurements using the cost function and updates the images accordingly. This is computationally heavy and 
 
 ## Machine learning - Neural networks
 
