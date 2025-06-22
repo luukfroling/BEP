@@ -7,7 +7,7 @@ project:
   # keywords: []
   authors: [Luuk Fröling]
   date: 2024-01-01
-  github: https://github.com/jupyter-book/mystmd-quickstart
+  github: https://github.com/luukfroling/BEP
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
     - file: 01-paper.md

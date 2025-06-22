@@ -93,8 +93,6 @@ The two-step, image based method has several drawbacks. First, beam hardening ar
 
 Import parameters of the interative algorithm introduced are the data attachment term and the cost regularisation. The data attachment term ensures the reconstructed material images explain the measured photon counts, and the regularisation term enforces smoothness or prior knowledge on the material images [@Zhang2018Regularization].
 
-itterative U-Net [@ge2023mb]
-
 ## Machine learning - Neural networks
 
 Neural networks are a subset of machine learning and play a crucial role in deep learning algorithms. A simple, fully connected neural network consists of nodes stacked in layers: an input layer, one or more hidden layers and an output layer.
