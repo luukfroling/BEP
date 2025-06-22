@@ -49,7 +49,7 @@ where $ x $ is the vectorised representation of the voxel values and $ y $ conta
 
 Current CT scanners use an energy integrating detector (EID) [@marth2023photon]. An EID measures the intensity of the incoming x-rays by a two-step process: scintillation followed by photodetection. The scintillator will absorb the x-rays which have passed through the body and emit light in the visible spectrum. These re-emitted photons can be detected by photodetectors located underneath the scintillator. Due to the difference in energy of the incoming x-ray and the emitted visible light, multiple photons can be re-emitted. To measure a signal, EIDs integrate over time which loses all energy dependent information [@taguchi2013photon].    
 
-:::{figure} /parts/Figures/detectorTypes.png
+:::{figure} Figures/detectorTypes.png
 :label: detectors
 :width: 50%
 
