@@ -25,7 +25,7 @@ A phantom and a corresponding sinogram can be seen in [](#phantomSinogram). The 
 
 The sinogram in [](#phantomSinogram) is true for a 1D detector, where we construct a single slice. A cone beam CT scan uses a source emitting x-rays in a cone-beam shape, which can be detected on a 2D flat-panel detector [@venkatesh2017cbct]. 
 
-:::{figure} Figures\cone_beam_ct.png
+:::{figure} Figures/cone_beam_ct.png
 :label: cone_beam
 :width: 50%
 :figclass: H
@@ -97,7 +97,7 @@ Import parameters of the interative algorithm introduced are the data attachment
 
 Neural networks are a subset of machine learning and play a crucial role in deep learning algorithms. A simple, fully connected neural network consists of nodes stacked in layers: an input layer, one or more hidden layers and an output layer.
 
-:::{figure} Figures\neuralnetwork.png
+:::{figure} Figures/neuralnetwork.png
 :label: neural_network
 A neural network consisting of 3 input nodes, 2 hidden layers with 4 nodes each and an output layer with 3 nodes. The input values are represented by an array x, the hidden layers by array h' and h'' and the output layer by y.
 :::
@@ -139,7 +139,7 @@ Multiple convolution layers can be combined to form an encoder. An encoder reduc
 
 Similarly a decoder can be used to an abstract representation and generate an output image. A decoder uses deconvolution layers which increases the size of the image as more features are added back in. 
 
-:::{figure} Figures\Unet.png
+:::{figure} Figures/Unet.png
 :label: unet
 :width: 75%
 A U-Net architecture for an image with a 32x32 lowest possible resolution. Each blue square represents a multi-channel feature map with the amount of channels denoted on top of the box. Gray arrows represent cross over layers with the white boxes representing copied layers from the encoder *Figure reproduced from* [@oktay2018attention]
@@ -174,7 +174,7 @@ where regions get $\alpha = 1$ where less important regions get $\alpha \approx 
 
 Attention mechanisms can be added to the skip-connections of the U-Net model in [](#unet), allowing the network to focus on non-local features during the reconstruction of the image. The combination of attention mechanism and convolutional layers can be used to recognise certain features like edges and to make connection between features in different parts of the image [@oktay2018attentionunet].
 
-:::{figure} Figures\AttU-Net.png
+:::{figure} Figures/AttU-Net.png
 :label: attunet
 Schematic overview of a U-Net model with attention gates added to the skip-connections. The inset (top) shows a zoomed-in view of an attention gate, the gating signal $g$ is taken from the previous decoding layer and the input $x^l$ is the skip-connection layer. *Figure reproduced from* [@oktay2018attentionunet]
 :::
