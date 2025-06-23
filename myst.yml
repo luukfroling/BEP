@@ -32,7 +32,7 @@ project:
   - references/references.bib
 
 site:
-  title: "BEP Thesis"
+  title: "Eind project"
   url: https://luukfroling.github.io/BEP/
   static:
     - parts/Figures

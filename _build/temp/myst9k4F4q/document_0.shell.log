@@ -1,0 +1,84 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = (unset),
+	(possibly more locale environment variables)
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the system default locale ("English_Australia.1252").
+Initial Win CP for (console input, console output, system): (CP437, CP65001, CP1252)
+I changed them all to CP1252
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 27 Dec. 2024. Version 4.86a.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "document_0.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+SyncTeX written on document_0.synctex.gz.
+Latexmk: Getting log file 'document_0.log'
+Latexmk: Examining 'document_0.fls'
+Latexmk: Examining 'document_0.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'document_0.xdv'
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  document_0-calculate-rms.aux
+  document_0-figure-attention-map.aux
+  document_0-figure-attenuation-coefficients.aux
+  document_0-figure-reconstruction.aux
+  document_0-figure-rms.aux
+  document_0-figure-sinogram.aux
+  document_0-reconstruction.aux
+  document_0-trainingdata.aux
+  document_0.aux
+  document_0.out
+
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "document_0.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+SyncTeX written on document_0.synctex.gz.
+Latexmk: Getting log file 'document_0.log'
+Latexmk: Examining 'document_0.fls'
+Latexmk: Examining 'document_0.log'
+Latexmk: Log file says output to 'document_0.xdv'
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  document_0.xdv
+Category 'changed_source_rules':
+  xelatex
+Category 'no_dest':
+  xdvipdfmx
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "document_0.pdf"  "document_0.xdv"'
+------------
+document_0.xdv -> document_0.pdf
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30]
+507120 bytes written
+Latexmk: All targets (document_0.xdv document_0.pdf) are up-to-date
+
+Reverting Windows console CPs to (in,out) = (437,65001)

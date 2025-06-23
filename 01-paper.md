@@ -2,15 +2,9 @@
 title: CT scan reconstruction using machine learning
 short_title: Written by Luuk Fröling
 description: description
-license:
-  content: CC-BY-SA-3.0
 authors:
-  - name: Luuk Froling
-keywords:
-  - Finite volume
-  - Direct current
-  - Resistivity
-  - DC equations
+  - name: Luuk Fröling
+
 export:
   - format: pdf
     template: curvenote

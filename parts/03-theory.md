@@ -16,7 +16,7 @@ By rotating the source and detector around the object and recording measurements
 :::{figure} #phantomAndSinogram
 :label: phantomSinogram
 :figclass: H
-*left:* a 32x32 pixel phantom representing varying bone densities. *right* corresponding sinogram with 64 projection angles. The lighter regions in the sinogram indicate higher photon counts. The CT energy used was [TODO].
+*left:* a 32x32 pixel phantom representing varying bone densities. *right* corresponding sinogram with 64 projection angles. The lighter regions in the sinogram indicate higher photon counts.
 :::
 
 A phantom and a corresponding sinogram can be seen in [](#phantomSinogram). The phantom is a 32x32 image, where each pixel represents a part of the phantom with a specific bone density. Lighter coloured areas having a higher bone density where darker areas have a lower bone density. On the right is the corresponding sinogram which consists of 64 measurements of $\hat{y}_i$ at different angles. The lighter parts of the sinogram correspond to more detected photons. 
@@ -91,7 +91,9 @@ To view the cross-sectional image of an object from these measurements, either f
 
 The two-step, image based method has several drawbacks. First, beam hardening artifacts often occur as the attenuation coefficient is still averaged over a line. Secondly, the first step leads to a loss of information as there is no one-to-one mapping between the projections and the images. The second step is unable to compensate for this loss as it has no access to the photon counts. Recently one-step methods have been proposed which reconstruct material-specific images directly from photon counts [@mechlem2018joint]. These are all iterative methods as no analytical inversion formula exists. 
 
-Import parameters of the interative algorithm introduced are the data attachment term and the cost regularisation. The data attachment term ensures the reconstructed material images explain the measured photon counts and the regularisation term enforces smoothness or prior knowledge on the material images [@Zhang2018Regularization], a cost function can be defined which includes both terms. The iterative algorithm reconstructs an image for each material and compares the image to the measurements using the cost function and updates the images accordingly. This is computationally heavy and 
+Import parameters of the interative algorithm introduced are the data attachment term and the cost regularisation. The data attachment term ensures the reconstructed material images explain the measured photon counts and the regularisation term enforces smoothness or prior knowledge on the material images [@Zhang2018Regularization], a cost function can be defined which includes both terms. The iterative algorithm reconstructs an image for each material and compares the image to the measurements using the cost function and updates the images accordingly. 
+
+A downside to the iterative algorithm is the computational time. For each iteration there is a forward projection and a backprojection, as well as an error calculation. There is also a large amount of iterations needed to get to an accurate solution. This work will look at including machine learning to replace the iterative steps. 
 
 ## Machine learning - Neural networks
 
@@ -161,7 +163,7 @@ where $g_{i} $ the gating feature vector, $ W_{x}^{T} $ and $ W_{g}^{T} $ weight
 ```{math}
 \alpha_{i}^{l} = \sigma_{2} \left( q_{\text{att}}^{l}(x_{i}^{l}, g_{i}; \Theta_{\text{att}}) \right)
 ```
-with \Theta_{\text{att}} representing the learned parameters of the attention block: all weights and biases. The final output of the attention gate it 
+with $ \Theta_{\text{att}}$ representing the learned parameters of the attention block: all weights and biases. The final output of the attention gate it 
 
 ```{math} 
 \tilde{x}_i^l = \alpha_i^l \cdot x_i^l
