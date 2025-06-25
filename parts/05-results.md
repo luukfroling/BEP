@@ -13,7 +13,7 @@ Bottom row (bone), left to right: GT bone image; iteration 0 (first reconstructi
 
 The first 4 reconstructions of the second phantom are displayed in [](#bone_recons) and the first column displays the ground truth (GT) images as a reference. The rows show the reconstruction process using the model for water and bone respectively, where each column is an iteration. In the GT images, distinct features are visible: a bone structure in the lower left quadrant and a water structure in the top right quadrant. These serve as reference to evaluate the reconstruction quality.
 
-The first reconstruction shows that the AttU-net model accuratly recongnises the key features of the phantom, however the water feature is faint in the water density image. As reconstruction progresses, the overall water density increases while the edges between distinct features of the phantom are blurred. The bone density image looks to converge to a state where the phantom's body has a lower density, with both water and bone features present.
+The first reconstruction shows that the AttU-net model accurately recongnises the key features of the phantom, however the water feature is faint in the water density image. As reconstruction progresses, the overall water density increases while the edges between distinct features of the phantom are blurred. The bone density image looks to converge to a state where the phantom's body has a lower density, with both water and bone features present.
 
 ## Visualisation comparison
 
@@ -38,7 +38,7 @@ By calculating the RMS error at each iteration for both the iterative algorithm 
 RMS error over time for three phantoms reconstructed using both the iterative method (orange: water; blue: bone) and the proposed AttU-Net model (red: water; green: bone).  
 :::
 
-[](#rmsTime) shows the RMS error over time for bone and water images reconstructed by both methods for the first 3 phantoms, where the second phantom can be seen in [](#bone_recons) and [](#reconPhantom). The model has been cut off after the iterative algoritm stopped running for phantom 1 and 3. In all three cases, the model achieves a lower initial error but converges to a bigger error compared to the iterative algorithm. For both algorithms the RMS error of the water images converges to a higher value than the RMS of the bone images. 
+[](#rmsTime) shows the RMS error over time for bone and water images reconstructed by both methods for the first 3 phantoms from the validation set, where the second phantom can be seen in [](#bone_recons) and [](#reconPhantom). The AttU-Net model has been run for as long as it took for the iterative algorithm to complete all 40 iterations. In all three cases, the model achieves a lower initial error but converges to a larger error compared to the iterative algorithm. For both algorithms the RMS error of the water images converges to a higher value than the RMS of the bone images. 
 
 Looking at a dataset of 20 phantoms, the average time taken for the first iteration of the model is 9.3 seconds with a standard deviation of 1.5 seconds. The average speedup for bone for this step is 1.44 times, or 44% while the average speedup for water is 1.17 times, or 17%. The speedup is defined as the time it takes for the iterative aproach to reach the same RMS error over the time it took for one iteration of the AttU-Net model. Looking at further iterations, it does not make sense to further define a speedup as the RMS error of the model is too high to be visually useful. 
 
@@ -53,5 +53,16 @@ caption
 
 One such case is displayed in figure [](#wrong) where phantom 17 can be seen, reconstructed using both the iterative algorithm and the AttU-Net model. The GT has both the water and the bone features located in the lower-left quadrant. For the water density image reconstructed using the iterative approach it can be seen there are no recognisable features from the GT present, however there does seem to be a significant lack of water in the center of the image. 
 
-The AttU-Net model has, similarly to phantom 2, a relatively constant value throughout the phantom for the water image, while the bone reconstruction does accuratly show the bone feature.  
+The AttU-Net model has, similarly to phantom 2, a relatively constant value throughout the phantom for the water image, while the bone reconstruction does accurately show the bone feature.  
+
+## Attention map
+
+
+:::{figure} #show_attention_overlay
+:label: attention_network
+
+An attention map showing how an attention mechanism can be used to have the model focus more on important features, which in this case is the sinogram.
+:::
+
+[](#attention_network) shows an attention map from a AttU-Net model trained on CT scan reconstruction. An attention map has been drawn to illustrate $\alpha_{i}^{l}$ for the first skip-connection. For this specific application it is as expected the attention gate focuses on the lower-intensity parts of the sinogram as these areas provide the most information about the imaged object.  
 

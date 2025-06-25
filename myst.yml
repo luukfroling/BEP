@@ -14,6 +14,7 @@ project:
     - file: supporting_documents/theory/figure_sinogram.ipynb
     - file: supporting_documents\theory\figure_attenuation_coefficients.ipynb
     - file: supporting_documents/method/reconstruction.ipynb
+    - file: supporting_documents/method/network.ipynb
     - file: supporting_documents/method/trainingData.ipynb
     - file: supporting_documents/theory/figure_attention_map.ipynb
     - file: supporting_documents/results/figure_rms.ipynb
