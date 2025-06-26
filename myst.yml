@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 1cc42c5b-3447-4429-8523-f43cc2eef52b
-  title: "Deep Learning for Iterative Spectral CT Reconstruction: Replacing Statistical Iterations with an Attention-Based U-Net"
+  title: "Deep Learning for Iterative Spectral CT Reconstruction: Replacing Statistical Iterations with an Attention-Based U-Net"
   description: A Jupyter Book project to document the CT scan reconstruction with deep learning.
   # keywords: []
   authors: [Luuk Fröling]
