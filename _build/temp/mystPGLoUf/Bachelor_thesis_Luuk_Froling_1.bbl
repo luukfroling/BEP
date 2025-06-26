@@ -1,0 +1,220 @@
+\begin{thebibliography}{23}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alaluf et~al.(2023)Alaluf, Garibi, Patashnik, Averbuch-Elor, and
+  Cohen-Or]{alaluf2023cross}
+Y.~Alaluf, D.~Garibi, O.~Patashnik, H.~Averbuch-Elor, and D.~Cohen-Or.
+\newblock Cross-{Image} {Attention} for {Zero}-{Shot} {Appearance} {Transfer}.
+\newblock \emph{arXiv preprint arXiv:2311.03335}, 2023.
+\newblock \doi{10.48550/arXiv.2311.03335}.
+\newblock URL \url{https://arxiv.org/abs/2311.03335}.
+\newblock Submitted to arXiv on 6 Nov 2023.
+
+\bibitem[An and Joe(2022)]{An2022Attention}
+J.~An and I.~Joe.
+\newblock Attention {Map}-{Guided} {Visual} {Explanations} for {Deep} {Neural}
+  {Networks}.
+\newblock \emph{Applied Sciences}, 12\penalty0 (8):\penalty0 3846, 2022.
+\newblock \doi{10.3390/app12083846}.
+\newblock URL \url{https://doi.org/10.3390/app12083846}.
+\newblock Submission received: 16 March 2022 / Revised: 9 April 2022 /
+  Accepted: 10 April 2022 / Published: 11 April 2022.
+
+\bibitem[Antsiferov(2003)]{Antsiferov2003}
+P.~S. Antsiferov.
+\newblock The {Characteristic} {X}-{Ray} {Spectra} of {Free} {Atoms} of
+  {Metals}.
+\newblock \emph{Central European Journal of Physics}, 2\penalty0 (2):\penalty0
+  268--288, 2003.
+\newblock Received 5 November 2002; revised 5 March 2003.
+
+\bibitem[Arndt et~al.(2021)Arndt, G{\" u}ttler, Heinrich, B{\" u}rckenmeyer,
+  Diamantis, and Teichgr{\" a}ber]{arndt2021deeplearning}
+C.~Arndt, F.~G{\" u}ttler, A.~Heinrich, F.~B{\" u}rckenmeyer, I.~Diamantis, and
+  U.~Teichgr{\" a}ber.
+\newblock Deep {Learning} {CT} {Image} {Reconstruction} in {Clinical}
+  {Practice} / {CT}-{Bildrekonstruktion} mit {Deep} {Learning} in der
+  klinischen {Praxis}.
+\newblock \emph{R{\" o}Fo - Fortschritte auf dem Gebiet der R{\"
+  o}ntgenstrahlen und der bildgebenden Verfahren}, 193\penalty0 (03):\penalty0
+  252--261, 2021.
+\newblock \doi{10.1055/a-1248-2556}.
+\newblock Review article.
+
+\bibitem[Ge et~al.(2023)Ge, Liao, Medrano, Politte, Williamson, and
+  O'Sullivan]{ge2023mb}
+T.~Ge, R.~Liao, M.~Medrano, D.~G. Politte, J.~F. Williamson, and J.~A.
+  O'Sullivan.
+\newblock Mb-{DECTNet}: a model-based unrolling network for accurate 3d
+  dual-energy {CT} reconstruction from clinically acquired helical scans.
+\newblock \emph{Physics in Medicine and Biology}, 68\penalty0 (24), 2023.
+\newblock \doi{10.1088/1361-6560/ad00fb}.
+
+\bibitem[Kamalian et~al.(2016)Kamalian, Lev, and
+  Gupta]{kamalian2016ct_principles}
+S.~Kamalian, M.~H. Lev, and R.~Gupta.
+\newblock \emph{Computed {Tomography} {Imaging} and {Angiography} --
+  {Principles}}, volume 135, pages 3--20.
+\newblock Elsevier, 2016.
+\newblock \doi{10.1016/B978-0-12-802973-2.00001-7}.
+\newblock URL \url{https://doi.org/10.1016/B978-0-12-802973-2.00001-7}.
+
+\bibitem[Kingma and Ba(2014)]{kingma2014adam}
+D.~P. Kingma and J.~Ba.
+\newblock Adam: A {Method} for {Stochastic} {Optimization}.
+\newblock \emph{arXiv preprint arXiv:1412.6980}, 2014.
+\newblock \doi{10.48550/arXiv.1412.6980}.
+\newblock URL \url{https://arxiv.org/abs/1412.6980}.
+\newblock Published as a conference paper at the 3rd International Conference
+  for Learning Representations (ICLR), San Diego, 2015.
+
+\bibitem[Leuschner et~al.(2019)Leuschner, Schmidt, Baguer, and
+  Maass]{leuschner2019lodopab}
+J.~Leuschner, M.~Schmidt, D.~O. Baguer, and P.~Maass.
+\newblock The {LoDoPaB}-{CT} {Dataset}: A {Benchmark} {Dataset} for
+  {Low}-{Dose} {CT} {Reconstruction} {Methods}.
+\newblock \emph{arXiv preprint arXiv:1910.01113}, 2019.
+\newblock \doi{10.48550/arXiv.1910.01113}.
+\newblock URL \url{https://arxiv.org/abs/1910.01113}.
+\newblock Published October 2019.
+
+\bibitem[Marth et~al.(2023)Marth, Marcus, Feuerriegel, Nanz, and
+  Sutter]{marth2023photon}
+A.~A. Marth, R.~P. Marcus, G.~C. Feuerriegel, D.~Nanz, and R.~Sutter.
+\newblock Photon-{Counting} {Detector} {CT} {Versus} {Energy}-{Integrating}
+  {Detector} {CT} of the {Lumbar} {Spine}: Comparison of {Radiation} {Dose} and
+  {Image} {Quality}.
+\newblock \emph{AJR. American Journal of Roentgenology}, 222\penalty0 (1), aug
+  30 2023.
+\newblock \doi{10.2214/AJR.23.29950}.
+\newblock URL \url{https://doi.org/10.2214/AJR.23.29950}.
+
+\bibitem[Mechlem et~al.(2018)Mechlem, Ehn, Sellerer, Braig, M{\" u}nzel,
+  Pfeiffer, and No{\" e}l]{mechlem2018joint}
+K.~Mechlem, S.~Ehn, T.~Sellerer, E.~Braig, D.~M{\" u}nzel, F.~Pfeiffer, and
+  P.~B. No{\" e}l.
+\newblock Joint {Statistical} {Iterative} {Material} {Image} {Reconstruction}
+  for {Spectral} {Computed} {Tomography} {Using} a {Semi}-{Empirical} {Forward}
+  {Model}.
+\newblock \emph{IEEE Transactions on Medical Imaging}, 37\penalty0
+  (1):\penalty0 68--80, 2018.
+\newblock \doi{10.1109/TMI.2017.2726687}.
+
+\bibitem[Mory et~al.(2018)Mory, Sixou, Si-Mohamed, Boussel, and
+  Rit]{mory2018comparison}
+C.~Mory, B.~Sixou, S.~Si-Mohamed, L.~Boussel, and S.~Rit.
+\newblock Comparison of five one-step reconstruction algorithms for spectral
+  {CT}.
+\newblock \emph{Physics in Medicine and Biology}, 63\penalty0 (23), 2018.
+\newblock \doi{10.1088/1361-6560/aaeaf2}.
+
+\bibitem[Oktay et~al.(2018{\natexlab{a}})Oktay, Schlemper, Le~Folgoc, Lee,
+  Heinrich, Misawa, Mori, McDonagh, Hammerla, Kainz, Glocker, and
+  Rueckert]{oktay2018attention}
+O.~Oktay, J.~Schlemper, L.~Le~Folgoc, M.~Lee, M.~Heinrich, K.~Misawa, K.~Mori,
+  S.~McDonagh, N.~Y. Hammerla, B.~Kainz, B.~Glocker, and D.~Rueckert.
+\newblock Attention {U}-{Net}: Learning {Where} to {Look} for the {Pancreas}.
+\newblock \emph{arXiv preprint arXiv:1804.03999}, 2018{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/1804.03999}.
+
+\bibitem[Oktay et~al.(2018{\natexlab{b}})Oktay, Schlemper, Le~Folgoc, Lee,
+  Heinrich, Misawa, Mori, McDonagh, Hammerla, Kainz, Glocker, and
+  Rueckert]{oktay2018attentionunet}
+O.~Oktay, J.~Schlemper, L.~Le~Folgoc, M.~Lee, M.~Heinrich, K.~Misawa, K.~Mori,
+  S.~McDonagh, N.~Y. Hammerla, B.~Kainz, B.~Glocker, and D.~Rueckert.
+\newblock Attention {U}-{Net}: Learning {Where} to {Look} for the {Pancreas}.
+\newblock \emph{arXiv preprint arXiv:1804.03999}, 2018{\natexlab{b}}.
+\newblock \doi{10.48550/arXiv.1804.03999}.
+\newblock URL \url{https://arxiv.org/abs/1804.03999}.
+\newblock Accepted to MIDL 2018.
+
+\bibitem[Pietzsch(2025)]{pietzsch2025ct}
+J.~Pietzsch.
+\newblock Perspectives: With a little help from my friends.
+\newblock https://www.nobelprize.org/prizes/medicine/1979/perspectives/, 2025.
+\newblock URL
+  \url{https://www.nobelprize.org/prizes/medicine/1979/perspectives/}.
+\newblock NobelPrize.org. Nobel Prize Outreach.
+
+\bibitem[Taguchi and Iwanczyk(2013)]{taguchi2013photon}
+K.~Taguchi and J.~S. Iwanczyk.
+\newblock Vision 20/20: Single photon counting x-ray detectors in medical
+  imaging.
+\newblock \emph{Medical Physics}, 40\penalty0 (10):\penalty0 100901, 2013.
+\newblock \doi{10.1118/1.4820371}.
+\newblock URL \url{https://doi.org/10.1118/1.4820371}.
+
+\bibitem[Taguchi et~al.(2022)Taguchi, Ballabriga, Campbell, and
+  Darambara]{pcd2022}
+K.~Taguchi, R.~Ballabriga, M.~Campbell, and D.~G. Darambara.
+\newblock Photon {Counting} {Detector} {Computed} {Tomography}.
+\newblock \emph{IEEE Transactions on Radiation and Plasma Medical Sciences},
+  6\penalty0 (1):\penalty0 1--4, 2022.
+\newblock \doi{10.1109/TRPMS.2021.3133808}.
+
+\bibitem[Vaswani et~al.(2017)Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,
+  Kaiser, and Polosukhin]{vaswani2017attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  L.~Kaiser, and I.~Polosukhin.
+\newblock Attention {Is} {All} {You} {Need}.
+\newblock \emph{arXiv preprint arXiv:1706.03762}, 2017.
+\newblock \doi{10.48550/arXiv.1706.03762}.
+\newblock URL \url{https://arxiv.org/abs/1706.03762}.
+\newblock Version 7, last revised 2 Aug 2023.
+
+\bibitem[Venkatesh and Elluru(2017)]{venkatesh2017cbct}
+E.~Venkatesh and S.~V. Elluru.
+\newblock Cone beam computed tomography: basics and applications in dentistry.
+\newblock \emph{Journal of Istanbul University Faculty of Dentistry},
+  51\penalty0 (3 Suppl 1):\penalty0 S102--S121, 12 2017.
+\newblock \doi{10.17096/jiufd.00289}.
+
+\bibitem[Willemink et~al.(2018)Willemink, Persson, Pourmorteza, Do, and
+  Fleischmann]{Willemink2018PhotonCountingCT}
+M.~J. Willemink, M.~Persson, A.~Pourmorteza, T.~Do, and D.~Fleischmann.
+\newblock Photon-counting {CT}: Technical {Principles} and {Clinical}
+  {Prospects}.
+\newblock \emph{Radiology}, 289\penalty0 (2):\penalty0 293--312, 2018.
+\newblock \doi{10.1148/radiol.2018172656}.
+
+\bibitem[Yamashita et~al.(2018)Yamashita, Nishio, Do, and
+  Togashi]{yamashita2018convolutional}
+R.~Yamashita, M.~Nishio, R.~K. Do, and K.~Togashi.
+\newblock Convolutional neural networks: an overview and application in
+  radiology.
+\newblock \emph{Insights into Imaging}, 9\penalty0 (4):\penalty0 611--629,
+  2018.
+\newblock \doi{10.1007/s13244-018-0639-9}.
+\newblock URL \url{https://doi.org/10.1007/s13244-018-0639-9}.
+\newblock Received 03 March 2018; Revised 24 April 2018; Accepted 28 May 2018;
+  Published 22 June 2018.
+
+\bibitem[Yang et~al.(2017)Yang, Zhang, Huang, and
+  Shi]{Yang2017ProjectionMatrix}
+F.~Yang, D.~Zhang, K.~Huang, and W.~Shi.
+\newblock Projection {Matrix} {Acquisition} for {ConeBeam} {Computed}
+  {Tomography} {Iterative} {Reconstruction}.
+\newblock In \emph{Proceedings of {SPIE} -- {The} {International} {Society} for
+  {Optical} {Engineering}}, Second {International} {Conference} on {Photonics}
+  and {Optical} {Engineering}, 2 2017.
+\newblock \doi{10.1117/12.2269014}.
+
+\bibitem[Zeng(2001)]{zeng2001image}
+G.~Zeng.
+\newblock Image reconstruction---a tutorial.
+\newblock \emph{Computerized Medical Imaging and Graphics}, 25\penalty0
+  (2):\penalty0 97--103, 2001.
+
+\bibitem[Zhang et~al.(2018)Zhang, Wang, Zeng, Tao, and
+  Ma]{Zhang2018Regularization}
+H.~Zhang, J.~Wang, D.~Zeng, X.~Tao, and J.~Ma.
+\newblock Regularization strategies in statistical image reconstruction of
+  lowdose xray {CT}: A review.
+\newblock \emph{Medical Physics}, 45\penalty0 (10):\penalty0 e886--e907, 2018.
+\newblock \doi{10.1002/mp.13123}.
+
+\end{thebibliography}

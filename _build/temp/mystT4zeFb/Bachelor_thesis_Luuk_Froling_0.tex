@@ -1,0 +1,68 @@
+% Created with jtex v.1.0.20
+\documentclass{article}
+\PassOptionsToPackage{short, nodayofweek}{datetime}
+
+\input{curvenote.def}
+
+
+
+% colors for hyperlinks
+\hypersetup{colorlinks=true, allcolors=blue}
+\hypersetup{
+pdftitle={\@title},
+pdfsubject={A Jupyter Book project to document the CT scan reconstruction with deep learning.},
+pdfauthor={\@author},
+pdfkeywords={},
+addtopdfcreator={Written in Curvenote}
+}
+
+\usepackage{curvenote}
+
+\usepackage{etoolbox}
+\pretocmd{\section}{\clearpage}{}{}
+
+\usepackage{float}
+\restylefloat{figure}
+\let\oldfigure\figure
+\let\endoldfigure\endfigure
+\renewenvironment{figure}[1][]{%
+  \oldfigure[H]%
+}{%
+  \endoldfigure%
+}
+
+\title{Deep Learning for Iterative Spectral CT Reconstruction: Replacing Classic Iterations with an Attention-Based U-Net}
+\title{Deep Learning for Iterative Spectral CT Reconstruction: Replacing Classic Iterations with an Attention-Based U-Net}
+\title{Deep Learning for Iterative Spectral CT Reconstruction: Replacing Classic Iterations with an Attention-Based U-Net}
+\title{Deep Learning for Iterative Spectral CT Reconstruction: Replacing Classic Iterations with an Attention-Based U-Net}
+
+
+\newdate{articleDate}{26}{6}{2025}
+\date{\displaydate{articleDate}}
+
+\author{\bfseries Luuk Fröling\mdseries\\}
+
+\begin{document}
+
+\maketitle
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-sinogram}
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients}
+
+\include{Bachelor_thesis_Luuk_Froling_0-reconstruction}
+
+\include{Bachelor_thesis_Luuk_Froling_0-network}
+
+\include{Bachelor_thesis_Luuk_Froling_0-trainingdata}
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-attention-map}
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-rms}
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-reconstruction}
+
+\include{Bachelor_thesis_Luuk_Froling_0-calculate-rms}
+
+
+\end{document}

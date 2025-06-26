@@ -1,0 +1,1482 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.8)  26 JUN 2025 15:58
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**./Bachelor_thesis_Luuk_Froling_0.tex
+(Bachelor_thesis_Luuk_Froling_0.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count191
+\float@exts=\toks18
+\float@box=\box51
+\@float@everytoks=\toks19
+\@floatcapt=\box52
+)
+\@float@every@figure=\toks20
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count192
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
+\g__graphics_track_int=\count193
+\l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count194
+\g__pdf_backend_annotation_int=\count195
+\g__pdf_backend_link_int=\count196
+) (Bachelor_thesis_Luuk_Froling_0.aux (Bachelor_thesis_Luuk_Froling_0-figure-si
+nogram.aux) (Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients.aux
+) (Bachelor_thesis_Luuk_Froling_0-reconstruction.aux) (Bachelor_thesis_Luuk_Fro
+ling_0-network.aux) (Bachelor_thesis_Luuk_Froling_0-trainingdata.aux) (Bachelor
+_thesis_Luuk_Froling_0-figure-attention-map.aux) (Bachelor_thesis_Luuk_Froling_
+0-figure-rms.aux) (Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.aux) (B
+achelor_thesis_Luuk_Froling_0-calculate-rms.aux))
+\openout1 = `Bachelor_thesis_Luuk_Froling_0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+3.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-sinogram.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-sinogram.tex
+Overfull \hbox (1.5pt too wide) in paragraph at lines 102--102
+[]    \TU/lmtt/m/n/10 h = random.randint(1, 3)  # Random height offset for the 
+torso[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 102--102
+[]    \TU/lmtt/m/n/10 intensity_water = random.uniform(0.1, 0.6)  # Random inte
+nsity for water[] 
+ []
+
+[1
+
+
+
+]
+Overfull \hbox (211.5pt too wide) in paragraph at lines 102--102
+[]            \TU/lmtt/m/n/10 if ((i - center_i) / ((n - 2 * h) / 2)) ** 2 + ((
+j - center_j) / ((n - 6 * h) / 2)) ** 2 <= 1:[] 
+ []
+
+
+Overfull \hbox (153.75pt too wide) in paragraph at lines 102--102
+[]        \TU/lmtt/m/n/10 # Random place in the body - h is the offset from the
+ edge, n is the size of the matrix[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 102--102
+[]        \TU/lmtt/m/n/10 a_water = random.randint(h, (n - h) // 4)  # Semi -ma
+jor axis for water[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 102--102
+[]        \TU/lmtt/m/n/10 b_water = random.randint(h, (n - h) // 4)  # Semi -mi
+nor axis for water[] 
+ []
+
+
+Overfull \hbox (90.75pt too wide) in paragraph at lines 102--102
+[]        \TU/lmtt/m/n/10 # Randomly choose the intensity for bone and water, t
+ogether they add to 1.[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 102--102
+[]            \TU/lmtt/m/n/10 for j in range(center_y - b_water, center_y + b_w
+ater):[] 
+ []
+
+
+Overfull \hbox (148.5pt too wide) in paragraph at lines 102--102
+[]                    \TU/lmtt/m/n/10 if ((i - center_x) / a_water) ** 2 + ((j 
+- center_y) / b_water) ** 2 <= 1:[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 102--102
+[]                        \TU/lmtt/m/n/10 bone_matrix[2*h: -2*h, i, j] = bone_i
+ntensity[] 
+ []
+
+
+Overfull \hbox (85.5pt too wide) in paragraph at lines 102--102
+[]                    \TU/lmtt/m/n/10 if ((i - center_x) / a) ** 2 + ((j - cent
+er_y) / b) ** 2 <= 1:[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 102--102
+[]                        \TU/lmtt/m/n/10 water_matrix[2*h: -2*h, i, j] = water
+_intensity[] 
+ []
+
+[2]
+Overfull \hbox (59.25pt too wide) in paragraph at lines 111--111
+[]\TU/lmtt/m/n/10 y, S, M, A = projectMatrix(x, objectSize, nPixelsY, nPixelsZ,
+ 1, projections)[] 
+ []
+
+
+Overfull \hbox (111.75pt too wide) in paragraph at lines 124--124
+[]\TU/lmtt/m/n/10 def getSinogram(y, energy_bin_index=0, z_index=32, nProj=100,
+ detector_shape=(64, 44)):[] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 124--124
+[]    \TU/lmtt/m/n/10 y_proj_zx = y_bin.reshape((nProj, nZ, nX))  # shape: (100
+, 64, 44)[] 
+ []
+
+
+Overfull \hbox (316.5pt too wide) in paragraph at lines 124--124
+[]\TU/lmtt/m/n/10 sinogram = getSinogram(y, energy_bin_index=0, z_index=objectS
+ize // 2, nProj=projections, detector_shape=(nPixelsY, nPixelsZ))[] 
+ []
+
+File: files/3151776982ba6138bdf4c9ad99fa3c94.png Graphic file (type bmp)
+<files/3151776982ba6138bdf4c9ad99fa3c94.png>
+[3]
+Overfull \hbox (6.75pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 # we want to put the phantom through a pytorch 2d convolution
+ layer[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 bone_tensor = torch.tensor(bone[objectSize // 2, :, :], dtype
+=torch.float32)[] 
+ []
+
+
+Overfull \hbox (101.25pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 conv_layer = torch.nn.Conv2d(in_channels=1, out_channels=1, k
+ernel_size=3, padding=1)[] 
+ []
+
+
+Overfull \hbox (185.25pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 output_tensor = conv_layer(bone_tensor.unsqueeze(0).unsqueeze
+(0))  # Add batch and channel dimensions[] 
+ []
+
+
+Overfull \hbox (211.5pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 output_image = output_tensor.squeeze(0).squeeze(0).detach().n
+umpy()  # Remove batch and channel dimensions[] 
+ []
+
+
+Overfull \hbox (348.0pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 # plot 2 plots, one of the original bone image with a square 
+showing one of the convolution kernels, and next to it the output image[] 
+ []
+
+
+Overfull \hbox (258.75pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 plt.gca().add_patch(plt.Rectangle((10.5, 20.5), kernel_size, 
+kernel_size, edgecolor='red', facecolor='none', lw=2))[] 
+ []
+
+
+Overfull \hbox (248.25pt too wide) in paragraph at lines 189--189
+[]        \TU/lmtt/m/n/10 plt.gca().add_patch(plt.Rectangle((10.5 + i, 20.5 + j
+), 1, 1, edgecolor='red', facecolor='none', lw=0.5))[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 plt.title('Original Bone Image at z = {}'.format(objectSize /
+/ 2))[] 
+ []
+
+
+Overfull \hbox (75.0pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 # draw little square representing the pixel on which the conv
+olution was applied[] 
+ []
+
+
+Overfull \hbox (174.75pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 plt.gca().add_patch(plt.Rectangle((10.5+2, 20.5+2), 1, 1, edg
+ecolor='red', facecolor='none', lw=2))[] 
+ []
+
+[4]
+File: files/df9eecf15dc213c5837add0b2c07a681.png Graphic file (type bmp)
+<files/df9eecf15dc213c5837add0b2c07a681.png>
+) [5]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients.aux
+'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients.tex
+Overfull \hbox (12.0pt too wide) in paragraph at lines 23--23
+[]\TU/lmtt/m/n/10 mat_data = scipy.io.loadmat('libs/materialAttenuationBoneWate
+r.mat')[] 
+ []
+
+File: files/64ccdbd7840b97b269bc4a429597ebd6.png Graphic file (type bmp)
+<files/64ccdbd7840b97b269bc4a429597ebd6.png>
+) [6
+
+
+
+
+]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-reconstruction.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-reconstruction.tex
+Overfull \hbox (17.25pt too wide) in paragraph at lines 18--18
+[]    \TU/lmtt/m/n/10 plt.imshow(x[i][0, :, 8:40, 16], cmap='gray')  # e.g., bo
+ne input[] 
+ []
+
+File: files/47a8d42f599e527b323d72763db15f1e.png Graphic file (type bmp)
+<files/47a8d42f599e527b323d72763db15f1e.png>
+) [7
+
+
+
+]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-network.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-network.tex
+Overfull \hbox (2.11pt too wide) in paragraph at lines 3--4
+\TU/lmr/m/n/10 An implementation of a U-Net with attention gates added to the s
+kip-connections 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 16--16
+[]\TU/lmtt/m/n/10 from torch.utils.data import TensorDataset, DataLoader, rando
+m_split[] 
+ []
+
+
+Overfull \hbox (80.25pt too wide) in paragraph at lines 199--199
+[]            \TU/lmtt/m/n/10 nn.Conv3d(ch_in, ch_out, kernel_size=3,stride=1,p
+adding=1,bias=True),[] 
+ []
+
+
+Overfull \hbox (85.5pt too wide) in paragraph at lines 199--199
+[]            \TU/lmtt/m/n/10 nn.Conv3d(ch_out, ch_out, kernel_size=3,stride=1,
+padding=1,bias=True),[] 
+ []
+
+
+Overfull \hbox (69.75pt too wide) in paragraph at lines 199--199
+[]            \TU/lmtt/m/n/10 nn.Conv3d(ch_in,ch_out,kernel_size=3,stride=1,pad
+ding=1,bias=True),[] 
+ []
+
+[8
+
+
+
+
+]
+Overfull \hbox (64.5pt too wide) in paragraph at lines 199--199
+[]            \TU/lmtt/m/n/10 nn.Conv3d(F_g, F_int, kernel_size=1,stride=1,padd
+ing=0,bias=True),[] 
+ []
+
+
+Overfull \hbox (64.5pt too wide) in paragraph at lines 199--199
+[]            \TU/lmtt/m/n/10 nn.Conv3d(F_l, F_int, kernel_size=1,stride=1,padd
+ing=0,bias=True),[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 199--199
+[]            \TU/lmtt/m/n/10 nn.Conv3d(F_int, 1, kernel_size=1,stride=1,paddin
+g=0,bias=True),[] 
+ []
+
+[9]
+Overfull \hbox (75.0pt too wide) in paragraph at lines 199--199
+[]        \TU/lmtt/m/n/10 self.Conv_1x1 = nn.Conv3d(64,output_ch,kernel_size=1,
+stride=1,padding=0)[] 
+ []
+
+[10]
+Overfull \hbox (122.25pt too wide) in paragraph at lines 199--199
+[]        \TU/lmtt/m/n/10 return torch.sigmoid(d1)  # Apply sigmoid to the outp
+ut for binary classification[] 
+ []
+
+[11]
+Overfull \hbox (22.5pt too wide) in paragraph at lines 264--264
+[]\TU/lmtt/m/n/10 def train_network(network, dataloader, device, lr = 0.001, ep
+ochs=20):[] 
+ []
+
+[12]
+Overfull \hbox (12.0pt too wide) in paragraph at lines 264--264
+[]        \TU/lmtt/m/n/10 for i, (input_batch, output_batch) in enumerate(datal
+oader):[] 
+ []
+
+
+Overfull \hbox (332.25pt too wide) in paragraph at lines 264--264
+[]                \TU/lmtt/m/n/10 open("log.txt", "a").write(f'Epoch {epoch + 1
+}/{epochs}, Batch {i + 1}/{len(dataloader)}, Loss: {loss.item()}\n')[] 
+ []
+
+
+Overfull \hbox (211.5pt too wide) in paragraph at lines 264--264
+[]                \TU/lmtt/m/n/10 print(f'Epoch {epoch + 1}/{epochs}, Batch {i 
++ 1}/{len(dataloader)}, Loss: {loss.item()}')[] 
+ []
+
+
+Overfull \hbox (64.5pt too wide) in paragraph at lines 264--264
+[]                \TU/lmtt/m/n/10 torch.save(network.state_dict(), f'network_ph
+antom_epoch.pth')[] 
+ []
+
+
+Overfull \hbox (174.75pt too wide) in paragraph at lines 264--264
+[]        \TU/lmtt/m/n/10 open("log.txt", "a").write(f'Epoch {epoch + 1}/{epoch
+s}, Basic Data Loss: {loss.item()}\n')[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 264--264
+[]        \TU/lmtt/m/n/10 print(f'Epoch {epoch + 1}/{epochs}, Basic Data Loss: 
+{loss.item()}')[] 
+ []
+
+) [13]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-trainingdata.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-trainingdata.tex
+Overfull \hbox (80.25pt too wide) in paragraph at lines 50--50
+[]\TU/lmtt/m/n/10 nPixelsY = 64                           # Number of pixels on
+ the detector plate.[] 
+ []
+
+
+Overfull \hbox (80.25pt too wide) in paragraph at lines 50--50
+[]\TU/lmtt/m/n/10 nPixelsZ = 44                           # Number of pixels on
+ the detector plate.[] 
+ []
+
+
+Overfull \hbox (127.5pt too wide) in paragraph at lines 50--50
+[]\TU/lmtt/m/n/10 nPixelsPerProj = nPixelsZ * nPixelsY    # The total number of
+ pixels on the detector plate[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 50--50
+[]    \TU/lmtt/m/n/10 bone_cylinder = np.full((size, size, size), 0.05, dtype=n
+p.float32)[] 
+ []
+
+
+Overfull \hbox (33.0pt too wide) in paragraph at lines 50--50
+[]    \TU/lmtt/m/n/10 water_cylinder = np.full((size, size, size), 0.05, dtype=
+np.float32)[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 50--50
+[]                \TU/lmtt/m/n/10 if ((x - center) ** 2 + (y - center) ** 2)<= 
+radius ** 2:[] 
+ []
+
+
+Overfull \hbox (106.5pt too wide) in paragraph at lines 50--50
+[]\TU/lmtt/m/n/10 y, _, _, _ = projectMatrix(x, objectSize, nPixelsY, nPixelsZ,
+ pixelPitch, projections)[] 
+ []
+
+[14
+
+
+
+
+]
+Overfull \hbox (69.75pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 # As an input: 10 channels consisting of empty images nex
+t to the sinograms[] 
+ []
+
+
+Overfull \hbox (211.5pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 # shape: 32x48x96, beginning with a 32x32x32 zero image w
+ith padding and a 32x44x64 image with padding[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 zeroImage = np.zeros((objectSize, objectSize + 16, object
+Size))[] 
+ []
+
+
+Overfull \hbox (85.5pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 # we have one dataset per y! with 10 channels (one for bo
+ne and one for water)[] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 109--109
+[]        \TU/lmtt/m/n/10 # input is 10 channels, zeroimage appended to the ene
+rgy bin[] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 109--109
+[]        \TU/lmtt/m/n/10 # for input image, concatinate bin to zeroImage in x 
+direction[] 
+ []
+
+
+Overfull \hbox (138.0pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 zeroBin = np.zeros((projections, nPixelsZ + 4, nPixelsY))
+  # zero bin for the energy bin[] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 bone_output = np.concatenate((zeroImage, bone, zeroImage)
+, axis=1)[] 
+ []
+
+
+Overfull \hbox (33.0pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 water_output = np.concatenate((zeroImage, water, zeroImag
+e), axis=1)[] 
+ []
+
+[15]
+Overfull \hbox (1.5pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 water_output = np.concatenate((water_output, zeroBin), ax
+is=2)[] 
+ []
+
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 outputs = [bone_output, water_output]  # shape will be (1
+0, 32, 44, 64)[] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 136--136
+[]\TU/lmtt/m/n/10 #invert the matrix, so z = 0 becomes z = max and y = 0 become
+s y = max[] 
+ []
+
+
+Overfull \hbox (75.0pt too wide) in paragraph at lines 136--136
+[]\TU/lmtt/m/n/10 flipped_bone_square = np.flip(flipped_bone_square, axis=2)  #
+ flip along z -axis[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 136--136
+[]\TU/lmtt/m/n/10 plt.imshow(input[energy_bin][:, 22, :], cmap='gray', aspect='
+auto')[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 136--136
+[]\TU/lmtt/m/n/10 # draw red red rectangle from (0, 0) to (32, 8) and (0, 40) t
+o (32, 48)[] 
+ []
+
+File: files/536cee391b3c3bc26ab19b0a44ac3068.png Graphic file (type bmp)
+<files/536cee391b3c3bc26ab19b0a44ac3068.png>
+) [16] [17]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-attention-map.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-attention-map.tex
+Overfull \hbox (290.25pt too wide) in paragraph at lines 47--47
+[]\TU/lmtt/m/n/10 # network.load_state_dict(torch.load(network_path, map_locati
+on=torch.device('cpu')))  # Load the trained network weights[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 47--47
+[]\TU/lmtt/m/n/10 # output, attention_maps = network.getAttenuationMap(input_te
+nsor)[] 
+ []
+
+[18
+
+
+
+
+]
+Overfull \hbox (211.5pt too wide) in paragraph at lines 99--99
+[]\TU/lmtt/m/n/10 def show_attention_overlay(input_tensor, attention, slice_axi
+s=2, slice_idx=0, title="Attention Overlay"):[] 
+ []
+
+
+Overfull \hbox (237.75pt too wide) in paragraph at lines 99--99
+[]    \TU/lmtt/m/n/10 attn_resized = F.interpolate(attention, size=input_tensor
+.shape[2:], mode='trilinear', align_corners=False)[] 
+ []
+
+
+Overfull \hbox (185.25pt too wide) in paragraph at lines 99--99
+[]    \TU/lmtt/m/n/10 attn_tensor = (attn_tensor - attn_tensor.min()) / (attn_t
+ensor.max() - attn_tensor.min() + 1e -8)[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 99--99
+[]        \TU/lmtt/m/n/10 raise ValueError("slice_axis must be 0 (D), 1 (H), or
+ 2 (W)")[] 
+ []
+
+[19]
+Overfull \hbox (201.0pt too wide) in paragraph at lines 106--106
+[]\TU/lmtt/m/n/10 show_attention_overlay(input_tensor, attention, slice_axis=1,
+ slice_idx=41, title="Attention from att4")[] 
+ []
+
+File: files/cf12d767eb2705f4f721a956d81b51f4.png Graphic file (type bmp)
+<files/cf12d767eb2705f4f721a956d81b51f4.png>
+) [20]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-rms.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-rms.tex [21
+
+
+
+
+]
+Overfull \hbox (127.5pt too wide) in paragraph at lines 115--115
+[]\TU/lmtt/m/n/10 for reconstruction, output_image, phantom in zip(reconstructi
+ons, model_images, phantoms):[] 
+ []
+
+
+Overfull \hbox (201.0pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order = 'F')[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 115--115
+[]        \TU/lmtt/m/n/10 rms_recon_bone.append(rms_error(image_bone, phantom_b
+one))[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 115--115
+[]        \TU/lmtt/m/n/10 rms_recon_water.append(rms_error(image_water, phantom
+_water))[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 115--115
+[]        \TU/lmtt/m/n/10 rms_model_bone.append(rms_error(image_bone, phantom_b
+one))[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 115--115
+[]        \TU/lmtt/m/n/10 rms_model_water.append(rms_error(image_water, phantom
+_water))[] 
+ []
+
+
+Overfull \hbox (111.75pt too wide) in paragraph at lines 115--115
+[]\TU/lmtt/m/n/10 # we only want te keep the values for the models which are in
+side the time of the recon[] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 times_model[i] = [t for t in times_model[i] if t <= max(t
+imes[i])][] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 rms_models_water[i] = rms_models_water[i][:len(times_mode
+l[i])][] 
+ []
+
+[22]
+Overfull \hbox (132.75pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 plt.plot(time_recon, rms_reconstructions_bone[i], label='
+RMS Mechlem Bone', marker='o')[] 
+ []
+
+
+Overfull \hbox (143.25pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 plt.plot(time_recon, rms_reconstructions_water[i], label=
+'RMS Mechlem Water', marker='o')[] 
+ []
+
+
+Overfull \hbox (75.0pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 plt.plot(time_model, rms_models_bone[i], label='RMS Model
+ Bone', marker='x')[] 
+ []
+
+
+Overfull \hbox (85.5pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 plt.plot(time_model, rms_models_water[i], label='RMS Mode
+l Water', marker='x')[] 
+ []
+
+File: files/586fa19a8938bf6fcb255a7e08c69611.png Graphic file (type bmp)
+<files/586fa19a8938bf6fcb255a7e08c69611.png>
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 163--163
+[]\TU/lmtt/m/n/10 # loop through reconstructions and display the last bone and 
+water images[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 163--163
+[]    \TU/lmtt/m/n/10 phantom_bone = phantoms[index][0].transpose()  # Get the 
+ith bone[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 163--163
+[]    \TU/lmtt/m/n/10 phantom_water = phantoms[index][1].transpose()  # Get the
+ ith water[] 
+ []
+
+[23]
+Overfull \hbox (190.5pt too wide) in paragraph at lines 163--163
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order='F')[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 163--163
+[]    \TU/lmtt/m/n/10 ax[0,0].imshow(images[:,:,objectSize // 2, 0, -1], cmap='
+gray')[] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 163--163
+[]    \TU/lmtt/m/n/10 ax[0, 1].imshow(images[:,:,objectSize // 2, 1, -1], cmap=
+'gray')[] 
+ []
+
+
+Overfull \hbox (85.5pt too wide) in paragraph at lines 163--163
+[]    \TU/lmtt/m/n/10 ax[1, 0].imshow(model_images[index][2][0][:, :, objectSiz
+e // 2], cmap='gray')[] 
+ []
+
+
+Overfull \hbox (85.5pt too wide) in paragraph at lines 163--163
+[]    \TU/lmtt/m/n/10 ax[1, 1].imshow(model_images[index][2][1][:, :, objectSiz
+e // 2], cmap='gray')[] 
+ []
+
+
+Overfull \hbox (379.5pt too wide) in paragraph at lines 163--163
+[]\TU/lmtt/m/n/10 interact(display_reconstruction_images,index=IntSlider(min=0,
+ max=len(reconstructions) -1, step=1, value=16, description='Phantom Index'))[]
+ 
+ []
+
+
+Overfull \hbox (237.75pt too wide) in paragraph at lines 167--167
+[]\TU/lmtt/m/n/10 interactive(children=(IntSlider(value=16, description='Phanto
+m Index', max=19), Output()), _dom_classes=('widg…[] 
+ []
+
+
+Overfull \hbox (185.25pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 # display phantom 16, make 2x2 plot with the phantom, model a
+nd iterative. one row bone one row water[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 phantom_bone = phantoms[phantom_index][0].transpose()  # Get 
+the ith bone[] 
+ []
+
+
+Overfull \hbox (169.5pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, obje
+ctSize, nMats, nIterates), order='F')[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 model_bone = model_images[phantom_index][2][0][:, :, objectSi
+ze // 2][] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 model_water = model_images[phantom_index][2][1][:, :, objectS
+ize // 2][] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 ax[0, 0].imshow(phantom_water[:, :, objectSize // 2], cmap='g
+ray')[] 
+ []
+
+
+Overfull \hbox (33.0pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 ax[1, 1].imshow(bone_reconstruction[:, :, objectSize // 2], c
+map='gray')[] 
+ []
+
+[24]
+Overfull \hbox (38.25pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 ax[0, 1].imshow(water_reconstruction[:, :, objectSize // 2], 
+cmap='gray')[] 
+ []
+
+File: files/4d5189193864173bd7401583d2dc1609.png Graphic file (type bmp)
+<files/4d5189193864173bd7401583d2dc1609.png>
+) [25]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.tex [26
+
+
+
+
+]
+Overfull \hbox (22.5pt too wide) in paragraph at lines 82--82
+[]    \TU/lmtt/m/n/10 # calculate RMS error for each image, return best bone, w
+ater pair[] 
+ []
+
+
+Overfull \hbox (201.0pt too wide) in paragraph at lines 82--82
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order = 'F')[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 82--82
+[]        \TU/lmtt/m/n/10 water_reconstructed = images[:, :, :, 1, i]  # Maybe 
+water[] 
+ []
+
+
+Overfull \hbox (190.5pt too wide) in paragraph at lines 151--151
+[]\TU/lmtt/m/n/10 # import interact, display for each index (as a slider) the f
+inal model_image, recon image and phantom[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 phantom_water = phantom[1].transpose()  # Get the water p
+hantom[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 reconstruction = reconstructions[index]  # Get the ith re
+construction[] 
+ []
+
+
+Overfull \hbox (206.25pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 best_bone_image , best_water_image, rms = get_best_image(
+reconstruction, phantom_bone, phantom_water)[] 
+ []
+
+[27]
+Overfull \hbox (201.0pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order = 'F')[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 last_water_image = images[:, :, :, 1, -1]  # Get the last
+ water image[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 last_bone_image = images[:, :, :, 0, -1]  # Get the last 
+bone image[] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 model_image = model_images[index][itt]  # Get the ith out
+put image[] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 model_bone = model_image[0]  # Get the bone part of the m
+odel imag[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 model_water = model_image[1]  # Get the water part of the
+ model image[] 
+ []
+
+[28]
+Overfull \hbox (736.5pt too wide) in paragraph at lines 151--151
+[]\TU/lmtt/m/n/10 interact(display_images, index=IntSlider(min=0, max=len(model
+_images) -1, step=1, value=0, description='Index'), itt =IntSlider(min=0, max=l
+en(model_images[0]) -1, step=1, value=0, description='Iteration'))[] 
+ []
+
+
+Overfull \hbox (237.75pt too wide) in paragraph at lines 155--155
+[]\TU/lmtt/m/n/10 interactive(children=(IntSlider(value=0, description='Index',
+ max=2), IntSlider(value=0, description='Iteratio…[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 reconstruction = reconstructions[index]  # Get the ith recons
+truction[] 
+ []
+
+
+Overfull \hbox (185.25pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 best_bone_image , best_water_image, rms = get_best_image(reco
+nstruction, phantom_bone, phantom_water)[] 
+ []
+
+
+Overfull \hbox (180.0pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, obje
+ctSize, nMats, nIterates), order = 'F')[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 last_water_image = images[:, :, :, 1, -1]  # Get the last wat
+er image[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 last_bone_image = images[:, :, :, 0, -1]  # Get the last bone
+ image[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 model_image = model_images[index][itt]  # Get the ith output 
+image[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 model_bone = model_image[0]  # Get the bone part of the model
+ imag[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 model_water = model_image[1]  # Get the water part of the mod
+el image[] 
+ []
+
+[29]
+File: files/6f21fe25ba497dc1f4e8a1f54029b5b0.png Graphic file (type bmp)
+<files/6f21fe25ba497dc1f4e8a1f54029b5b0.png>
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 287--287
+[]\TU/lmtt/m/n/10 gs = gridspec.GridSpec(2, 5, width_ratios=[1, 1, 1, 1, 0.05],
+ wspace=0.3)[] 
+ []
+
+[30] [31]
+File: files/afec7fb8a942be43385875429673a4f0.png Graphic file (type bmp)
+<files/afec7fb8a942be43385875429673a4f0.png>
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 reconstruction = reconstructions[index]  # Get the ith recons
+truction[] 
+ []
+
+
+Overfull \hbox (484.5pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 images_r = reconstruction.reshape((objectSize, objectSize, ob
+jectSize, 2, -1), order='F')  # Reshape to (objectSize, objectSize, objectSize,
+ nMats, nIterates)[] 
+ []
+
+
+Overfull \hbox (64.5pt too wide) in paragraph at lines 353--353
+[]    \TU/lmtt/m/n/10 im = axes[0, i+2].imshow(images[i][1][:, :, objectSize //
+ 2], cmap='gray')[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 353--353
+[]    \TU/lmtt/m/n/10 axes[1, i+2].imshow(images[i][0][:, :, objectSize // 2], 
+cmap='gray')[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 axes[0, 1].imshow(first_water[:, :, objectSize // 2], cmap='g
+ray')[] 
+ []
+
+[32]
+Overfull \hbox (80.25pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 axes[0, 0].imshow(phantoms[1][1].transpose()[:, :, objectSize
+ // 2], cmap='gray')[] 
+ []
+
+
+Overfull \hbox (80.25pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 axes[1, 0].imshow(phantoms[1][0].transpose()[:, :, objectSize
+ // 2], cmap='gray')[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 # add general label to y -axis of each row, of the axis in ge
+neral[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 # Add a single colorbar on the right, aligned to the height o
+f the figure[] 
+ []
+
+
+Overfull \hbox (80.25pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 cbar = fig.colorbar(im, ax=axes, orientation='vertical', frac
+tion=0.05, pad=0.02)[] 
+ []
+
+File: files/7919280d54a67f0898be36384abd7990.png Graphic file (type bmp)
+<files/7919280d54a67f0898be36384abd7990.png>
+) [33]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-calculate-rms.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex
+Overfull \hbox (80.25pt too wide) in paragraph at lines 17--17
+[]\TU/lmtt/m/n/10 nPixelsY = 64                           # Number of pixels on
+ the detector plate.[] 
+ []
+
+
+Overfull \hbox (80.25pt too wide) in paragraph at lines 17--17
+[]\TU/lmtt/m/n/10 nPixelsZ = 44                           # Number of pixels on
+ the detector plate.[] 
+ []
+
+
+Overfull \hbox (127.5pt too wide) in paragraph at lines 17--17
+[]\TU/lmtt/m/n/10 nPixelsPerProj = nPixelsZ * nPixelsY    # The total number of
+ pixels on the detector plate[] 
+ []
+
+
+Overfull \hbox (631.5pt too wide) in paragraph at lines 50--50
+[]\TU/lmtt/m/n/10 dict_keys(['reconstructions', 'ys', 'times', 'phantoms', 'out
+put_images', 'times_images', 'rms_reconstructions_bone', 'rms_reconstructions_w
+ater', 'rms_models_bone', 'rms_models_water'])[] 
+ []
+
+[34
+
+
+
+]
+Overfull \hbox (127.5pt too wide) in paragraph at lines 105--105
+[]\TU/lmtt/m/n/10 for reconstruction, output_image, phantom in zip(reconstructi
+ons, model_images, phantoms):[] 
+ []
+
+
+Overfull \hbox (201.0pt too wide) in paragraph at lines 105--105
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order = 'F')[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 105--105
+[]        \TU/lmtt/m/n/10 rms_recon_bone.append(rms_error(image_bone, phantom_b
+one))[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 105--105
+[]        \TU/lmtt/m/n/10 rms_recon_water.append(rms_error(image_water, phantom
+_water))[] 
+ []
+
+
+Overfull \hbox (1.5pt too wide) in paragraph at lines 105--105
+[]        \TU/lmtt/m/n/10 rms_model_bone.append(rms_error(image_bone, phantom_b
+one))[] 
+ []
+
+
+Overfull \hbox (17.25pt too wide) in paragraph at lines 105--105
+[]        \TU/lmtt/m/n/10 rms_model_water.append(rms_error(image_water, phantom
+_water))[] 
+ []
+
+
+Overfull \hbox (111.75pt too wide) in paragraph at lines 105--105
+[]\TU/lmtt/m/n/10 plt.plot(time_recon, rms_reconstructions_bone[i], label='RMS 
+Mechlem Bone', marker='o')[] 
+ []
+
+
+Overfull \hbox (122.25pt too wide) in paragraph at lines 105--105
+[]\TU/lmtt/m/n/10 plt.plot(time_recon, rms_reconstructions_water[i], label='RMS
+ Mechlem Water', marker='o')[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 105--105
+[]\TU/lmtt/m/n/10 plt.plot(time_model, rms_models_bone[i], label='RMS Model Bon
+e', marker='x')[] 
+ []
+
+
+Overfull \hbox (64.5pt too wide) in paragraph at lines 105--105
+[]\TU/lmtt/m/n/10 plt.plot(time_model, rms_models_water[i], label='RMS Model Wa
+ter', marker='x')[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 105--105
+[]\TU/lmtt/m/n/10 plt.axvline(x=12.9, color='r', linestyle=' - -', label='6 sec
+onds')[] 
+ []
+
+[35]
+File: files/182da23f82903a086e5aab2df29a462e.png Graphic file (type bmp)
+<files/182da23f82903a086e5aab2df29a462e.png>
+
+Overfull \hbox (122.25pt too wide) in paragraph at lines 142--142
+[]\TU/lmtt/m/n/10 print("average first time:", np.mean(first_times), "+ -", np.
+std(first_times), "seconds")[] 
+ []
+
+
+Overfull \hbox (22.5pt too wide) in paragraph at lines 142--142
+[]            \TU/lmtt/m/n/10 # also interpolate to see at what time the rms is
+ the same[] 
+ []
+
+
+Overfull \hbox (279.75pt too wide) in paragraph at lines 142--142
+[]            \TU/lmtt/m/n/10 slope = (rms_reconstructions_bone[i][j+1] - rms_r
+econstructions_bone[i][j]) / (times[i][j+1] - times[i][j])[] 
+ []
+
+
+Overfull \hbox (216.75pt too wide) in paragraph at lines 142--142
+[]                \TU/lmtt/m/n/10 interpolated_time = (rms_bone_model - rms_rec
+onstructions_bone[i][j]) / slope + times[i][j][] 
+ []
+
+
+Overfull \hbox (75.0pt too wide) in paragraph at lines 142--142
+[]                \TU/lmtt/m/n/10 interpolated_speedups.append(interpolated_tim
+e / first_times[i])[] 
+ []
+
+[36]
+Overfull \hbox (384.75pt too wide) in paragraph at lines 142--142
+[]\TU/lmtt/m/n/10 print("average speedup:", np.mean(speedups), "+ -", np.std(sp
+eedups), "after", np.mean(first_times), "+ -", np.std(first_times), "seconds")[
+] 
+ []
+
+
+Overfull \hbox (589.5pt too wide) in paragraph at lines 142--142
+[]\TU/lmtt/m/n/10 print("average interpolated speedup:", np.mean(interpolated_s
+peedups), "+ -", np.std(interpolated_speedups), "after", np.mean(first_times), 
+"+ -", np.std(first_times), "seconds")[] 
+ []
+
+
+Overfull \hbox (1723.5pt too wide) in paragraph at lines 149--149
+[]\TU/lmtt/m/n/10 first times: [6.995673656463623, 8.126861333847046, 9.3851697
+44491577, 13.482990264892578, 8.578241109848022, 8.321383714675903, 9.227924108
+505249, 9.803471088409424, 7.820712327957153, 9.330887794494629, 8.660410881042
+48, 8.174202919006348, 8.61811375617981, 9.961549520492554, 8.263390064239502, 
+9.092782735824585, 9.937355995178223, 12.298749685287476, 9.552319765090942, 11
+.314964771270752][] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 149--149
+[]\TU/lmtt/m/n/10 average first time: 9.347357761859893 + - 1.5048523200384376 
+seconds[] 
+ []
+
+
+Overfull \hbox (248.25pt too wide) in paragraph at lines 149--149
+[]\TU/lmtt/m/n/10 average speedup: 1.6119690273535912 + - 0.3327647687994946 af
+ter 9.347357761859893 + - 1.5048523200384376 seconds[] 
+ []
+
+
+Overfull \hbox (316.5pt too wide) in paragraph at lines 149--149
+[]\TU/lmtt/m/n/10 average interpolated speedup: 1.4428355769342633 + - 0.333204
+5100786529 after 9.347357761859893 + - 1.5048523200384376 seconds[] 
+ []
+
+
+Overfull \hbox (75.0pt too wide) in paragraph at lines 191--191
+[]    \TU/lmtt/m/n/10 # print(f"RMS Model Bone: {rms_bone:.4f}, RMS Model Water
+: {rms_water:.4f}")[] 
+ []
+
+
+Overfull \hbox (510.75pt too wide) in paragraph at lines 191--191
+[]            \TU/lmtt/m/n/10 plt.vlines(x=time_recon[i], ymin=0, ymax=max(rms_
+recon_bone + rms_recon_water), color='g', linestyle=' - -', label='RMS Mechlem 
+Bone < RMS Model Bone')[] 
+ []
+
+
+Overfull \hbox (164.25pt too wide) in paragraph at lines 191--191
+[]            \TU/lmtt/m/n/10 slope = (rms_recon_bone[i+1] - rms_recon_bone[i])
+ / (time_recon[i+1] - time_recon[i])[] 
+ []
+
+
+Overfull \hbox (127.5pt too wide) in paragraph at lines 191--191
+[]                \TU/lmtt/m/n/10 interpolated_time = (rms_bone - rms_recon_bon
+e[i]) / slope + time_recon[i][] 
+ []
+
+
+Overfull \hbox (75.0pt too wide) in paragraph at lines 191--191
+[]                \TU/lmtt/m/n/10 interpolated_speedup.append(interpolated_time
+ / time_model[idx])[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 191--191
+[]                \TU/lmtt/m/n/10 interpolated_speedup.append(time_recon[i] / t
+ime_model[idx])[] 
+ []
+
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 191--191
+[]\TU/lmtt/m/n/10 plt.plot(time_recon, rms_recon_bone, label='RMS Mechlem Bone'
+, marker='o')[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 191--191
+[]\TU/lmtt/m/n/10 plt.plot(time_recon, rms_recon_water, label='RMS Mechlem Wate
+r', marker='o')[] 
+ []
+
+
+Overfull \hbox (33.0pt too wide) in paragraph at lines 191--191
+[]\TU/lmtt/m/n/10 plt.plot(time_model, rms_model_bone, label='RMS Model Bone', 
+marker='x')[] 
+ []
+
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 191--191
+[]\TU/lmtt/m/n/10 plt.plot(time_model, rms_model_water, label='RMS Model Water'
+, marker='x')[] 
+ []
+
+[37]
+Overfull \hbox (33.0pt too wide) in paragraph at lines 191--191
+[]\TU/lmtt/m/n/10 plt.plot(interpolated_speedup, label='Interpolated Speedup', 
+marker='o')[] 
+ []
+
+File: files/5c3496163c1179156724f5a09cfc4c80.png Graphic file (type bmp)
+<files/5c3496163c1179156724f5a09cfc4c80.png>
+File: files/783aac6b215e9b5def69825df7a56f89.png Graphic file (type bmp)
+<files/783aac6b215e9b5def69825df7a56f89.png>
+
+Overfull \hbox (48.75pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 all_interpolated_speedups_bone = []  # List of lists — one li
+st per phantom[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 all_interpolated_speedups_water = []  # List of lists — one l
+ist per phantom[] 
+ []
+
+[38]
+Overfull \hbox (64.5pt too wide) in paragraph at lines 276--276
+[]    \TU/lmtt/m/n/10 for idx in range(len(rms_model_bone)):  # Loop over model
+ iterations (idx)[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 276--276
+[]        \TU/lmtt/m/n/10 for i in range(len(rms_recon_bone) - 1):  # Loop over
+ recon steps[] 
+ []
+
+
+Overfull \hbox (185.25pt too wide) in paragraph at lines 276--276
+[]                \TU/lmtt/m/n/10 slope = (rms_recon_bone[i+1] - rms_recon_bone
+[i]) / (time_recon[i+1] - time_recon[i])[] 
+ []
+
+
+Overfull \hbox (148.5pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_time = (rms_bone - rms_recon
+_bone[i]) / slope + time_recon[i][] 
+ []
+
+
+Overfull \hbox (122.25pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_speedup_bone.append(interpol
+ated_time / time_model[idx])[] 
+ []
+
+
+Overfull \hbox (101.25pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_speedup_bone.append(time_rec
+on[i] / time_model[idx])[] 
+ []
+
+
+Overfull \hbox (96.0pt too wide) in paragraph at lines 276--276
+[]        \TU/lmtt/m/n/10 for i in range(len(rms_recon_water) - 1):  # Loop ove
+r recon steps for water[] 
+ []
+
+
+Overfull \hbox (195.75pt too wide) in paragraph at lines 276--276
+[]                \TU/lmtt/m/n/10 slope = (rms_recon_water[i+1] - rms_recon_wat
+er[i]) / (time_recon[i+1] - time_recon[i])[] 
+ []
+
+
+Overfull \hbox (159.0pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_time = (rms_water - rms_reco
+n_water[i]) / slope + time_recon[i][] 
+ []
+
+
+Overfull \hbox (127.5pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_speedup_water.append(interpo
+lated_time / time_model[idx])[] 
+ []
+
+
+Overfull \hbox (106.5pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_speedup_water.append(time_re
+con[i] / time_model[idx])[] 
+ []
+
+
+Overfull \hbox (227.25pt too wide) in paragraph at lines 276--276
+[]    \TU/lmtt/m/n/10 all_interpolated_speedups_water.append(interpolated_speed
+up_water)  # Save speedup curve for this phantom[] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 276--276
+[]    \TU/lmtt/m/n/10 all_interpolated_speedups_bone.append(interpolated_speedu
+p_bone)[] 
+ []
+
+
+Overfull \hbox (6.75pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 max_len_bone  = max(len(x) for x in all_interpolated_speedups
+_bone)[] 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 max_len_water = max(len(x) for x in all_interpolated_speedups
+_water)[] 
+ []
+
+
+Overfull \hbox (206.25pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 bone_array  = np.array([x + [np.nan] * (max_len_bone  - len(x
+)) for x in all_interpolated_speedups_bone])[] 
+ []
+
+
+Overfull \hbox (211.5pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 water_array = np.array([x + [np.nan] * (max_len_water - len(x
+)) for x in all_interpolated_speedups_water])[] 
+ []
+
+[39]
+Overfull \hbox (17.25pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 plt.errorbar(range(len(mean_speedups_bone)), mean_speedups_bo
+ne, yerr[] 
+ []
+
+
+Overfull \hbox (358.5pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 plt.errorbar(range(len(mean_speedups_water)), mean_speedups_w
+ater, yerr=std_speedups_water, fmt='o', label='Water Speedup', capsize=5)[] 
+ []
+
+File: files/2736d68d407f8ad6de225a7e5df53bf4.png Graphic file (type bmp)
+<files/2736d68d407f8ad6de225a7e5df53bf4.png>
+
+Overfull \hbox (127.5pt too wide) in paragraph at lines 314--314
+[]\TU/lmtt/m/n/10 # we want to calculate the average time taken to reach a cert
+ain error for both algorithms[] 
+ []
+
+
+Overfull \hbox (38.25pt too wide) in paragraph at lines 314--314
+[]\TU/lmtt/m/n/10 rms_errors = [0.5, 0.4, 0.3, 0.2, 0.1]  # Define the RMS erro
+r thresholds[] 
+ []
+
+
+Overfull \hbox (101.25pt too wide) in paragraph at lines 314--314
+[]\TU/lmtt/m/n/10 # we want to calculate the average time the squared sum of th
+e rms is below the error[] 
+ []
+
+[40]
+Overfull \hbox (1.5pt too wide) in paragraph at lines 314--314
+[]            \TU/lmtt/m/n/10 if np.sqrt(rms_reconstructions_bone[i][j]**2) < e
+rror:[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 314--314
+[]                \TU/lmtt/m/n/10 break  # Stop at the first occurrence of the 
+error threshold[] 
+ []
+
+
+Overfull \hbox (101.25pt too wide) in paragraph at lines 314--314
+[]        \TU/lmtt/m/n/10 print(f"Average time to reach RMS error {error}: {ave
+rage_time:.2f} seconds")[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 314--314
+[]        \TU/lmtt/m/n/10 plt.plot(average_time, error, 'o', label=f'Mechlem {e
+rror} seconds')[] 
+ []
+
+
+Overfull \hbox (54.0pt too wide) in paragraph at lines 314--314
+[]                \TU/lmtt/m/n/10 break  # Stop at the first occurrence of the 
+error threshold[] 
+ []
+
+
+Overfull \hbox (153.75pt too wide) in paragraph at lines 314--314
+[]        \TU/lmtt/m/n/10 print(f"Average time to reach RMS error {error} for m
+odel: {average_time:.2f} seconds")[] 
+ []
+
+
+Overfull \hbox (43.5pt too wide) in paragraph at lines 314--314
+[]        \TU/lmtt/m/n/10 plt.plot(average_time, error, 'o', label=f'Model {err
+or} seconds')[] 
+ []
+
+File: files/3a2aaee6134fa590426deb23d292c476.png Graphic file (type bmp)
+<files/3a2aaee6134fa590426deb23d292c476.png>
+) [41] [42] (Bachelor_thesis_Luuk_Froling_0.aux (Bachelor_thesis_Luuk_Froling_0
+-figure-sinogram.aux) (Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coeffi
+cients.aux) (Bachelor_thesis_Luuk_Froling_0-reconstruction.aux) (Bachelor_thesi
+s_Luuk_Froling_0-network.aux) (Bachelor_thesis_Luuk_Froling_0-trainingdata.aux)
+(Bachelor_thesis_Luuk_Froling_0-figure-attention-map.aux) (Bachelor_thesis_Luuk
+_Froling_0-figure-rms.aux) (Bachelor_thesis_Luuk_Froling_0-figure-reconstructio
+n.aux) (Bachelor_thesis_Luuk_Froling_0-calculate-rms.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 1680 strings out of 409617
+ 41734 string characters out of 5774014
+ 1936191 words of memory out of 5000000
+ 23725 multiletter control sequences out of 15000+600000
+ 558125 words of font info for 43 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 57i,5n,65p,488b,276s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Bachelor_thesis_Luuk_Froling_0.xdv (42 pages, 510880 bytes).

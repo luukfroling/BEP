@@ -26,7 +26,8 @@
   "exports": [
     {
       "format": "pdf",
-      "output": "C:\\Users\\luukf\\Documents\\bep\\BEP\\exports\\document_0.pdf",
+      "output": "C:\\Users\\luukf\\Documents\\bep\\BEP\\exports\\Bachelor_thesis_Luuk_Froling_0.pdf",
+      "template": "C:\\Users\\luukf\\Documents\\bep\\BEP\\custom_theme",
       "id": "output-pdf",
       "articles": [
         {
@@ -80,8 +81,8 @@
     },
     {
       "format": "pdf",
-      "template": "curvenote",
-      "output": "C:\\Users\\luukf\\Documents\\bep\\BEP\\exports\\document_1.pdf",
+      "output": "C:\\Users\\luukf\\Documents\\bep\\BEP\\exports\\Bachelor_thesis_Luuk_Froling_1.pdf",
+      "template": "C:\\Users\\luukf\\Documents\\bep\\BEP\\custom_theme",
       "articles": [
         {
           "file": "C:\\Users\\luukf\\Documents\\bep\\BEP\\01-paper.md",

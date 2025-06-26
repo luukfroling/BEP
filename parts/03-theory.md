@@ -2,16 +2,16 @@
 
 ## Basics CT scans 
 
-A computed tomography (CT) scanner is an imaging device that uses x-rays to create cross-sectional images of an object. It consists of an x-ray source and a detector placed at a distance from each other. During scanning, both the source and the detector will rotate around the object to be imaged at several angles. For each step, the source emits x-rays that pass through the object; the transmitted photons are measured by the detector. The number of detected photons at position i along the detector is given by:
+A computed tomography (CT) scanner is an imaging device that uses x-rays to create cross-sectional images of an object. It consists of an x-ray source and a detector placed at a distance from each other. During scanning, both the source and the detector will rotate around the object to be imaged at several angles. For each step, the source emits x-rays that pass through the object; the transmitted photons are measured by the detector. The number of detected photons at position i along the detector for an ideal, noise-free measurement is given by:
 
 ```{math}
-:label: first 
-\hat{y}_i  = N_0 \cdot \exp\left(-\int \mu(x, E) \, dx\right)
+:label: first_equation
+\hat{y}_i  = N_0 \cdot \exp\left(-\int_{L_i} \mu(x, E) \, dx\right)
 ```
 
-where $N_0$ is the number of the x-rays emitted by the source, $\mu(x, E)$ is the linear attenuation coefficient and the integral in the exponent represents the cumulative attenuation along the x-ray path. $\mu(x, E)$ describes how many of the incoming x-rays are absorbed per unit of length, which depends on both the material of the object and the energy of the x-ray $E$ [@kamalian2016ct_principles]. 
+where $N_0$ is the number of the x-rays emitted by the source and $\mu(x, E)$ is the linear attenuation coefficient that depends on position $x$ and x-ray energy $E$. The integral is taken along the path $L_i$, which represents the trajectory of x-rays from the source to detector position $i$. This accounts for the cumulative attenuation experienced by x-rays along their path through the object where $\mu(x, E)$ describes how much of the incoming x-rays are absorbed per unit of length [@kamalian2016ct_principles]. 
 
-By rotating the source and detector around the object and recording measurements at multiple angles, a sinogram can be created. A sinogram is a 2D plot where each row corresponds to a detector reading at a specific projection angle.
+By rotating the source and detector around the object and recording measurements at multiple angles, a sinogram can be created. A sinogram is a 2D plot where each column corresponds to a detector reading at a specific projection angle.
 
 :::{figure} Figures/sinogram2.png
 :label: phantomSinogram
@@ -33,16 +33,16 @@ The sinogram in [](#phantomSinogram) is true for a 1D detector, where we constru
 A schematic drawing of a cone-beam CT scan: (a) the 2D detector panel, (b) the phantom, (c) rotation direction of the source-detector pair (d) the x-ray source. 
 :::
 
-[](#cone_beam) shows a cone beam CT scan setup, where both the detector and the source rotate around the object to acquire a set of 2D projection images at multiple angles. these measurements are known as projections and allow for a 3D image to be reconstructed. 
+[](#cone_beam) shows a cone beam CT scan setup, where both the detector and the source rotate around the object to acquire a set of 2D projection measurements at multiple angles. these measurements are known as projections and allow for a 3D image to be reconstructed. 
 
-The relationship between the object and the measured rays can be described by a projection matrix $A$. This matrix has dimensions $ M \times N $ where $N$ is the number of voxels in the object and $ M $ is the number of rays (measurements) collected by the detector. Each element $ a_{mn} $ of the matrix is the contribution of the nth voxel of the object to be imaged to the mth ray of the detector [@Yang2017ProjectionMatrix]. The measured projections can thus be modeled as:
+The relationship between the object and the measured rays can be described by a projection matrix $A$. This matrix has dimensions $ M \times N $ where $N$ is the number of voxels in the object and $ M $ is the number of rays (measurements) collected by the detector. Each element $ a_{mn} $ of the matrix is the contribution of the $n^{th}$ voxel of the object to be imaged to the $m^{th}$ ray of the detector [@Yang2017ProjectionMatrix]. The measured projections can thus be modeled as:
 
 ```{math}
 :label: projection_eq
 y = Ax
 ```
 
-where $ x $ is the vectorised representation of the voxel values and $ y $ contains the corresponding ray measurements. This formulation will be used by the reconstruction algorithms during the simulations. To better reflect the statistical fluctuations during photon detection, noise is applied to the computed projections. Measured counts are drawn from a poisson distribution with a mean equal to the ideal (noise-free) projection values as described by equation [](#projection_eq).
+where $ x $ is the vectorised representation of the voxel values and $ y $ contains the corresponding ray measurements. This formulation will be used by the reconstruction algorithms during the simulations. To better reflect the statistical fluctuations during photon detection, noise is applied to the computed projections.To simulate measurement noise, each ideal projection value $y$ is used as the mean of a Poisson distribution from which a noisy measurement is sampled.
 
 
 ## Detector types
@@ -62,11 +62,12 @@ Commonly available X-ray sources emit a polychromatic spectrum [@Antsiferov2003]
 
 ## Material decomposition 
 
-Since different materials attenuate x-rays differently across the energy spectrum, PCD-CT can be used to distinguish between different tissue types in the body. To simulate this process and to describe the attenuation properties of different materials in a phantom, material decomposition is used [@mechlem2018joint]. In clinical practice, human tissue can be approximated as a linear combination of two basis materials, commonly water and bone, which simplifies the decomposition process. 
+Since different materials attenuate x-rays differently across the energy spectrum, Spectral CT can be used to distinguish between different tissue types in the body. Spectral CT is a CT technique that leverages energy-dependent information to provide more comprehensive material differentiation in the produced images. To simulate this process and to describe the attenuation properties of different materials in a phantom, material decomposition is used [@mechlem2018joint]. In clinical practice, human tissue can be approximated as a linear combination of two basis materials, commonly water and bone, which simplifies the decomposition process. 
 
 :::{figure} Figures/att_map.png
 :label:matatt
-The linear attenuation coefficient ($\mu$) of bone (green), water (blue) and iodine (orange) plotted as a function of the incoming X-ray photon energy. Iodine exhibits a k-edge, characterised by a sharp increase in attenuation at a specific energy, making it unsuitable be modelled as a linear combination of bone and water. *Figure reproduced from* [@Willemink2018PhotonCountingCT]
+:figclass: no-float
+The linear attenuation coefficient ($\mu$) of bone (green), water (blue) and iodine (orange) plotted as a function of the incoming X-ray photon energy. Iodine exhibits a k-edge, characterised by a sharp increase in attenuation at a specific energy, making it unsuitable to be modelled as a linear combination of bone and water. *Figure reproduced from* [@Willemink2018PhotonCountingCT]
 :::
 
 The linear attenuation coefficient ($\mu$), which describes how a material attenuates X-rays, depends on both the material and the photon energy, as shown by the attenuation curves in [](#matatt). For bone, water and other forms of tissue in the human body these attenuation curves can be assumed smooth within the energy range used [@Willemink2018PhotonCountingCT].  However, contrast agents such as iodine display one or more K-edges, sudden increases in attenuation at specific energies, which cannot be accurately modeled by a simple combination of water and bone. In this work, only bone and water will be used. If a contrast agent were to be involved, a 3rd material must be added to compensate for any possible k-edges. 
@@ -77,28 +78,28 @@ In this work the reconstructed image of the PCD CT scan will therefore consist o
 :label: muE
 \mu(E) = \sum_{b=1}^{B} A_b f_b(E)
 ```
-where $A_b$ is the line integral of material b, representing the amount of material b in the beam path, and $f^b(E) $ describes the attenuation coefficient of the basis material b. Combining equation [](#first) and [](#muE) gives an expression for the photon count at the detector:
+where $A_b$ is the weight of material b, representing the amount of material b present in the voxel, and $f_b(E) $ describes the attenuation coefficient of the basis material b. Combining equation [](#first_equation) and [](#muE) gives an expression for the photon count at the detector:
 
 ```{math}
 \hat{y}_i = \int_0^{\infty} \phi_{\text{eff},i}(E) \exp\left( - \sum_{b=1}^{B} A_b^i f_b(E) \right) \, dE 
 ```
 
-where $ \phi_{\text{eff},i}(E) $ represents the effictive x-ray spectrum which includes both the shape of the X-ray source spectrum and how the detector responds to photons of different energies. The detector does not detect all photon energies equally well, some energies are absorbed more efficiently than others or may be missed due to noise or other effects.
+where $ \phi_{\text{eff},i}(E) $ represents the effictive x-ray spectrum which includes both the shape of the X-ray source spectrum and how the detector responds to photons of different energies. The detector does not detect all photon energies equally well, some energies are absorbed more efficiently than others or may be missed due to noise or other effects. $ A_b^i $ is the weight of material b along line path $L_i$.
 
 ## Projection algorithms 
 
-To view the cross-sectional image of an object from these measurements, either from a detector or from simulations using equation [](#projection_eq), a reconstruction algorithm needs to be used. Filtered back projection (FBP) is an analytical reconstruction algorithm; during reconstruction, each projection is spread back across the image plane along the same angle it was acquired. This often leads to blurry images as the intensity is spread along lines rather than concentrated at specific points [@zeng2001image]. A filter is used to help sharpen the image and reduce blurring artifacts. FBP can be used for spectral-CT scans by a two-step image based method. The first step is to reconstruct an image for each energy bin and these intermediate images are then decomposed into material-dependent images [@mory2018comparison]. 
+To view the cross-sectional image of an object from these measurements, either from a detector or from simulations using equation [](#projection_eq), a reconstruction algorithm needs to be used. Filtered back projection (FBP) is an analytical reconstruction algorithm where during reconstruction each projection is spread back across the image plane along the same angle it was acquired. This often leads to blurry images as the intensity is spread along lines rather than concentrated at specific points [@zeng2001image]. A filter is used to help sharpen the image and reduce blurring artifacts. FBP can be used for spectral CT scans by a two-step image based method. The first step is to reconstruct an image for each energy bin and these intermediate images are then decomposed into material-dependent images [@mory2018comparison]. 
 
-The two-step, image based method has several drawbacks. First, beam hardening artifacts often occur as the attenuation coefficient is still averaged over a line. Secondly, the first step leads to a loss of information as there is no one-to-one mapping between the projections and the images. The second step is unable to compensate for this loss as it has no access to the photon counts. Recently one-step methods have been proposed which reconstruct material-specific images directly from photon counts [@mechlem2018joint]. These are all iterative methods as no analytical inversion formula exists. 
-
-An iterative reconstruction algorithm starts with an initial guess of the image and, at each iteration updates the image to better match the measured data. This is done according to a cost function, which depends on how well the image assumption explains the measured photon counts (data fidelity term), and how smooth, or physically plausible the images is (regularization term) [@Zhang2018Regularization]. The iterative algorithm used, uses a seperable quadratic surrogates (SQS) cost function. 
+The two-step, image based method has several drawbacks. First, streaking artifacts (lines across the image) often occur as the attenuation coefficient is still averaged over a line. Secondly, the first step leads to a loss of information as there is no one-to-one mapping between the projections and the images. The second step is unable to compensate for this loss as it has no access to the photon counts. Recently one-step methods have been proposed which reconstruct material-specific images directly from photon counts [@mechlem2018joint]. These are all iterative methods as no analytical inversion formula exists. 
 
 :::{figure} Figures/itt.png
 :label: itt
-An overview of an iterative reconstruction algorithm. From the measured projections a reconstructed image is estimated. This image is then iteratively compared with the original sinogram in the forward projection and corrected until a predefined endpoint. This work makes use of 40 iterations as an endpoint. *Figure reproduced from* [@arndt2021deeplearning] 
+An overview of an iterative reconstruction algorithm. From the measured projections a reconstructed image is estimated. This image is then iteratively compared with the original sinogram in the forward projection and corrected until a predefined endpoint. *Figure reproduced from* [@arndt2021deeplearning] 
 :::
 
-A downside to the iterative algorithm is the computational time. For each iteration there is a forward projection and a backprojection, as well as an error calculation. There is also a large amount of iterations needed to get to an accurate solution. This work will look at including machine learning to replace the iterative steps. 
+An iterative reconstruction algorithm starts with an initial guess of the image and, at each iteration updates the image to better match the measured data. [](#itt) shows the full cycle, from CT scan to final images. A forward projection as described by equation [](#projection_eq) is used to simulate a sinogram for the guessed image. The simulated sinogram is compared with the measurements according to a cost function. The cost function depends on how well the image assumption explains the measured photon counts (data fidelity term), and how smooth, or physically plausible the images is (regularization term) [@Zhang2018Regularization]. The iterative algorithm used, uses a separable quadratic surrogates (SQS) cost function. The guess is then updated and the cycle repeats untill a predefined endpoint. 
+
+A downside to the iterative algorithm is the computational time. For each iteration there is a forward projection and a backprojection, as well as an error calculation. Also a large amount of iterations needed to get to an accurate solution. This work will look at including machine learning to replace the iterative steps. 
 
 ## Machine learning - Neural networks
 
@@ -109,13 +110,13 @@ Neural networks are a subset of machine learning and play a crucial role in deep
 A neural network consisting of 3 input nodes, 2 hidden layers with 4 nodes each and an output layer with 3 nodes. The input values are represented by an array x, the hidden layers by array h' and h'' and the output layer by y.
 :::
 
-All nodes in a layer are connected to an adjacent layer by weigths. [](#neural_network) shows a simple neural network, where input layer x and first hidden layer h' are connected by a matrix of weights $W_1$, the states of the first hidden layer can be calculated as 
+All nodes in a layer are connected to an adjacent layer by weights. [](#neural_network) shows a simple neural network, where input layer x and first hidden layer h' are connected by a matrix of weights $W_1$, the states of the first hidden layer can be calculated as 
 
 ```{math}
 :label: denseLayer
 \mathbf{h}_1 = \sigma(\mathbf{W}_1 \mathbf{x} + \mathbf{b}_1)
 ```
-with $\mathbf{W}_{1,nm}$ representing the weight connecting the m-th input neuron to the n-th neuron in the first hidden layer, and σ is an activation function (e.g., sigmoid or softmax) that scales the output between 0 and 1 to stabilise the network and to introduce non-linearity. Equation [](#denselayer) can be repeated for every following layer where the output of a layer is used as an input to calculate the following layer. 
+with $\mathbf{W}_{1,nm}$ representing the learnable weights connecting the m-th input neuron to the n-th neuron in the first hidden layer, and σ is an activation function (e.g., sigmoid or softmax) that scales the output between 0 and 1 to stabilise the network and to introduce non-linearity. The bias term $ \mathbf{b}_1 $ is another learned parameter which offsets the output. Equation [](#denseLayer) can be repeated for every following layer where the output of a layer is used as an input to calculate the following layer. 
 
 Neural networks are generally trained using the backpropagation algorithm, which relies on a dataset consisting of input-output pairs. During training, the network processes each input and generates an output, A cost function determines the error between the network's output and the target output. This cost function guides the learning process by indicating how far the network's predictions are from the desired outputs. The backpropagation algorithm will look at how each weigth in the network needs to change to minimalise the error. 
 
@@ -129,14 +130,14 @@ The kernel is moved across the input data, performing element-wise multiplicatio
 S(i, j) = (\mathbf{K} * \mathbf{X})(i, j) = \sum_m \sum_n \mathbf{K}(m, n) \cdot \mathbf{X}(i + m, j + n)
 ```
 
-where $ (i,j) $ are spatial indices, $\mathbf{X}$ the relevant kernel and $(m,n)$ the kernel indices. After a convolution layer, $S(i, j)$ can be either vectorised to be used as an input for a fully connected layer as described in equation [](#denseLayer) or used as an input for a second convolution layer. Due to a kernel only working on adjecent pixels, convolutional layers extract local features. 
+where $ (i,j) $ are spatial indices, $\mathbf{X}$ the image, $\mathbf{K}$ the relevant kernel with learnable weights and $(m,n)$ the kernel indices. After a convolution layer, $S(i, j)$ can be either vectorised to be used as an input for a fully connected layer as described in equation [](#denseLayer) or used as an input for a second convolution layer. Due to a kernel only working on adjecent pixels, convolutional layers extract local features. 
 
 :::{figure} #convolutionExample
 :label:convex
 *left :* original phantom with a 2D 3x3 randomly initialised kernel drawn on top. each individual square represents a pixel, with the outer square representing the kernel. *right :* phantom after 2D convolution layer has been applied. 
 :::
 
-The left part of [](#convex) shows a 3x3 convolution kernel with randomly initialised weights (red) placed on a phantom and the right part of the figure shows the imgage of the phantom after the convolution. Even with randomly initialised weights, there is already an edge-detection like pattern. The image on the right is called a feature map, as each pixel represents higher-level information of the original image. 
+The left part of [](#convex) shows a 3x3 convolution kernel with randomly initialised weights (red) placed on a phantom and the right part of the figure shows the image of the phantom after the convolution. Even with randomly initialised weights, there is already an edge-detection like pattern. The image on the right is called a feature map, as each pixel represents higher-level information of the original image. 
 
 A CNN typically consists of multiple layers stacked on top of each other, allowing deeper feature extraction. Early layers can detect simple features like edges, while deeper layers can detect more complex structures like shapes and objects. 
 
@@ -186,14 +187,14 @@ An example has been taken from [@An2022Attention], where an attention-based netw
 
 ## Machine learning - Attention U-Net
 
-Attention mechanisms can be added to the skip-connections of the U-Net model in [](#unet), allowing the network to focus on non-local features during the reconstruction of the image. The combination of attention mechanism and convolutional layers can be used to recognise certain features like edges and to make connection between features in different parts of the image [@oktay2018attentionunet].
+Attention mechanisms can be added to the skip-connections of the U-Net model in [](#unet), allowing the network to focus on non-local features during the reconstruction of the image. The combination of attention mechanisms and convolutional layers can be used by the attention U-Net (AttU-Net) to recognise certain features like edges and to make connection between features in different parts of the image [@oktay2018attentionunet].
 
 :::{figure} Figures/AttU-Net.png
 :label: attunet
 Schematic overview of a U-Net model with attention gates added to the skip-connections. The inset (top) shows a zoomed-in view of an attention gate, the gating signal $g$ is taken from the previous decoding layer and the input $x^l$ is the skip-connection layer. *Figure reproduced from* [@oktay2018attentionunet]
 :::
 
-The attention gate uses the gating signal $g$ to modulate the features passed through the skip connection. This mechanism allows the network to selectively emphasize relevant spatial features and suppress irrelevant or noisy information. Each skip connection uses the output of the previous decoder layer as a gating signal to control which encoder features are passed forward, as illustrated in [](#attunet). 
+The attention mechanism uses the gating signal $g$ to modulate the features passed through the skip connection, which allows the network to selectively emphasize relevant spatial features and suppress irrelevant or noisy information. Each skip connection uses the output of the previous decoder layer as a gating signal to control which encoder features are passed forward, as illustrated in [](#attunet). 
 
 
 

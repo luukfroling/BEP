@@ -2,11 +2,11 @@
 version: 1
 project:
   id: 1cc42c5b-3447-4429-8523-f43cc2eef52b
-  title: CT scan reconstruction with deep learning
+  title: "Deep Learning for Iterative Spectral CT Reconstruction: Replacing Statistical Iterations with an Attention-Based U-Net"
   description: A Jupyter Book project to document the CT scan reconstruction with deep learning.
   # keywords: []
   authors: [Luuk Fröling]
-  date: 2024-01-01
+  date: 2025-06-26
   github: https://github.com/luukfroling/BEP
   # To autogenerate a Table of Contents, run "myst init --write-toc"
   toc:
@@ -25,18 +25,20 @@ project:
   downloads:
     - id: output-pdf
   exports:
-    - format: pdf # typst 
-      output: exports/document.pdf
+    - format: pdf 
+      output: exports/Bachelor_thesis_Luuk_Froling.pdf
+      template: custom_theme
       id: output-pdf
   
   bibliography:
   - references/references.bib
 
 site:
-  title: "Eind project"
+  title: "Bachelor thesis Luuk Fröling"
   url: https://luukfroling.github.io/BEP/
   static:
     - parts/Figures
     - Figures
   template: article-theme
+
 

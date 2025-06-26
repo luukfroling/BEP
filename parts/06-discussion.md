@@ -1,31 +1,34 @@
 # Discussion
-## Model is only as good as your data
+## Model is only as good as the data
 
-First, the trained AttU-Net model reconstructed 20 images based on a validation set of phantoms. The first 4 reconstructions of the second phantom are shown in [](#bone_recons) where we can see the model recognises features present in the phantom but fails to fully distinguish between bone and water features. Looking at the RMS error over time for the first three phantoms as plotted in (#reconPhantom), the reconstructions generated using the AttU-Net model have a lower RMS error early on before converging to a higher value than the iterative algorithm. 
+The trained AttU-Net model reconstructed 20 images using a validation set of phantoms. The first four reconstructions of the second phantom are shown in [](#bone_recons) where the model successfully identifies features present in the phantom but fails to clearly distinguish between bone and water. 
 
-Looking at the final iterations of the iterative algorithm for the 20 validation phantoms, it can be seem some images do not converge to a visually accurate state as displayed in figure [](#wrong). The iterative algorithm does not always generate reliable results, in this work these unreliable results have been used as training data. This possibly explains why the AttU-Net fails to converge as more iterations are generated, as the network has been trained on data where a subset does not converge either. 
+Looking at the RMS error over time for the first three phantoms as plotted in [](#reconPhantom), reveals that the AttU-Net model initially achieves a lower RMS error compared to the iterative algorithm but eventually converges to a higher value.
 
-The AttU-Net model does recognise features present in the phantom but fails to iteratively get closer to the ground truth. This is apperent from the features present in the reconstructed images of the first iterations shown in [](#bone_recons), and the convergence to a higher RMS error than the iterative aproach for all phantoms shown in [](#reconPhantom). Part of this result can be explained using the common phrase 'a model is only as good as the data it gets'. 
-
-Looking at the reconstruction results shown in [](#wrong), it is clear the iterative algorithm does not always generate reliable results. Similar images will have been used during training as well, which can negatively impact the training results. For future research it's recommended to only use images reconstructed using the iterative aproach with a rms error smaller than a set threshold to ensure quality of the data.
+When analyzing the final iterations of the iterative algorithm across all 20 validation phantoms, it can be seem some images do not converge to a visually accurate state as displayed in figure [](#wrong). Since the AttU-Net model was trained on these results, including those that failed to converge, this likely explains why the model itself also fails to converge effectively in later iterations. For future work, it is recommended to set an RMS error threshold and use only iterative reconstructions that meet this criterion for training.
 
 ## non-machine learning speedup
 
-Averaging over all 20 reconstructions of the validation set for both the iterativ algorith and the AttU-Net model, an average speedup can be defined as the average time it takes for the iterative aproach to reach the same RMS as the model. 
+Looking at the software implementation for each method, the AttU-Net is more optimised than the iterative algorithm. The AttU-Net makes use of the PyTorch framework which is highly optimised for machine learning tasks. The iterative algorithm has been implemented from scratch and does not include any form of optimisations, which leads to an unfair comparison between the two algorithms. 
 
-
-Looking at the reconstruction time, the AttU-Net is more optimised than the iterative algorithm. The AttU-Net makes use of the PyTorch framework which is highly optimised for machine learning tasks. The iterative algorithm has been implemented from scratch and does not include any form of optimisations. For future research it is recommended to also optimise the iterative approach by, for example, performing the matrix multiplications from equation [](#projection_eq) in parallel. This makes for a more accurate comparison of the rms error against time for the two methods.
+One way of optimising the iterative algorithm is parallelizing the computation of the SQS cost function. The SQS cost function is designed to look at the error relative to only it's neighbour, so it is part of the code most easily parallelised. 
 
 ## Image size, model size, number of projections
 
-The current network as defined in the [notebooks](#)
-Currently, it's hard to predict how the running time of the AttU-Net model will grow as the input image grows. The model currently takes 0.5 GB of storage for a 32 x 32 x 32 image. Testing the model for bigger images will require a larger number of projections as well to capture all the image. On top of that the number of channels within the network must increase for each layer to accomodate a larger feature map. To properly compare running times, one must a build model similar to the AtttU-Net model which reconstructs larger images with the same average error. This makes sure no accuracy is lost during comparison. 
+The model currently reconstructs images of size 32 × 32 × 32 pixels, which is too small for clinical applications. Future work should explore how performance and reconstruction time scale with increasing image size. Key factors to consider include:
+- Number of projections: Larger images require more projections to fully capture all relevant information.
+- Detector size: As image size increases, detector dimensions must also increase.
+- Network size: To accommodate the added complexity of larger images, the network architecture must scale too.
+- Hardware requirements: The current model already occupies 0.5 GB. Scaling up the network will demand additional storage and more powerful hardware. 
 
+To properly compare running times, it is recommended to develop an AttU-Net-style model capable of reconstructing larger images to the same RMS error within a fixed number of iterations. This ensures that performance comparisons do not come at the cost of reduced reconstruction accuracy.
 
 ## Adding cross attention between spaces
 
-adding cross attention can more accuratly predict which part of the sinogram attend to which parts of the image. Now two different spaces, image space and projection space, are added into a single matrix. Cross attention might be able to seperate these better. 
+Cross attention can implemented between two images as done by [@alaluf2023cross], where features from one image are used as a gating signal for an attention mechanism that processes the other image. Currently, two different spaces, image space and projection space, are added together in the same matrix. By using cross-attention, these spaces can be treated separately, with the attention mechanism serving as the interface between them. This allows for a more structured and interpretable flow of information between domains.
 
-## regularisation term
+## Regularisation term
 
-Looking at the image reconstructed by the AttU-Net model for the bone density seen in [](#wrong_reconstruction), the model could perform better if a regularisation term is added. Look into possibility of performing iterative algorithm after a certain speedup with the proposed model. 
+Since the AttU-Net is used to reconstruct CT scan images, its outputs must be clinically meaningful and physically plausible. To help guide the model toward producing more realistic reconstructions, a regularisation term can be introduced during training and reconstruction [@ge2023mb]. This term can incorporate physical constraints into the learning process, encouraging the model to generate outputs that not only appear correct but also align with the physical reality of CT imaging. T
+
+For example, by penalising discrepancies between the forward projections of the reconstructed image and the actual measured sinogram data, the model is discouraged from producing outputs that deviate from what is physically observable. This helps the network learn to reconstruct features that are consistent with the measurement process, reducing the risk of hallucinated structures or anatomically implausible results.

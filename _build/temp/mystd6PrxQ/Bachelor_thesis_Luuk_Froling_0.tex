@@ -1,0 +1,56 @@
+% Created with jtex v.1.0.20
+\documentclass{article}
+\PassOptionsToPackage{short, nodayofweek}{datetime}
+
+\input{curvenote.def}
+
+
+
+% colors for hyperlinks
+\hypersetup{colorlinks=true, allcolors=blue}
+\hypersetup{
+pdftitle={\@title},
+pdfsubject={A Jupyter Book project to document the CT scan reconstruction with deep learning.},
+pdfauthor={\@author},
+pdfkeywords={},
+addtopdfcreator={Written in Curvenote}
+}
+
+% \usepackage{curvenote}
+
+% Add page break before every \section
+\let\oldsection\section
+\renewcommand{\section}[1]{\clearpage\oldsection{#1}}
+
+
+\title{CT scan reconstruction with deep learning}
+
+\newdate{articleDate}{1}{1}{2024}
+\date{\displaydate{articleDate}}
+
+\author{\bfseries Luuk Fröling\mdseries\\}
+
+\begin{document}
+
+\maketitle
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-sinogram}
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients}
+
+\include{Bachelor_thesis_Luuk_Froling_0-reconstruction}
+
+\include{Bachelor_thesis_Luuk_Froling_0-network}
+
+\include{Bachelor_thesis_Luuk_Froling_0-trainingdata}
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-attention-map}
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-rms}
+
+\include{Bachelor_thesis_Luuk_Froling_0-figure-reconstruction}
+
+\include{Bachelor_thesis_Luuk_Froling_0-calculate-rms}
+
+
+\end{document}

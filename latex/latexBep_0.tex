@@ -1,0 +1,51 @@
+% Created with jtex v.1.0.20
+\documentclass{article}
+\PassOptionsToPackage{short, nodayofweek}{datetime}
+
+\input{curvenote.def}
+
+
+
+% colors for hyperlinks
+\hypersetup{colorlinks=true, allcolors=blue}
+\hypersetup{
+pdftitle={\@title},
+pdfsubject={A Jupyter Book project to document the CT scan reconstruction with deep learning.},
+pdfauthor={\@author},
+pdfkeywords={},
+addtopdfcreator={Written in Curvenote}
+}
+
+\usepackage{curvenote}
+
+\title{CT scan reconstruction with deep learning}
+
+\newdate{articleDate}{1}{1}{2024}
+\date{\displaydate{articleDate}}
+
+\author{\bfseries Luuk Fröling\mdseries\\}
+
+\begin{document}
+
+\maketitle
+
+\include{latexBep_0-figure-sinogram}
+
+\include{latexBep_0-figure-attenuation-coefficients}
+
+\include{latexBep_0-reconstruction}
+
+\include{latexBep_0-network}
+
+\include{latexBep_0-trainingdata}
+
+\include{latexBep_0-figure-attention-map}
+
+\include{latexBep_0-figure-rms}
+
+\include{latexBep_0-figure-reconstruction}
+
+\include{latexBep_0-calculate-rms}
+
+
+\end{document}

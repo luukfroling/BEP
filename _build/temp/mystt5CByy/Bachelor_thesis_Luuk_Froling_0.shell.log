@@ -1,0 +1,85 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = (unset),
+	(possibly more locale environment variables)
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the system default locale ("English_Australia.1252").
+Initial Win CP for (console input, console output, system): (CP1252, CP65001, CP1252)
+I changed them all to CP1252
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 27 Dec. 2024. Version 4.86a.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Bachelor_thesis_Luuk_Froling_0.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+SyncTeX written on Bachelor_thesis_Luuk_Froling_0.synctex.gz.
+Latexmk: Getting log file 'Bachelor_thesis_Luuk_Froling_0.log'
+Latexmk: Examining 'Bachelor_thesis_Luuk_Froling_0.fls'
+Latexmk: Examining 'Bachelor_thesis_Luuk_Froling_0.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'Bachelor_thesis_Luuk_Froling_0.xdv'
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Bachelor_thesis_Luuk_Froling_0-calculate-rms.aux
+  Bachelor_thesis_Luuk_Froling_0-figure-attention-map.aux
+  Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients.aux
+  Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.aux
+  Bachelor_thesis_Luuk_Froling_0-figure-rms.aux
+  Bachelor_thesis_Luuk_Froling_0-figure-sinogram.aux
+  Bachelor_thesis_Luuk_Froling_0-network.aux
+  Bachelor_thesis_Luuk_Froling_0-reconstruction.aux
+  Bachelor_thesis_Luuk_Froling_0-trainingdata.aux
+  Bachelor_thesis_Luuk_Froling_0.aux
+  Bachelor_thesis_Luuk_Froling_0.out
+
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Bachelor_thesis_Luuk_Froling_0.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+SyncTeX written on Bachelor_thesis_Luuk_Froling_0.synctex.gz.
+Latexmk: Getting log file 'Bachelor_thesis_Luuk_Froling_0.log'
+Latexmk: Examining 'Bachelor_thesis_Luuk_Froling_0.fls'
+Latexmk: Examining 'Bachelor_thesis_Luuk_Froling_0.log'
+Latexmk: Log file says output to 'Bachelor_thesis_Luuk_Froling_0.xdv'
+Latexmk: applying rule 'xdvipdfmx'...
+Rule 'xdvipdfmx':  Reasons for rerun
+Changed files or newly in use/created:
+  Bachelor_thesis_Luuk_Froling_0.xdv
+Category 'changed_source_rules':
+  xelatex
+Category 'no_dest':
+  xdvipdfmx
+
+------------
+Run number 1 of rule 'xdvipdfmx'
+------------
+------------
+Running 'xdvipdfmx -E -o "Bachelor_thesis_Luuk_Froling_0.pdf"  "Bachelor_thesis_Luuk_Froling_0.xdv"'
+------------
+Bachelor_thesis_Luuk_Froling_0.xdv -> Bachelor_thesis_Luuk_Froling_0.pdf
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31][32][33][34][35][36][37][38]
+544111 bytes written
+Latexmk: All targets (Bachelor_thesis_Luuk_Froling_0.xdv Bachelor_thesis_Luuk_Froling_0.pdf) are up-to-date
+
+Reverting Windows console CPs to (in,out) = (1252,65001)

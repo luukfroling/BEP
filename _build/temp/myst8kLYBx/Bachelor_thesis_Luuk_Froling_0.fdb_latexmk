@@ -1,0 +1,19 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "Bachelor_thesis_Luuk_Froling_0.xdv" "Bachelor_thesis_Luuk_Froling_0.pdf" "Bachelor_thesis_Luuk_Froling_0" 0 -1
+  "Bachelor_thesis_Luuk_Froling_0.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "Bachelor_thesis_Luuk_Froling_0.pdf"
+  (rewritten before read)
+["xelatex"] 1750947136.10934 "Bachelor_thesis_Luuk_Froling_0.tex" "Bachelor_thesis_Luuk_Froling_0.xdv" "Bachelor_thesis_Luuk_Froling_0" 1750947137.88759 2
+  "Bachelor_thesis_Luuk_Froling_0.aux" 1750947136 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "Bachelor_thesis_Luuk_Froling_0.tex" 1750947134 1465 a4fbcf658950a80b7ef8e9e76ca4e834 ""
+  "C:/Users/luukf/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1746717797 37546046 4040cb07a17336ce1d915541b9041953 ""
+  "C:/Users/luukf/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1705273579 20144 147463a6a579f4597269ef9565205cfe ""
+  "C:/Users/luukf/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1705273578 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "C:/Users/luukf/AppData/Local/Programs/MiKTeX/tex/latex/datetime/datetime.sty" 1429537382 28417 b023ffe1328fa89e7f133201d87029de ""
+  "curvenote.def" 0 -1 0 ""
+  (generated)
+  "Bachelor_thesis_Luuk_Froling_0.aux"
+  "Bachelor_thesis_Luuk_Froling_0.log"
+  "Bachelor_thesis_Luuk_Froling_0.xdv"
+  (rewritten before read)

@@ -1,3 +1,6 @@
-# abstract 
+# Abstract 
 
-abstract, work in progress
+In the past decade, spectral CT imaging has gained significant attention for its ability to differentiate between materials. Using photon counting detectors (PCD), individually measured x-ray photons can be sorted into energy bins. These energy-resolved measurements enable the reconstruction of material density images through iterative algorithms, providing detailed information about tissue composition. This study aims to accelerate the iterative reconstruction process by introducing a machine learning model. Specifically, an attention-based U-Net is trained to reconstruct material density images directly from spectral measurements. The network architecture consists of five convolutional layers in the encoder and five up-convolution layers in the decoder. Attention mechanisms are incorporated into the skip connections, where gating signals are derived from decoder feature maps. After 180 training epochs using 506 phantoms and 4,554 input-output sets, the Attention U-Net (AttU-Net) is able to detect the general structure of bone and water within the phantom images. However, it struggles to reliably differentiate between the two materials. While the model achieves a lower root-mean-squared (RMS) error than the iterative algorithm in the first iteration, and does so 1.30× faster, it ultimately converges to a higher final error. Subsequent iterations of the model do not provide a meaningful speedup, as the reconstruction error remains too high for practical use. To reduce the error, the training data must be filtered to ensure only high-quality examples are used for training. 
+
+
+

@@ -1,0 +1,2499 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2025.5.8)  26 JUN 2025 17:16
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**./Bachelor_thesis_Luuk_Froling_0.tex
+(Bachelor_thesis_Luuk_Froling_0.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (curvenote.def (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\i
+nputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (
+C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count191
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.st
+y
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.st
+y
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box51
+)
+\tc@llx=\dimen143
+\tc@lly=\dimen144
+\tc@urx=\dimen145
+\tc@ury=\dimen146
+Package trimclip Info: Using driver 'tc-xetex.def'.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen147
+\adjbox@Height=\dimen148
+\adjbox@Depth=\dimen149
+\adjbox@Totalheight=\dimen150
+\adjbox@pwidth=\dimen151
+\adjbox@pheight=\dimen152
+\adjbox@pdepth=\dimen153
+\adjbox@ptotalheight=\dimen154
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count192
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box52
+\sift@deathcycles=\count193
+\@vwid@loff=\dimen155
+\@vwid@roff=\dimen156
+)) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks22
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+For additional information on amsmath, use the `?' option.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen157
+)) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen158
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen159
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count199
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip17
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks24
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks25
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks26
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen166
+\enit@toks=\toks28
+\enit@inbox=\box55
+\enit@count@id=\count272
+\enitdp@description=\count273
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/units\nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip54
+\L@UnitsRaiseTextstyle=\skip55
+\L@UnitsRaiseScriptstyle=\skip56
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
+y
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen167
+\lightrulewidth=\dimen168
+\cmidrulewidth=\dimen169
+\belowrulesep=\dimen170
+\belowbottomsep=\dimen171
+\aboverulesep=\dimen172
+\abovetopsep=\dimen173
+\cmidrulesep=\dimen174
+\cmidrulekern=\dimen175
+\defaultaddspace=\dimen176
+\@cmidla=\count274
+\@cmidlb=\count275
+\@aboverulesep=\dimen177
+\@belowrulesep=\dimen178
+\@thisruleclass=\count276
+\@lastruleclass=\count277
+\@thisrulewidth=\dimen179
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count278
+)
+\MT@toks=\toks29
+\MT@tempbox=\box56
+\MT@count=\count279
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks30
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen180
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count280
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-xet
+ex.def
+File: microtype-xetex.def 2025/02/11 v3.2a Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip57
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2025/02/11 v3.2a microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count281
+)
+\@linkdim=\dimen181
+\Hy@linkcounter=\count282
+\Hy@pagecounter=\count283
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count284
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count285
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen182
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count286
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count287
+\c@Item=\count288
+\c@Hfootnote=\count289
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2023-11-26 v7.01g Hyperref driver for XeTeX
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box57
+\c@Hy@AnnotLevel=\count290
+\HyField@AnnotCount=\count291
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip58
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box58
+\UL@hyphenbox=\box59
+\UL@skip=\skip59
+\UL@hook=\toks31
+\UL@height=\dimen185
+\UL@pe=\count294
+\UL@pixel=\dimen186
+\ULC@box=\box60
+Package: ulem 2019/11/18
+\ULdepth=\dimen187
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks32
+\float@box=\box61
+\@float@everytoks=\toks33
+\@floatcapt=\box62
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fmtcount.sty
+Package: fmtcount 2025/02/09 v3.10 Displaying the values of LaTeX counters (NT,
+VB,NE)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fcnumparser.st
+y
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count296
+))
+\c@padzeroesN=\count297
+\fc@tmpcatcode=\count298
+\@DT@modctr=\count299
+\@ordinalctr=\count300
+\@orgargctr=\count301
+\@strctr=\count302
+\@tmpstrctr=\count303
+\@DT@loopN=\count304
+\@DT@X=\count305
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/datetime\datetime-defau
+lts.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count306
+\@month=\count307
+\@year=\count308
+\c@HOUR=\count309
+\c@HOURXII=\count310
+\c@MINUTE=\count311
+\c@TOHOUR=\count312
+\c@TOMINUTE=\count313
+\c@SECOND=\count314
+\currenthour=\count315
+\currentminute=\count316
+\currentsecond=\count317
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count318
+\dayofyear=\count319
+\dayofweek=\count320
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks34
+\dt@b=\toks35
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip60
+\fb@frw=\dimen188
+\fb@frh=\dimen189
+\FrameRule=\dimen190
+\FrameSep=\dimen191
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/doi\doi.sty
+Package: doi 2018/09/09 handle doi numbers
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip61
+\bibsep=\skip62
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count321
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count322
+\FV@InFile=\read2
+\FV@TabBox=\box63
+\c@FancyVerbLine=\count323
+\FV@StepNumber=\count324
+\FV@OutFile=\write3
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.st
+y
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
+\g__graphics_track_int=\count325
+\l__pdf_internal_box=\box64
+\g__pdf_backend_object_int=\count326
+\g__pdf_backend_annotation_int=\count327
+\g__pdf_backend_link_int=\count328
+))
+Package: xparse 2023-10-10 L3 Experimental document command parser
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count329
+Package zref Info: New property: abspage on input line 67.
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 149.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+\mdf@templength=\skip63
+\c@mdf@globalstyle@cnt=\count330
+\mdf@skipabove@length=\skip64
+\mdf@skipbelow@length=\skip65
+\mdf@leftmargin@length=\skip66
+\mdf@rightmargin@length=\skip67
+\mdf@innerleftmargin@length=\skip68
+\mdf@innerrightmargin@length=\skip69
+\mdf@innertopmargin@length=\skip70
+\mdf@innerbottommargin@length=\skip71
+\mdf@splittopskip@length=\skip72
+\mdf@splitbottomskip@length=\skip73
+\mdf@outermargin@length=\skip74
+\mdf@innermargin@length=\skip75
+\mdf@linewidth@length=\skip76
+\mdf@innerlinewidth@length=\skip77
+\mdf@middlelinewidth@length=\skip78
+\mdf@outerlinewidth@length=\skip79
+\mdf@roundcorner@length=\skip80
+\mdf@footenotedistance@length=\skip81
+\mdf@userdefinedwidth@length=\skip82
+\mdf@needspace@length=\skip83
+\mdf@frametitleaboveskip@length=\skip84
+\mdf@frametitlebelowskip@length=\skip85
+\mdf@frametitlerulewidth@length=\skip86
+\mdf@frametitleleftmargin@length=\skip87
+\mdf@frametitlerightmargin@length=\skip88
+\mdf@shadowsize@length=\skip89
+\mdf@extratopheight@length=\skip90
+\mdf@subtitleabovelinewidth@length=\skip91
+\mdf@subtitlebelowlinewidth@length=\skip92
+\mdf@subtitleaboveskip@length=\skip93
+\mdf@subtitlebelowskip@length=\skip94
+\mdf@subtitleinneraboveskip@length=\skip95
+\mdf@subtitleinnerbelowskip@length=\skip96
+\mdf@subsubtitleabovelinewidth@length=\skip97
+\mdf@subsubtitlebelowlinewidth@length=\skip98
+\mdf@subsubtitleaboveskip@length=\skip99
+\mdf@subsubtitlebelowskip@length=\skip100
+\mdf@subsubtitleinneraboveskip@length=\skip101
+\mdf@subsubtitleinnerbelowskip@length=\skip102
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.
+sty
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen192
+\pgfutil@tempdimb=\dimen193
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box65
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revi
+sion.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen194
+\pgf@y=\dimen195
+\pgf@xa=\dimen196
+\pgf@ya=\dimen197
+\pgf@xb=\dimen198
+\pgf@yb=\dimen199
+\pgf@xc=\dimen256
+\pgf@yc=\dimen257
+\pgf@xd=\dimen258
+\pgf@yd=\dimen259
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count335
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count336
+)))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count337
+\pgfsyssoftpath@bigbuffer@items=\count338
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+LaTeX Info: Redefining \color on input line 758.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\x11nam.def
+File: x11nam.def 2023/11/15 v3.01 Predefined colors according to Unix/X11 (UK)
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
+File: svgnam.def 2023/11/15 v3.01 Predefined colors according to SVG 1.1 (UK)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen260
+\pgfmath@count=\count339
+\pgfmath@box=\box66
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count340
+))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen261
+\pgf@picmaxx=\dimen262
+\pgf@picminy=\dimen263
+\pgf@picmaxy=\dimen264
+\pgf@pathminx=\dimen265
+\pgf@pathmaxx=\dimen266
+\pgf@pathminy=\dimen267
+\pgf@pathmaxy=\dimen268
+\pgf@xx=\dimen269
+\pgf@xy=\dimen270
+\pgf@yx=\dimen271
+\pgf@yy=\dimen272
+\pgf@zx=\dimen273
+\pgf@zy=\dimen274
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen275
+\pgf@path@lasty=\dimen276
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen277
+\pgf@shorten@start@additional=\dimen278
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
+\pgf@picture@serial@count=\count341
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen279
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen280
+\pgf@pt@y=\dimen281
+\pgf@pt@temp=\dimen282
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen283
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen284
+\pgf@sys@shading@range@num=\count342
+\pgf@shadingcount=\count343
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box70
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box71
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen285
+\pgf@nodesepend=\dimen286
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex)) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pg
+fmath.sty
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen287
+\pgffor@skip=\dimen288
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count344
+\pgfplotmarksize=\dimen289
+)
+\tikz@lastx=\dimen290
+\tikz@lasty=\dimen291
+\tikz@lastxsaved=\dimen292
+\tikz@lastysaved=\dimen293
+\tikz@lastmovetox=\dimen294
+\tikz@lastmovetoy=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
+)
+\tikz@expandcount=\count352
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box76
+\mdf@footnotebox=\box77
+\mdf@splitbox@one=\box78
+\mdf@splitbox@two=\box79
+\mdf@splitbox@save=\box80
+\mdfsplitboxwidth=\skip103
+\mdfsplitboxtotalwidth=\skip104
+\mdfsplitboxheight=\skip105
+\mdfsplitboxdepth=\skip106
+\mdfsplitboxtotalheight=\skip107
+\mdfframetitleboxwidth=\skip108
+\mdfframetitleboxtotalwidth=\skip109
+\mdfframetitleboxheight=\skip110
+\mdfframetitleboxdepth=\skip111
+\mdfframetitleboxtotalheight=\skip112
+\mdffootnoteboxwidth=\skip113
+\mdffootnoteboxtotalwidth=\skip114
+\mdffootnoteboxheight=\skip115
+\mdffootnoteboxdepth=\skip116
+\mdffootnoteboxtotalheight=\skip117
+\mdftotallinewidth=\skip118
+\mdfboundingboxwidth=\skip119
+\mdfboundingboxtotalwidth=\skip120
+\mdfboundingboxheight=\skip121
+\mdfboundingboxdepth=\skip122
+\mdfboundingboxtotalheight=\skip123
+\mdf@freevspace@length=\skip124
+\mdf@horizontalwidthofbox@length=\skip125
+\mdf@verticalmarginwhole@length=\skip126
+\mdf@horizontalspaceofbox=\skip127
+\mdfsubtitleheight=\skip128
+\mdfsubsubtitleheight=\skip129
+\c@mdfcountframes=\count353
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count354
+\c@mdf@env@i=\count355
+\c@mdf@env@ii=\count356
+\c@mdf@zref@counter=\count357
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+\@float@every@code=\toks48
+\c@code=\count358
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 10.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\spacefactor' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@m' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\spacefactor' on input line 17.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@m' on input line 17.
+
+(curvenote.sty
+Package: curvenote 2021/05/18 Curvenote Default Format
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count359
+\U@D=\dimen298
+\l@unhyphenated=\language79
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read4
+\bbl@dirlevel=\count360
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/graphbox\graphbox.sty
+Package: graphbox 2025/03/25 v1.1.1 extension for graphicx to adjust containing
+ box
+\Gin@box@box=\box81
+\Gin@box@width=\skip130
+\Gin@box@height=\skip131
+\Gin@box@raise=\skip132
+\Gin@box@hspace=\skip133
+\Gin@box@bwidth=\skip134
+\Gin@box@bheight=\skip135
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count361
+\Gm@cntv=\count362
+\c@Gm@tempcnt=\count363
+\Gm@bindingoffset=\dimen299
+\Gm@wd@mp=\dimen300
+\Gm@odd@mp=\dimen301
+\Gm@even@mp=\dimen302
+\Gm@layoutwidth=\dimen303
+\Gm@layoutheight=\dimen304
+\Gm@layouthoffset=\dimen305
+\Gm@layoutvoffset=\dimen306
+\Gm@dimlist=\toks49
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip136
+\f@nch@offset@elh=\skip137
+\f@nch@offset@erh=\skip138
+\f@nch@offset@olh=\skip139
+\f@nch@offset@orh=\skip140
+\f@nch@offset@elf=\skip141
+\f@nch@offset@erf=\skip142
+\f@nch@offset@olf=\skip143
+\f@nch@offset@orf=\skip144
+\f@nch@height=\skip145
+\f@nch@footalignment=\skip146
+\f@nch@widthL=\skip147
+\f@nch@widthC=\skip148
+\f@nch@widthR=\skip149
+\@temptokenb=\toks50
+)
+\@abovecaptionskip=\skip150
+\@belowcaptionskip=\skip151
+)
+\@float@every@figure=\toks51
+(Bachelor_thesis_Luuk_Froling_0.aux (Bachelor_thesis_Luuk_Froling_0-figure-sino
+gram.aux) (Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients.aux) 
+(Bachelor_thesis_Luuk_Froling_0-reconstruction.aux) (Bachelor_thesis_Luuk_Froli
+ng_0-network.aux) (Bachelor_thesis_Luuk_Froling_0-trainingdata.aux) (Bachelor_t
+hesis_Luuk_Froling_0-figure-attention-map.aux) (Bachelor_thesis_Luuk_Froling_0-
+figure-rms.aux) (Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.aux) (Bac
+helor_thesis_Luuk_Froling_0-calculate-rms.aux))
+\openout1 = `Bachelor_thesis_Luuk_Froling_0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+5.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen307
+\MT@vwid@rightmargin=\dimen308
+LaTeX Info: Redefining \microtypecontext on input line 55.
+Package microtype Info: Applying patch `item' on input line 55.
+Package microtype Info: Applying patch `toc' on input line 55.
+Package microtype Info: Applying patch `eqnum' on input line 55.
+Package microtype Info: Applying patch `footnote' on input line 55.
+Package microtype Info: Applying patch `verbatim' on input line 55.
+LaTeX Info: Redefining \microtypesetup on input line 55.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 55.
+(Bachelor_thesis_Luuk_Froling_0.out) (Bachelor_thesis_Luuk_Froling_0.out)
+\@outlinefile=\write5
+\openout5 = `Bachelor_thesis_Luuk_Froling_0.out'.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.27pt, 469.75499pt, 72.27pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43pt, 72.27pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75499pt
+* \textheight=650.43pt
+* \oddsidemargin=0.00002pt
+* \evensidemargin=0.00002pt
+* \topmargin=-39.0pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <17.28> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 57.
+
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-LatinModer
+nRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package microtype Info: Character `ﬀ' is missing
+(microtype)             in font `\TU/lmr/m/sc/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+7.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+7.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+57.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+57.
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 57.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(C:\Users\luukf\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.def
+File: fc-english.def 2016/01/12
+) [1
+
+
+]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-sinogram.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-sinogram.tex
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 30.
+
+
+Overfull \hbox (86.74501pt too wide) in paragraph at lines 102--102
+[]            \TU/lmtt/m/n/10 if ((i - center_i) / ((n - 2 * h) / 2)) ** 2 + ((
+j - center_j) / ((n - 6 * h) / 2)) ** 2 <= 1:[] 
+ []
+
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 102.
+
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <8> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 102.
+
+Bachelor_thesis_Luuk_Froling_0-figure-sinogram.tex:102: Undefined control seque
+nce.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.102 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[2
+
+]
+Overfull \hbox (28.99501pt too wide) in paragraph at lines 102--102
+[]        \TU/lmtt/m/n/10 # Random place in the body - h is the offset from the
+ edge, n is the size of the matrix[] 
+ []
+
+
+Overfull \hbox (23.74501pt too wide) in paragraph at lines 102--102
+[]                    \TU/lmtt/m/n/10 if ((i - center_x) / a_water) ** 2 + ((j 
+- center_y) / b_water) ** 2 <= 1:[] 
+ []
+
+
+Overfull \hbox (191.74501pt too wide) in paragraph at lines 124--124
+[]\TU/lmtt/m/n/10 sinogram = getSinogram(y, energy_bin_index=0, z_index=objectS
+ize // 2, nProj=projections, detector_shape=(nPixelsY, nPixelsZ))[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-figure-sinogram.tex:148: Undefined control seque
+nce.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.148 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[3]
+File: files/3151776982ba6138bdf4c9ad99fa3c94.png Graphic file (type bmp)
+<files/3151776982ba6138bdf4c9ad99fa3c94.png>
+
+Overfull \hbox (60.49501pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 output_tensor = conv_layer(bone_tensor.unsqueeze(0).unsqueeze
+(0))  # Add batch and channel dimensions[] 
+ []
+
+
+Overfull \hbox (86.74501pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 output_image = output_tensor.squeeze(0).squeeze(0).detach().n
+umpy()  # Remove batch and channel dimensions[] 
+ []
+
+
+Overfull \hbox (223.24501pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 # plot 2 plots, one of the original bone image with a square 
+showing one of the convolution kernels, and next to it the output image[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-figure-sinogram.tex:189: Undefined control seque
+nce.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.189 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[4]
+Overfull \hbox (133.99501pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 plt.gca().add_patch(plt.Rectangle((10.5, 20.5), kernel_size, 
+kernel_size, edgecolor='red', facecolor='none', lw=2))[] 
+ []
+
+
+Overfull \hbox (123.49501pt too wide) in paragraph at lines 189--189
+[]        \TU/lmtt/m/n/10 plt.gca().add_patch(plt.Rectangle((10.5 + i, 20.5 + j
+), 1, 1, edgecolor='red', facecolor='none', lw=0.5))[] 
+ []
+
+
+Overfull \hbox (49.99501pt too wide) in paragraph at lines 189--189
+[]\TU/lmtt/m/n/10 plt.gca().add_patch(plt.Rectangle((10.5+2, 20.5+2), 1, 1, edg
+ecolor='red', facecolor='none', lw=2))[] 
+ []
+
+File: files/df9eecf15dc213c5837add0b2c07a681.png Graphic file (type bmp)
+<files/df9eecf15dc213c5837add0b2c07a681.png>
+)
+Bachelor_thesis_Luuk_Froling_0.tex:59: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.59 ...lor_thesis_Luuk_Froling_0-figure-sinogram}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[5]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients.aux
+'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients.tex
+File: files/64ccdbd7840b97b269bc4a429597ebd6.png Graphic file (type bmp)
+<files/64ccdbd7840b97b269bc4a429597ebd6.png>
+)
+Bachelor_thesis_Luuk_Froling_0.tex:61: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.61 ...Froling_0-figure-attenuation-coefficients}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[6
+
+
+
+
+]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-reconstruction.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-reconstruction.tex
+File: files/47a8d42f599e527b323d72763db15f1e.png Graphic file (type bmp)
+<files/47a8d42f599e527b323d72763db15f1e.png>
+)
+Bachelor_thesis_Luuk_Froling_0.tex:63: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.63 ...elor_thesis_Luuk_Froling_0-reconstruction}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[7
+
+
+
+]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-network.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-network.tex
+Bachelor_thesis_Luuk_Froling_0-network.tex:199: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.199 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[8
+
+
+
+
+]
+Bachelor_thesis_Luuk_Froling_0-network.tex:199: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.199 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[9]
+Bachelor_thesis_Luuk_Froling_0-network.tex:199: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.199 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[10]
+Bachelor_thesis_Luuk_Froling_0-network.tex:231: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.231 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[11]
+Overfull \hbox (207.49501pt too wide) in paragraph at lines 264--264
+[]                \TU/lmtt/m/n/10 open("log.txt", "a").write(f'Epoch {epoch + 1
+}/{epochs}, Batch {i + 1}/{len(dataloader)}, Loss: {loss.item()}\n')[] 
+ []
+
+
+Overfull \hbox (86.74501pt too wide) in paragraph at lines 264--264
+[]                \TU/lmtt/m/n/10 print(f'Epoch {epoch + 1}/{epochs}, Batch {i 
++ 1}/{len(dataloader)}, Loss: {loss.item()}')[] 
+ []
+
+
+Overfull \hbox (49.99501pt too wide) in paragraph at lines 264--264
+[]        \TU/lmtt/m/n/10 open("log.txt", "a").write(f'Epoch {epoch + 1}/{epoch
+s}, Basic Data Loss: {loss.item()}\n')[] 
+ []
+
+)
+Bachelor_thesis_Luuk_Froling_0.tex:65: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.65 ...de{Bachelor_thesis_Luuk_Froling_0-network}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[12]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-trainingdata.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-trainingdata.tex
+Overfull \hbox (2.74501pt too wide) in paragraph at lines 50--50
+[]\TU/lmtt/m/n/10 nPixelsPerProj = nPixelsZ * nPixelsY    # The total number of
+ pixels on the detector plate[] 
+ []
+
+
+Overfull \hbox (86.74501pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 # shape: 32x48x96, beginning with a 32x32x32 zero image w
+ith padding and a 32x44x64 image with padding[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-trainingdata.tex:109: Undefined control sequence
+.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.109 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[13
+
+
+
+
+]
+Overfull \hbox (13.24501pt too wide) in paragraph at lines 109--109
+[]    \TU/lmtt/m/n/10 zeroBin = np.zeros((projections, nPixelsZ + 4, nPixelsY))
+  # zero bin for the energy bin[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-trainingdata.tex:136: Undefined control sequence
+.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.136 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[14]
+File: files/536cee391b3c3bc26ab19b0a44ac3068.png Graphic file (type bmp)
+<files/536cee391b3c3bc26ab19b0a44ac3068.png>
+)
+Bachelor_thesis_Luuk_Froling_0.tex:67: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.67 ...chelor_thesis_Luuk_Froling_0-trainingdata}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[15]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-attention-map.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-attention-map.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 39.
+
+
+Overfull \hbox (165.49501pt too wide) in paragraph at lines 47--47
+[]\TU/lmtt/m/n/10 # network.load_state_dict(torch.load(network_path, map_locati
+on=torch.device('cpu')))  # Load the trained network weights[] 
+ []
+
+
+Overfull \hbox (86.74501pt too wide) in paragraph at lines 99--99
+[]\TU/lmtt/m/n/10 def show_attention_overlay(input_tensor, attention, slice_axi
+s=2, slice_idx=0, title="Attention Overlay"):[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-figure-attention-map.tex:99: Undefined control s
+equence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.99 \end{verbatim}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[16
+
+
+
+
+]
+Overfull \hbox (112.99501pt too wide) in paragraph at lines 99--99
+[]    \TU/lmtt/m/n/10 attn_resized = F.interpolate(attention, size=input_tensor
+.shape[2:], mode='trilinear', align_corners=False)[] 
+ []
+
+
+Overfull \hbox (60.49501pt too wide) in paragraph at lines 99--99
+[]    \TU/lmtt/m/n/10 attn_tensor = (attn_tensor - attn_tensor.min()) / (attn_t
+ensor.max() - attn_tensor.min() + 1e -8)[] 
+ []
+
+
+Overfull \hbox (76.24501pt too wide) in paragraph at lines 106--106
+[]\TU/lmtt/m/n/10 show_attention_overlay(input_tensor, attention, slice_axis=1,
+ slice_idx=41, title="Attention from att4")[] 
+ []
+
+File: files/cf12d767eb2705f4f721a956d81b51f4.png Graphic file (type bmp)
+<files/cf12d767eb2705f4f721a956d81b51f4.png>
+Bachelor_thesis_Luuk_Froling_0-figure-attention-map.tex:110: Undefined control 
+sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.110 \begin{verbatim}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[17])
+Bachelor_thesis_Luuk_Froling_0.tex:69: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.69 ...hesis_Luuk_Froling_0-figure-attention-map}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[18]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-rms.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-rms.tex
+Overfull \hbox (2.74501pt too wide) in paragraph at lines 115--115
+[]\TU/lmtt/m/n/10 for reconstruction, output_image, phantom in zip(reconstructi
+ons, model_images, phantoms):[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-figure-rms.tex:115: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.115 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[19
+
+
+
+
+]
+Overfull \hbox (76.24501pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order = 'F')[] 
+ []
+
+
+Overfull \hbox (7.99501pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 plt.plot(time_recon, rms_reconstructions_bone[i], label='
+RMS Mechlem Bone', marker='o')[] 
+ []
+
+
+Overfull \hbox (18.49501pt too wide) in paragraph at lines 115--115
+[]    \TU/lmtt/m/n/10 plt.plot(time_recon, rms_reconstructions_water[i], label=
+'RMS Mechlem Water', marker='o')[] 
+ []
+
+File: files/586fa19a8938bf6fcb255a7e08c69611.png Graphic file (type bmp)
+<files/586fa19a8938bf6fcb255a7e08c69611.png>
+Bachelor_thesis_Luuk_Froling_0-figure-rms.tex:119: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.119 \begin{verbatim}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[20]
+Overfull \hbox (65.74501pt too wide) in paragraph at lines 163--163
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order='F')[] 
+ []
+
+
+Overfull \hbox (254.74501pt too wide) in paragraph at lines 163--163
+[]\TU/lmtt/m/n/10 interact(display_reconstruction_images,index=IntSlider(min=0,
+ max=len(reconstructions) -1, step=1, value=16, description='Phantom Index'))[]
+ 
+ []
+
+
+Overfull \hbox (112.99501pt too wide) in paragraph at lines 167--167
+[]\TU/lmtt/m/n/10 interactive(children=(IntSlider(value=16, description='Phanto
+m Index', max=19), Output()), _dom_classes=('widg…[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-figure-rms.tex:167: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.167 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[21]
+Overfull \hbox (60.49501pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 # display phantom 16, make 2x2 plot with the phantom, model a
+nd iterative. one row bone one row water[] 
+ []
+
+
+Overfull \hbox (44.74501pt too wide) in paragraph at lines 213--213
+[]\TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, obje
+ctSize, nMats, nIterates), order='F')[] 
+ []
+
+File: files/4d5189193864173bd7401583d2dc1609.png Graphic file (type bmp)
+<files/4d5189193864173bd7401583d2dc1609.png>
+)
+Bachelor_thesis_Luuk_Froling_0.tex:71: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.71 ...Bachelor_thesis_Luuk_Froling_0-figure-rms}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[22]
+Bachelor_thesis_Luuk_Froling_0.tex:71: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.71 ...Bachelor_thesis_Luuk_Froling_0-figure-rms}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[23]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.tex
+Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.tex:82: Undefined control 
+sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.82 \end{verbatim}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[24
+
+
+
+
+]
+Overfull \hbox (76.24501pt too wide) in paragraph at lines 82--82
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order = 'F')[] 
+ []
+
+
+Overfull \hbox (65.74501pt too wide) in paragraph at lines 151--151
+[]\TU/lmtt/m/n/10 # import interact, display for each index (as a slider) the f
+inal model_image, recon image and phantom[] 
+ []
+
+
+Overfull \hbox (81.49501pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 best_bone_image , best_water_image, rms = get_best_image(
+reconstruction, phantom_bone, phantom_water)[] 
+ []
+
+
+Overfull \hbox (76.24501pt too wide) in paragraph at lines 151--151
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order = 'F')[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.tex:151: Undefined control
+ sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.151 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[25]
+Overfull \hbox (611.74501pt too wide) in paragraph at lines 151--151
+[]\TU/lmtt/m/n/10 interact(display_images, index=IntSlider(min=0, max=len(model
+_images) -1, step=1, value=0, description='Index'), itt =IntSlider(min=0, max=l
+en(model_images[0]) -1, step=1, value=0, description='Iteration'))[] 
+ []
+
+
+Overfull \hbox (112.99501pt too wide) in paragraph at lines 155--155
+[]\TU/lmtt/m/n/10 interactive(children=(IntSlider(value=0, description='Index',
+ max=2), IntSlider(value=0, description='Iteratio…[] 
+ []
+
+
+Overfull \hbox (60.49501pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 best_bone_image , best_water_image, rms = get_best_image(reco
+nstruction, phantom_bone, phantom_water)[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.tex:224: Undefined control
+ sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.224 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[26]
+Overfull \hbox (55.24501pt too wide) in paragraph at lines 224--224
+[]\TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, obje
+ctSize, nMats, nIterates), order = 'F')[] 
+ []
+
+File: files/6f21fe25ba497dc1f4e8a1f54029b5b0.png Graphic file (type bmp)
+<files/6f21fe25ba497dc1f4e8a1f54029b5b0.png>
+Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.tex:228: Undefined control
+ sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.228 \begin{verbatim}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[27]
+Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.tex:287: Undefined control
+ sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.287 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[28]
+File: files/afec7fb8a942be43385875429673a4f0.png Graphic file (type bmp)
+<files/afec7fb8a942be43385875429673a4f0.png>
+
+Overfull \hbox (359.74501pt too wide) in paragraph at lines 353--353
+[]\TU/lmtt/m/n/10 images_r = reconstruction.reshape((objectSize, objectSize, ob
+jectSize, 2, -1), order='F')  # Reshape to (objectSize, objectSize, objectSize,
+ nMats, nIterates)[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.tex:353: Undefined control
+ sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.353 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[29]
+File: files/7919280d54a67f0898be36384abd7990.png Graphic file (type bmp)
+<files/7919280d54a67f0898be36384abd7990.png>
+)
+Bachelor_thesis_Luuk_Froling_0.tex:73: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.73 ...esis_Luuk_Froling_0-figure-reconstruction}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[30]
+\openout2 = `Bachelor_thesis_Luuk_Froling_0-calculate-rms.aux'.
+
+(Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex
+Overfull \hbox (2.74501pt too wide) in paragraph at lines 17--17
+[]\TU/lmtt/m/n/10 nPixelsPerProj = nPixelsZ * nPixelsY    # The total number of
+ pixels on the detector plate[] 
+ []
+
+
+Overfull \hbox (506.74501pt too wide) in paragraph at lines 50--50
+[]\TU/lmtt/m/n/10 dict_keys(['reconstructions', 'ys', 'times', 'phantoms', 'out
+put_images', 'times_images', 'rms_reconstructions_bone', 'rms_reconstructions_w
+ater', 'rms_models_bone', 'rms_models_water'])[] 
+ []
+
+
+Overfull \hbox (2.74501pt too wide) in paragraph at lines 105--105
+[]\TU/lmtt/m/n/10 for reconstruction, output_image, phantom in zip(reconstructi
+ons, model_images, phantoms):[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex:105: Undefined control sequenc
+e.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.105 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[31
+
+
+
+]
+Overfull \hbox (76.24501pt too wide) in paragraph at lines 105--105
+[]    \TU/lmtt/m/n/10 images = reconstruction.reshape((objectSize, objectSize, 
+objectSize, nMats, nIterates), order = 'F')[] 
+ []
+
+File: files/182da23f82903a086e5aab2df29a462e.png Graphic file (type bmp)
+<files/182da23f82903a086e5aab2df29a462e.png>
+Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex:109: Undefined control sequenc
+e.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.109 \begin{verbatim}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[32]
+Overfull \hbox (154.99501pt too wide) in paragraph at lines 142--142
+[]            \TU/lmtt/m/n/10 slope = (rms_reconstructions_bone[i][j+1] - rms_r
+econstructions_bone[i][j]) / (times[i][j+1] - times[i][j])[] 
+ []
+
+
+Overfull \hbox (91.99501pt too wide) in paragraph at lines 142--142
+[]                \TU/lmtt/m/n/10 interpolated_time = (rms_bone_model - rms_rec
+onstructions_bone[i][j]) / slope + times[i][j][] 
+ []
+
+
+Overfull \hbox (259.99501pt too wide) in paragraph at lines 142--142
+[]\TU/lmtt/m/n/10 print("average speedup:", np.mean(speedups), "+ -", np.std(sp
+eedups), "after", np.mean(first_times), "+ -", np.std(first_times), "seconds")[
+] 
+ []
+
+
+Overfull \hbox (464.74501pt too wide) in paragraph at lines 142--142
+[]\TU/lmtt/m/n/10 print("average interpolated speedup:", np.mean(interpolated_s
+peedups), "+ -", np.std(interpolated_speedups), "after", np.mean(first_times), 
+"+ -", np.std(first_times), "seconds")[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex:142: Undefined control sequenc
+e.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.142 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[33]
+Overfull \hbox (1598.74501pt too wide) in paragraph at lines 149--149
+[]\TU/lmtt/m/n/10 first times: [6.995673656463623, 8.126861333847046, 9.3851697
+44491577, 13.482990264892578, 8.578241109848022, 8.321383714675903, 9.227924108
+505249, 9.803471088409424, 7.820712327957153, 9.330887794494629, 8.660410881042
+48, 8.174202919006348, 8.61811375617981, 9.961549520492554, 8.263390064239502, 
+9.092782735824585, 9.937355995178223, 12.298749685287476, 9.552319765090942, 11
+.314964771270752][] 
+ []
+
+
+Overfull \hbox (123.49501pt too wide) in paragraph at lines 149--149
+[]\TU/lmtt/m/n/10 average speedup: 1.6119690273535912 + - 0.3327647687994946 af
+ter 9.347357761859893 + - 1.5048523200384376 seconds[] 
+ []
+
+
+Overfull \hbox (191.74501pt too wide) in paragraph at lines 149--149
+[]\TU/lmtt/m/n/10 average interpolated speedup: 1.4428355769342633 + - 0.333204
+5100786529 after 9.347357761859893 + - 1.5048523200384376 seconds[] 
+ []
+
+
+Overfull \hbox (385.99501pt too wide) in paragraph at lines 191--191
+[]            \TU/lmtt/m/n/10 plt.vlines(x=time_recon[i], ymin=0, ymax=max(rms_
+recon_bone + rms_recon_water), color='g', linestyle=' - -', label='RMS Mechlem 
+Bone < RMS Model Bone')[] 
+ []
+
+
+Overfull \hbox (39.49501pt too wide) in paragraph at lines 191--191
+[]            \TU/lmtt/m/n/10 slope = (rms_recon_bone[i+1] - rms_recon_bone[i])
+ / (time_recon[i+1] - time_recon[i])[] 
+ []
+
+
+Overfull \hbox (2.74501pt too wide) in paragraph at lines 191--191
+[]                \TU/lmtt/m/n/10 interpolated_time = (rms_bone - rms_recon_bon
+e[i]) / slope + time_recon[i][] 
+ []
+
+File: files/5c3496163c1179156724f5a09cfc4c80.png Graphic file (type bmp)
+<files/5c3496163c1179156724f5a09cfc4c80.png>
+Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex:195: Undefined control sequenc
+e.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.195 \begin{verbatim}
+                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[34]
+File: files/783aac6b215e9b5def69825df7a56f89.png Graphic file (type bmp)
+<files/783aac6b215e9b5def69825df7a56f89.png>
+Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex:276: Undefined control sequenc
+e.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.276 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[35]
+Overfull \hbox (60.49501pt too wide) in paragraph at lines 276--276
+[]                \TU/lmtt/m/n/10 slope = (rms_recon_bone[i+1] - rms_recon_bone
+[i]) / (time_recon[i+1] - time_recon[i])[] 
+ []
+
+
+Overfull \hbox (23.74501pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_time = (rms_bone - rms_recon
+_bone[i]) / slope + time_recon[i][] 
+ []
+
+
+Overfull \hbox (70.99501pt too wide) in paragraph at lines 276--276
+[]                \TU/lmtt/m/n/10 slope = (rms_recon_water[i+1] - rms_recon_wat
+er[i]) / (time_recon[i+1] - time_recon[i])[] 
+ []
+
+
+Overfull \hbox (34.24501pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_time = (rms_water - rms_reco
+n_water[i]) / slope + time_recon[i][] 
+ []
+
+
+Overfull \hbox (2.74501pt too wide) in paragraph at lines 276--276
+[]                    \TU/lmtt/m/n/10 interpolated_speedup_water.append(interpo
+lated_time / time_model[idx])[] 
+ []
+
+
+Overfull \hbox (102.49501pt too wide) in paragraph at lines 276--276
+[]    \TU/lmtt/m/n/10 all_interpolated_speedups_water.append(interpolated_speed
+up_water)  # Save speedup curve for this phantom[] 
+ []
+
+
+Overfull \hbox (81.49501pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 bone_array  = np.array([x + [np.nan] * (max_len_bone  - len(x
+)) for x in all_interpolated_speedups_bone])[] 
+ []
+
+
+Overfull \hbox (86.74501pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 water_array = np.array([x + [np.nan] * (max_len_water - len(x
+)) for x in all_interpolated_speedups_water])[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex:276: Undefined control sequenc
+e.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.276 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[36]
+Overfull \hbox (233.74501pt too wide) in paragraph at lines 276--276
+[]\TU/lmtt/m/n/10 plt.errorbar(range(len(mean_speedups_water)), mean_speedups_w
+ater, yerr=std_speedups_water, fmt='o', label='Water Speedup', capsize=5)[] 
+ []
+
+File: files/2736d68d407f8ad6de225a7e5df53bf4.png Graphic file (type bmp)
+<files/2736d68d407f8ad6de225a7e5df53bf4.png>
+
+Overfull \hbox (2.74501pt too wide) in paragraph at lines 314--314
+[]\TU/lmtt/m/n/10 # we want to calculate the average time taken to reach a cert
+ain error for both algorithms[] 
+ []
+
+Bachelor_thesis_Luuk_Froling_0-calculate-rms.tex:314: Undefined control sequenc
+e.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.314 \end{verbatim}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[37]
+Overfull \hbox (28.99501pt too wide) in paragraph at lines 314--314
+[]        \TU/lmtt/m/n/10 print(f"Average time to reach RMS error {error} for m
+odel: {average_time:.2f} seconds")[] 
+ []
+
+File: files/3a2aaee6134fa590426deb23d292c476.png Graphic file (type bmp)
+<files/3a2aaee6134fa590426deb23d292c476.png>
+)
+Bachelor_thesis_Luuk_Froling_0.tex:75: Undefined control sequence.
+\f@nch@orh ->\scshape \footnotesize \headeright 
+                                                \strut 
+l.75 ...helor_thesis_Luuk_Froling_0-calculate-rms}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-8.76004pt}.
+
+[38] (Bachelor_thesis_Luuk_Froling_0.aux (Bachelor_thesis_Luuk_Froling_0-figure
+-sinogram.aux) (Bachelor_thesis_Luuk_Froling_0-figure-attenuation-coefficients.
+aux) (Bachelor_thesis_Luuk_Froling_0-reconstruction.aux) (Bachelor_thesis_Luuk_
+Froling_0-network.aux) (Bachelor_thesis_Luuk_Froling_0-trainingdata.aux) (Bache
+lor_thesis_Luuk_Froling_0-figure-attention-map.aux) (Bachelor_thesis_Luuk_Froli
+ng_0-figure-rms.aux) (Bachelor_thesis_Luuk_Froling_0-figure-reconstruction.aux)
+(Bachelor_thesis_Luuk_Froling_0-calculate-rms.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+Package rerunfilecheck Info: File `Bachelor_thesis_Luuk_Froling_0.out' has not 
+changed.
+(rerunfilecheck)             Checksum: 27E1CD3CE581EBF948EFFAE9B569C917;4003.
+ ) 
+Here is how much of TeX's memory you used:
+ 28766 strings out of 409617
+ 534274 string characters out of 5774014
+ 1939191 words of memory out of 5000000
+ 50287 multiletter control sequences out of 15000+600000
+ 570878 words of font info for 65 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 123i,12n,154p,1056b,663s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Bachelor_thesis_Luuk_Froling_0.xdv (38 pages, 574316 bytes).
