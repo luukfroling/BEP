@@ -42,7 +42,7 @@ The relationship between the object and the measured rays can be described by a 
 y = Ax
 ```
 
-where $ x $ is the vectorised representation of the voxel values and $ y $ contains the corresponding ray measurements. This formulation will be used by the reconstruction algorithms during the simulations. To better reflect the statistical fluctuations during photon detection, noise is applied to the computed projections.To simulate measurement noise, each ideal projection value $y$ is used as the mean of a Poisson distribution from which a noisy measurement is sampled.
+where $ x $ is the vectorised representation of the voxel values and $ y $ contains the corresponding ray measurements. This formulation will be used by the reconstruction algorithms during the simulations. To better reflect the statistical fluctuations during photon detection, noise is applied to the computed projections. To simulate measurement noise, each ideal projection value $y$ is used as the mean of a Poisson distribution from which a noisy measurement is sampled.
 
 
 ## Detector types
