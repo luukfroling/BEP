@@ -1,0 +1,12 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "Froling_1.shell.xdv" "Froling_1.shell.pdf" "Froling_1.shell" 1750956409.76414 -1
+  "Froling_1.shell.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "Froling_1.shell.pdf"
+  (rewritten before read)
+["xelatex"] 1750956408.921 "Froling_1.shell.log" "Froling_1.shell.xdv" "Froling_1.shell" 1750956409.76259 2
+  (generated)
+  "Froling_1.shell.aux"
+  "Froling_1.shell.log"
+  "Froling_1.shell.xdv"
+  (rewritten before read)

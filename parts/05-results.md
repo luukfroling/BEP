@@ -65,7 +65,7 @@ Inpsecting all reconstructed images of the 20 phantoms as done in the supporting
 
 :::{figure} #wrong_reconstruction
 :label: wrong
-caption
+The GT images of phantom 17 from the validation set, with the final iterations of the iterative method and the AttU-Net model for both water and bone. 
 :::
 
 One such case is displayed in figure [](#wrong) where phantom 17 can be seen, reconstructed using both the iterative algorithm and the AttU-Net model. The GT has both the water and the bone features located in the lower-left quadrant. For the water density image reconstructed using the iterative approach it can be seen there are no recognisable features from the GT present, however there does seem to be a significant lack of water in the center of the image. 

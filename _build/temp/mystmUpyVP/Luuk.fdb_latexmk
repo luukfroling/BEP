@@ -1,0 +1,12 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "Luuk.xdv" "Luuk.pdf" "Luuk" 1750956405.80827 -1
+  "Luuk.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "Luuk.pdf"
+  (rewritten before read)
+["xelatex"] 1750956404.90496 "Luuk" "Luuk.xdv" "Luuk" 1750956405.80755 2
+  (generated)
+  "Luuk.aux"
+  "Luuk.log"
+  "Luuk.xdv"
+  (rewritten before read)

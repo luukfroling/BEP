@@ -1,0 +1,293 @@
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = (unset),
+	(possibly more locale environment variables)
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the system default locale ("English_Australia.1252").
+Initial Win CP for (console input, console output, system): (CP1252, CP65001, CP1252)
+I changed them all to CP1252
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 27 Dec. 2024. Version 4.86a.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Bachelor"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'Bachelor.log'
+Latexmk: Examining 'Bachelor.fls'
+Latexmk: Examining 'Bachelor.log'
+Latexmk: Log file says no output from latex
+Latexmk: For rule 'xelatex', no output was made
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Bachelor
+Category 'changed_user':
+  Bachelor
+
+------------
+Run number 2 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Bachelor"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'Bachelor.log'
+Latexmk: Examining 'Bachelor.fls'
+Latexmk: Examining 'Bachelor.log'
+Latexmk: Log file says no output from latex
+Latexmk: For rule 'xelatex', no output was made
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Bachelor
+Category 'changed_user':
+  Bachelor
+
+------------
+Run number 3 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Bachelor"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'Bachelor.log'
+Latexmk: Examining 'Bachelor.fls'
+Latexmk: Examining 'Bachelor.log'
+Latexmk: Log file says no output from latex
+Latexmk: For rule 'xelatex', no output was made
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Bachelor
+Category 'changed_user':
+  Bachelor
+
+------------
+Run number 4 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Bachelor"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'Bachelor.log'
+Latexmk: Examining 'Bachelor.fls'
+Latexmk: Examining 'Bachelor.log'
+Latexmk: Log file says no output from latex
+Latexmk: For rule 'xelatex', no output was made
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Bachelor
+Category 'changed_user':
+  Bachelor
+
+------------
+Run number 5 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Bachelor"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: Getting log file 'Bachelor.log'
+Latexmk: Examining 'Bachelor.fls'
+Latexmk: Examining 'Bachelor.log'
+Latexmk: Log file says no output from latex
+Latexmk: For rule 'xelatex', no output was made
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Changed files or newly in use/created:
+  Bachelor
+Category 'changed_user':
+  Bachelor
+
+Latexmk: Maximum runs of xelatex reached without getting stable files
+Failure to make 'Bachelor.xdv'
+Latexmk: Summary of warnings from last run of *latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Latexmk: ====Undefined refs and citations with line #s in .tex file:
+  Missing character: There is no p in font nullfont!
+  Missing character: There is no e in font nullfont!
+  Missing character: There is no r in font nullfont!
+  Missing character: There is no l in font nullfont!
+  Missing character: There is no : in font nullfont!
+  Missing character: There is no w in font nullfont!
+  Missing character: There is no a in font nullfont!
+ And 335 more --- see log file 'Bachelor.log'
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to 'Bachelor.log' and/or above output for details
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'Bachelor':
+   'xelatex' needed too many passes
+----------------------
+
+Latexmk: Could not find file 'thesis'
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "thesis"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: No log file was found, neither the expected one, 'thesis.log', nor one in '.'.
+Latexmk: fls file doesn't appear to have been made.
+Latexmk: Getting log file 'thesis.log'
+Latexmk: Couldn't read log file 'thesis.log':
+  No such file or directory
+Latexmk: Summary of warnings from last run of *latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Run of rule 'xelatex' gave a non-zero error code
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'thesis':
+   *LaTeX didn't generate the expected log file 'thesis.log'
+----------------------
+
+Latexmk: Could not find file 'Luuk'
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Luuk"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: No log file was found, neither the expected one, 'Luuk.log', nor one in '.'.
+Latexmk: fls file doesn't appear to have been made.
+Latexmk: Getting log file 'Luuk.log'
+Latexmk: Couldn't read log file 'Luuk.log':
+  No such file or directory
+Latexmk: Summary of warnings from last run of *latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Run of rule 'xelatex' gave a non-zero error code
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'Luuk':
+   *LaTeX didn't generate the expected log file 'Luuk.log'
+----------------------
+
+Latexmk: Could not find file 'Froling_1.tex'
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Froling_1.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: No log file was found, neither the expected one, 'Froling_1.log', nor one in '.'.
+Latexmk: fls file doesn't appear to have been made.
+Latexmk: Getting log file 'Froling_1.log'
+Latexmk: Couldn't read log file 'Froling_1.log':
+  No such file or directory
+Latexmk: Summary of warnings from last run of *latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Run of rule 'xelatex' gave a non-zero error code
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'Froling_1.tex':
+   *LaTeX didn't generate the expected log file 'Froling_1.log'
+----------------------
+
+Latexmk: Could not find file 'Froling_1.shell.log'
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=batchmode -file-line-error -shell-escape -recorder  "Froling_1.shell.log"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex.fmt)
+ \write18 enabled.
+entering extended mode
+Latexmk: No log file was found, neither the expected one, 'Froling_1.shell.log', nor one in '.'.
+Latexmk: fls file doesn't appear to have been made.
+Latexmk: Getting log file 'Froling_1.shell.log'
+Latexmk: Couldn't read log file 'Froling_1.shell.log':
+  No such file or directory
+Latexmk: Summary of warnings from last run of *latex:
+  =====Latex reported missing or unavailable character(s).
+=====See log file for details.
+Latexmk: Errors, in force_mode: so I tried finishing targets
+Collected error summary (may duplicate other messages):
+  xelatex: Run of rule 'xelatex' gave a non-zero error code
+----------------------
+This message may duplicate earlier message.
+Latexmk: Failure in processing file 'Froling_1.shell.log':
+   *LaTeX didn't generate the expected log file 'Froling_1.shell.log'
+----------------------
+
+
+------------
+Latexmk: Some operations failed, for the following tex file(s)
+  Bachelor
+  thesis
+  Luuk
+  Froling_1.tex
+  Froling_1.shell.log
+Reverting Windows console CPs to (in,out) = (1252,65001)

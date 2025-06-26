@@ -1,0 +1,15 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "Bachelor.xdv" "Bachelor.pdf" "Bachelor" 0 -1
+  "Bachelor.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "Bachelor.pdf"
+  (rewritten before read)
+["xelatex"] 1750956400.77884 "Bachelor" "Bachelor.xdv" "Bachelor" 1750956402.17323 2
+  "Bachelor" 1750956400 3698 5c99a1893a792ecf97e381e0c5fb791e ""
+  "Bachelor.aux" 1750956395 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "C:/Users/luukf/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1746717797 37546046 4040cb07a17336ce1d915541b9041953 ""
+  (generated)
+  "Bachelor.aux"
+  "Bachelor.log"
+  "Bachelor.xdv"
+  (rewritten before read)

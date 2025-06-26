@@ -1,0 +1,12 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "Froling_1.xdv" "Froling_1.pdf" "Froling_1" 1750956408.01216 -1
+  "Froling_1.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "Froling_1.pdf"
+  (rewritten before read)
+["xelatex"] 1750956407.19203 "Froling_1.tex" "Froling_1.xdv" "Froling_1" 1750956408.01126 2
+  (generated)
+  "Froling_1.aux"
+  "Froling_1.log"
+  "Froling_1.xdv"
+  (rewritten before read)

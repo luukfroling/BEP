@@ -5,7 +5,7 @@ The trained AttU-Net model reconstructed 20 images using a validation set of pha
 
 Looking at the RMS error over time for the first three phantoms as plotted in [](#reconPhantom), reveals that the AttU-Net model initially achieves a lower RMS error compared to the iterative algorithm but eventually converges to a higher value.
 
-When analyzing the final iterations of the iterative algorithm across all 20 validation phantoms, it can be seem some images do not converge to a visually accurate state as displayed in figure [](#wrong). Since the AttU-Net model was trained on these results, including those that failed to converge, this likely explains why the model itself also fails to converge effectively in later iterations. For future work, it is recommended to set an RMS error threshold and use only iterative reconstructions that meet this criterion for training.
+When analyzing the final iterations of the iterative algorithm across all 20 validation phantoms, it can be seem some images do not converge to a visually accurate state as displayed in [](#wrong). Since the AttU-Net model was trained on these results, including those that failed to converge, this likely explains why the model itself also fails to converge effectively in later iterations. For future work, it is recommended to set an RMS error threshold and use only iterative reconstructions that meet this criterion for training.
 
 ## non-machine learning speedup
 
@@ -29,6 +29,6 @@ Cross attention can implemented between two images as done by [@alaluf2023cross]
 
 ## Regularisation term
 
-Since the AttU-Net is used to reconstruct CT scan images, its outputs must be clinically meaningful and physically plausible. To help guide the model toward producing more realistic reconstructions, a regularisation term can be introduced during training and reconstruction [@ge2023mb]. This term can incorporate physical constraints into the learning process, encouraging the model to generate outputs that not only appear correct but also align with the physical reality of CT imaging. T
+Since the AttU-Net is used to reconstruct CT scan images, its outputs must be clinically meaningful and physically plausible. To help guide the model toward producing more realistic reconstructions, a regularisation term can be introduced during training and reconstruction [@ge2023mb]. This term can incorporate physical constraints into the learning process, encouraging the model to generate outputs that not only appear correct but also align with the physical reality of CT imaging.
 
 For example, by penalising discrepancies between the forward projections of the reconstructed image and the actual measured sinogram data, the model is discouraged from producing outputs that deviate from what is physically observable. This helps the network learn to reconstruct features that are consistent with the measurement process, reducing the risk of hallucinated structures or anatomically implausible results.

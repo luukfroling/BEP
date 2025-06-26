@@ -1,0 +1,12 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "thesis.xdv" "thesis.pdf" "thesis" 1750956404.05549 -1
+  "thesis.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "thesis.pdf"
+  (rewritten before read)
+["xelatex"] 1750956403.18138 "thesis" "thesis.xdv" "thesis" 1750956404.05475 2
+  (generated)
+  "thesis.aux"
+  "thesis.log"
+  "thesis.xdv"
+  (rewritten before read)

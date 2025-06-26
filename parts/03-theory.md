@@ -2,7 +2,7 @@
 
 ## Basics CT scans 
 
-A computed tomography (CT) scanner is an imaging device that uses x-rays to create cross-sectional images of an object. It consists of an x-ray source and a detector placed at a distance from each other. During scanning, both the source and the detector will rotate around the object to be imaged at several angles. For each step, the source emits x-rays that pass through the object; the transmitted photons are measured by the detector. The number of detected photons at position i along the detector for an ideal, noise-free measurement is given by:
+A computed tomography (CT) scanner is an imaging device that uses x-rays to create cross-sectional images of an object. It consists of an x-ray source and a detector placed at a distance from each other. During scanning, both the source and the detector will rotate around the object to be imaged at several angles. For each step, the source emits x-rays that pass through the object and the transmitted photons are measured by the detector. The number of detected photons at position i along the detector for an ideal, noise-free measurement is given by:
 
 ```{math}
 :label: first_equation
@@ -99,7 +99,7 @@ An overview of an iterative reconstruction algorithm. From the measured projecti
 
 An iterative reconstruction algorithm starts with an initial guess of the image and, at each iteration updates the image to better match the measured data. [](#itt) shows the full cycle, from CT scan to final images. A forward projection as described by equation [](#projection_eq) is used to simulate a sinogram for the guessed image. The simulated sinogram is compared with the measurements according to a cost function. The cost function depends on how well the image assumption explains the measured photon counts (data fidelity term), and how smooth, or physically plausible the images is (regularization term) [@Zhang2018Regularization]. The iterative algorithm used, uses a separable quadratic surrogates (SQS) cost function. The guess is then updated and the cycle repeats untill a predefined endpoint. 
 
-A downside to the iterative algorithm is the computational time. For each iteration there is a forward projection and a backprojection, as well as an error calculation. Also a large amount of iterations needed to get to an accurate solution. This work will look at including machine learning to replace the iterative steps. 
+A downside to the iterative algorithm is the computational time. For each iteration there is a forward projection and a backprojection, as well as an error calculation. Also a large amount of iterations are needed to get to an accurate solution. This work will look at including machine learning to replace the iterative steps. 
 
 ## Machine learning - Neural networks
 
@@ -116,7 +116,7 @@ All nodes in a layer are connected to an adjacent layer by weights. [](#neural_n
 :label: denseLayer
 \mathbf{h}_1 = \sigma(\mathbf{W}_1 \mathbf{x} + \mathbf{b}_1)
 ```
-with $\mathbf{W}_{1,nm}$ representing the learnable weights connecting the m-th input neuron to the n-th neuron in the first hidden layer, and σ is an activation function (e.g., sigmoid or softmax) that scales the output between 0 and 1 to stabilise the network and to introduce non-linearity. The bias term $ \mathbf{b}_1 $ is another learned parameter which offsets the output. Equation [](#denseLayer) can be repeated for every following layer where the output of a layer is used as an input to calculate the following layer. 
+with $\mathbf{W}_{1,nm}$ representing the learnable weights connecting the $m^{th}$ input neuron to the $n^{th}$ neuron in the first hidden layer, and σ is an activation function (e.g., sigmoid or softmax) that scales the output between 0 and 1 to stabilise the network and to introduce non-linearity. The bias term $ \mathbf{b}_1 $ is another learned parameter which offsets the output. Equation [](#denseLayer) can be repeated for every following layer where the output of a layer is used as an input to calculate the following layer. 
 
 Neural networks are generally trained using the backpropagation algorithm, which relies on a dataset consisting of input-output pairs. During training, the network processes each input and generates an output, A cost function determines the error between the network's output and the target output. This cost function guides the learning process by indicating how far the network's predictions are from the desired outputs. The backpropagation algorithm will look at how each weigth in the network needs to change to minimalise the error. 
 
@@ -134,7 +134,7 @@ where $ (i,j) $ are spatial indices, $\mathbf{X}$ the image, $\mathbf{K}$ the re
 
 :::{figure} #convolutionExample
 :label:convex
-*left :* original phantom with a 2D 3x3 randomly initialised kernel drawn on top. each individual square represents a pixel, with the outer square representing the kernel. *right :* phantom after 2D convolution layer has been applied. 
+*left :* original phantom with a 2D 3x3 randomly initialised kernel drawn on top. each individual square represents a pixel, with the outer square representing the kernel. *right :* phantom after a 2D convolution layer with randomly initialised weights has been applied. 
 :::
 
 The left part of [](#convex) shows a 3x3 convolution kernel with randomly initialised weights (red) placed on a phantom and the right part of the figure shows the image of the phantom after the convolution. Even with randomly initialised weights, there is already an edge-detection like pattern. The image on the right is called a feature map, as each pixel represents higher-level information of the original image. 
@@ -164,7 +164,7 @@ An attention mechanism takes the input vector $x_{i}^{l}$ and multiplies it by a
 ```{math}
 q_{\text{att}}^l(x_i^l, g_i) = \psi^{T} \, \sigma \left( W_{x}^{T} x_{i}^{l} + W_{g}^{T} g_{i} + b_{g} \right) + b_{\psi}
 ```
-where $g_{i} $ the gating feature vector, $ W_{x}^{T} $ and $ W_{g}^{T} $ weight matrices similar to those used in equation [](#denseLayer), $ \psi^{T} $ another learned linear transformation and $ \sigma $ an activation function. The gating feature vector provides contextual information from higher-level layers. It acts as a control signal that guides the attention mechanism, helping it decide which parts of the input to focus on. The final attention coefficient $ \alpha_{i}^{l} $, the final attention mask that says which parts of the feature map should be passed forward, is then calculated as 
+where $g_{i} $ the gating feature vector, $ W_{x}^{T} $ and $ W_{g}^{T} $ weight matrices similar to those used in equation [](#denseLayer), $ \psi^{T} $ another learned linear transformation, $b_{\psi}$ and $b_{g}$ learned biases similar to the bias in equation [](#denseLayer), and $ \sigma $ an activation function. The gating feature vector provides contextual information from higher-level layers. It acts as a control signal that guides the attention mechanism, helping it decide which parts of the input to focus on. The final attention coefficient $ \alpha_{i}^{l} $, the final attention mask that says which parts of the feature map should be passed forward, is then calculated as 
 
 ```{math}
 \alpha_{i}^{l} = \sigma \left( q_{\text{att}}^{l}(x_{i}^{l}, g_{i}; \Theta_{\text{att}}) \right)
@@ -175,7 +175,7 @@ with $ \Theta_{\text{att}}$ representing the learned parameters of the attention
 \tilde{x}_i^l = \alpha_i^l \cdot x_i^l
 ```
 
-where regions get $\alpha = 1$ where less important regions get $\alpha \approx 0$  
+where regions get $\alpha = 1$ where less important regions get $\alpha \approx 0$. Due to the gating vector is the attention mechanism able to focus on non-local features.  
 
 :::{figure} Figures/dog.png
 :label: dog
