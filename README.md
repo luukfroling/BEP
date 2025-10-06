@@ -9,3 +9,4 @@ This repository contains the source code and documentation for my Bachelor Thesi
 Dual-energy CT (DECT) imaging acquires scans using two distinct X-ray energy levels, providing material-specific diagnostic information. However, reconstructing high-quality DECT images is computationally expensive.
 
 This project explores how deep learning, specifically an attention-based U-Net, can learn to approximate results from an existing iterative reconstruction algorithm. The goal is to reduce computation time while maintaining comparable image quality.
+
